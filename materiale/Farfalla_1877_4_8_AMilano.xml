@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title>A Milano!</title>
+                <respStmt>
+                    <resp>Codifica digitale XML TEI P5 a cura di</resp>
+                    <name xml:id="LF">Lorenzo Ferrante</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+				<edition n="1">Digital edition - <date when="2024-10">October 2024</date></edition>
+				<respStmt>
+					<resp>Digital edition project coordineted by</resp>
+					<name xml:id="DS">Daria Spampinato</name>
+					<name xml:id="ADS">Antonio Di Silvestro</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding model by</resp>
+					<name resp="#DS">Daria Spampinato</name>
+					<name xml:id="LM">Laura Mazzagufo</name>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DB">Denise Bruno</name>
+				</respStmt>
+				<funder>NextGenerationEU</funder>
+				<funder>Ministero dell'Università e della Ricerca</funder>
+				<funder>Italia Domani - Piano Nazionale di Ripresa e Resilienza</funder>
+				<funder ref="entita_nominate.xml#CNR">CNR - Consiglio Nazionale delle Ricerche</funder>
+				<funder ref="entita_nominate.xml#UniCT">Università di Catania</funder>
+			</editionStmt>
+
+            <publicationStmt>
+                <authority ref="entita_nominate.xml#ISTC">CNR ISTC - Istituto di Scienze e Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche</authority>
+                <authority ref="entita_nominate.xml#UniCT">Università di Catania</authority>
+                <date when="2025">2026</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+                </availability>
+                <idno type="filename">Farfalla_1877_4_8_AMilano.xml</idno>
+			</publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">A Milano!</title>
+                        <author ref="entita_nominate.xml#francescoGiarelli">Francesco Giarelli <addName type="pseudonym">Psiche</addName></author>
+                    </analytic>
+                    <monogr>
+                        <title level="j" xml:id="farfalla">La Farfalla</title>
+                        <imprint>
+                            <pubPlace ref="entita_nominate.xml#CA">Cagliari</pubPlace>
+                            <pubPlace ref="entita_nominate.xml#MI">Milano</pubPlace>
+                            <date when="1877">1877</date>
+                        </imprint>
+                        <biblScope unit="volume">4</biblScope>
+                        <biblScope unit="issue">8</biblScope>
+                        <biblScope unit="page">89-90</biblScope>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <profileDesc>
+            <creation>
+                <date when="1877-09-09">9 settembre 1877</date>
+                <placeName ref="entita_nominate.xml#CA">Cagliari</placeName>
+                <placeName ref="entita_nominate.xml#MI">Milano</placeName>
+            </creation>
+
+            <textClass>
+                <keywords>
+                    <term type="text" subtype="elzeviro">Articolo in rivista</term> <!--RIVEDERE SUBTYPE-->
+                </keywords>
+                <keywords>
+                    <term type="themes"><!--INSERIRE TEMA--></term> <!--INSERIRE TEMA-->
+                </keywords>
+            </textClass>
+
+            <langUsage>
+                <language ident="it">Italiano</language>
+                <language ident="it-x-800">Italiano di fine Ottocento</language>
+                <!-- <language ident="fr">Francese</language> VERIFICARE -->
+            </langUsage>
+
+            <abstract>
+                <p></p> <!--Scrivere abstract (riassunto)-->
+                <!-- esempio: <p>Questo testo, intitolato "Acquerelli di Pubblicismo: Eugenio Torelli-Viollier" e firmato "Masaccio," presenta una critica schietta e dettagliata del giornalista Eugenio Torelli-Viollier. L'autore dichiara di non nutrire simpatia per Torelli-Viollier, ma promette imparzialità nel giudicare la sua figura pubblica. Viene fornita una descrizione fisica e caratteriale di Torelli-Viollier, che lo ritrae come una persona fredda e riservata. Il testo traccia poi la sua carriera giornalistica, dalla collaborazione con Alessandro Dumas al suo ruolo nelle case editrici Sonzogno e Treves, fino alla direzione del Corriere della Sera. L'autore menziona anche le accese polemiche politiche e artistiche che coinvolsero Torelli-Viollier, in particolare con Felice Cavallotti, sottolineando la sua tenacia e la sua abilità nel perseguitare gli avversari. Infine, l'articolo critica le sue tattiche giornalistiche attuali, accusandolo di attacchi personali e di mancare di legalità nel dibattito pubblico.</p> -->
+            </abstract>
+
+        </profileDesc>
+
+        <revisionDesc>
+            <change status="draft" when="2026-06-18" resp="#LF">First draft 18 giugno 2026</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <pb n="89" xml:id="Farfalla_1877_4_8_89" facs="#pag_89"/> <!--inizio pagina 89-->
+            <div type="intestazione" facs="#titolo">
+                <head type="main" rend="uppercase">A MILANO!</head>
+                <metamark function="sectionDivider">-</metamark>
+            </div>
+
+            <div type="text">
+                <p xml:id="p_1" facs="#paragrafo_1">
+                    <!--testo paragrafo 1-->
+                </p>
+                
+                <metamark function="sectionDivider">*</metamark>
+
+                <!--COME GESTIRE IL CAMBIO DI COLONNA?-->
+                <p xml:id="p_2" facs="#paragrafo_2_inizio #paragrafo_2_fine">
+                    <!--testo paragrafo 2 INIZIO-->
+                    <cb /> <!--column beginning-->
+                    <!--testo paragrafo 2 FINE-->
+                </p>
+                
+                <metamark function="sectionDivider">*</metamark>
+
+                <p xml:id="p_3" facs="#paragrafo_3">
+                    <!--testo paragrafo 3-->
+                </p>
+                
+                <metamark function="sectionDivider">*</metamark>
+
+                <p xml:id="p_4" facs="#paragrafo_4_inizio #paragrafo_4_fine">
+                    <!--testo paragrafo 4 INIZIO-->
+                    <pb n="90" xml:id="Farfalla_1877_4_8_90" facs="#pag_90"/> <!--cambio di pagina-->
+                    <!--testo paragrafo 4 FINE-->
+                </p>
+                
+                <metamark function="sectionDivider">*</metamark>
+                
+                <p xml:id="p_5" facs="#paragrafo_5">
+                    <!--testo paragrafo 5-->
+                </p>
+
+                <p xml:id="p_6" facs="#paragrafo_6_inizio #paragrafo_6_fine">
+                    <!--testo paragrafo 6 INIZIO-->
+                    <cb /> <!--column beginning-->
+                    <!--testo paragrafo 6 FINE-->
+                </p>
+                
+            </div>
+            
+            <div type="closer" facs="#firma">
+                <signed>
+                    <persName type="real" ref="entita_nominate.xml#francescoGiarelli"><addName type="pseudonym">Psiche</addName></persName>
+                </signed>
+            </div>
+
+        </body>
+
+    </text>
+
+    <facsimile xml:id="a_milano">
+        <surface>
+            <graphic url='immagini/a_milano/Farfalla_1877_4_8_89.jpg' width='3354.888888px' height='4965.888888px' xml:id="pag_89"/>
+            <zone points = ' 455,1821 458,1998 1563,2000 1556,1826 ' xml:id="titolo"/>
+            <zone points = ' 317,2077 1705,2088 1683,4074 268,4076 ' xml:id="paragrafo_1"/>
+            <zone points = ' 319,4214 1681,4235 1687,4530 326,4524 ' xml:id="paragrafo_2_inizio"/>
+            <zone points = ' 1799,1816 3119,1826 3128,3262 1784,3257 ' xml:id="paragrafo_2_fine"/>
+            <zone points = ' 1768,3366 3134,3387 3127,4250 1783,4238 ' xml:id="paragrafo_3"/>
+            <zone points = ' 1780,4350 3137,4371 3143,4531 1779,4519 ' xml:id="paragrafo_4_inizio"/>
+        </surface>
+
+        <surface>
+            <graphic url='immagini/a_milano/Farfalla_1877_4_8_90.jpg' width='3401.66666px' height='4974.66666px' xml:id="pag_90"/>
+            <zone points = ' 277,529 1641,521 1626,2563 305,2579 ' xml:id="paragrafo_4_fine"/>
+            <zone points = ' 292,2677 1630,2659 1648,4299 314,4317 ' xml:id="paragrafo_5"/>
+            <zone points = ' 281,4402 1633,4404 1647,4551 288,4552 ' xml:id="paragrafo_6_inizio"/>
+            <zone points = ' 1737,477 3057,490 3070,1409 1733,1439 ' xml:id="paragrafo_6_fine"/>
+            <zone points = ' 1745,1467 3043,1445 3060,1577 1770,1570 ' xml:id="firma"/>
+        </surface>
+        
+    </facsimile>
+    
+
+
+</TEI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Lista delle entità nominate utilizzate negli articoli codificati</title>
+                        <respStmt>
+                            <resp>Creazione e gestione della lista a cura di:</resp>
+                            <name xml:id="LF">Lorenzo Ferrante</name>
+                            <name xml:id="LB">Lorenzo Bianchi</name>
+                        </respStmt>
+                </titleStmt>
+
+                <publicationStmt>
+                    <publisher></publisher>
+                    <date when="2026-06">Giugno 2026</date>
+                    <idno type="filename">entita_nominate.xml</idno>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <p>Documento nativo digitale</p>
+                </sourceDesc>
+            </fileDesc>
+
+            <encodingDesc>
+                <classDecl>
+                    <taxonomy xml:id="themesTaxonomy">
+                        <category xml:id="istruzione">
+                            <catDesc><term type="themes">Istruzione</term>: Riferimenti all'istruzione</catDesc> <!-- rivedere la definizione -->
+                        </category>
+                        <category xml:id="istruzioneDonne">
+                            <catDesc><term type="themes">Istruzione delle donne</term>: Riferimenti all'istruzione delle donne</catDesc>  <!-- rivedere la definizione -->
+                        </category>
+                        <category xml:id="conflittoSociale">
+                            <catDesc><term type="themes">Conflitto sociale</term>: Riferimenti al conflitto sociale</catDesc>  <!-- rivedere la definizione -->
+                        </category>
+                    </taxonomy>
+                </classDecl>
+		    </encodingDesc>
+
+        </teiHeader>
+
+    <text>
+        <body>
+            <div xml:id="persone">
+                <listPerson>
+                        <person xml:id="francescoGiarelli">
+                            <persName type="real" role="author">
+                                <ref target="http://viaf.org/viaf/29371274"/>
+                                <forename>Francesco</forename>
+                                <surname>Giarelli</surname>
+                                <addName type="pseudonym">Psiche</addName>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date when="1844">1844</date>
+                                <placeName ref="TEI-ListPlace.xml#PC">Piacenza</placeName>
+                            </birth>
+                            <death>
+                                <date when="1907">1907</date>
+                                <placeName ref="TEI-ListPlace.xml#pontenure">Pontenure</placeName>
+                            </death>
+                            <note source="https://www.treccani.it/enciclopedia/francesco-giarelli_(Dizionario-Biografico)/"><p>Francesco Giarelli nacque a Piacenza nel 1844, laureandosi in giurisprudenza ma dedicandosi presto al giornalismo. La sua carriera ebbe una svolta nel 1870 a Milano, grazie a F. Cavallotti, dopo aver coperto un processo politico. Qui collaborò con la Gazzetta di Milano e, come Don Lumachino, curò "I suoni dell'anima" sul Gazzettino rosa. Nel 1875, Cavallotti gli affidò la cronaca de La Ragione, dove G. divenne un precursore del giornalismo moderno. Trasformò il ruolo del cronista in inviato attivo e la cronaca in una forma di letteratura. Collaborò con figure come V. Hugo e G. Carducci, e come Psiche denunciò i mali sociali su La Farfalla. Co-autore di Il ventre di Milano, tornò a Piacenza nel 1889 per scrivere la Storia di Piacenza. Negli ultimi anni fu consigliere comunale e assessore alla Pubblica Istruzione. Scrisse numerosi articoli e studi, e le sue memorie, Vent'anni di giornalismo, pubblicate nel 1896. Morì a Pontenure nel 1907, lasciando un'impronta significativa nel giornalismo italiano.</p></note>
+                        </person>
+                </listPerson>
+
+            </div>
+
+            <div xml:id="luoghi">
+                <listPlace>
+                    <place xml:id="CA" type="real"> <!--aggiunta-->
+                            <placeName ref="https://www.geonames.org/2525473/cagliari.html">Cagliari</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/cagliari/"><p>Comune della Sardegna meridionale (133,5 km2 con 149.883 ab. al censimento del 2011, divenuti 151.005 secondo rilevamenti ISTAT del 2020, detti cagliaritani), città metropolitana e capoluogo di regione; sede del governo regionale sardo.</p></note>
+                    </place>
+                            
+                    <place xml:id="MI" type="real"> <!--aggiunta-->
+                            <placeName ref="https://www.geonames.org/3173435/milan.html">Milano</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/milano/"><p>Comune della Lombardia (181,67 km2 con 1.406.242 ab. nel 2020), capoluogo di regione e città metropolitana, è la seconda città in Italia, dopo Roma, e costituisce la massima concentrazione delle forme più moderne e dinamiche dell’economia del paese.</p></note>
+                        </place>
+
+                    <place xml:id="CT" type="real"> <!--aggiunta-->
+                            <placeName ref="https://www.geonames.org/2525068/catania.html">Catania</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/catania/"><p>Comune della Sicilia orientale (182,9 km2 con 296.266 ab. nel 2020), capoluogo della provincia omonima. Porto sul Mar Ionio, si stende in posizione assai favorevole alle falde meridionali dell’Etna, al margine settentrionale di un’ampia insenatura costiera, cui dà il nome ( Golfo di C.). Ha clima mite, con scarse piogge. Gravemente danneggiata dall’eruzione etnea del 1669 e distrutta nel 1693 da un terremoto, fu riedificata nel 18° sec. secondo un organico piano regolatore a struttura ortogonale, fondato sugli assi principali delle attuali vie Etnea (in direzione N-S) e Sangiuliano (O-E).</p></note>
+                    </place>
+                </listPlace>
+                
+            </div>
+
+            <div xml:id="organizzazioni">
+                <listOrg>
+					<org type="academy" xml:id="UniCT"> <!--aggiunta-->
+						<orgName type="main" ref="https://it.wikipedia.org/wiki/Universit%C3%A0_degli_Studi_di_Catania">Università di Catania</orgName>
+						<placeName ref="coverlessListPlace.xml#CT">Catania</placeName>
+						<desc>L'Università degli Studi di Catania, ufficialmente Siciliae Studium Generale - Università di Catania[4], (anticamente Siculorum Gymnasium, Studij Publici o Almo Studio, acronimo UniCt) è un'università statale italiana fondata nel 1434, la più antica università della Sicilia e tra le maggiori in Italia per numero d'iscritti.</desc>
+					</org>
+
+					<org type="academy" xml:id="CNR"> <!--aggiunta-->
+						<orgName type="main" ref="https://www.treccani.it/enciclopedia/cnr/?search=CNR">Centro Nazionale delle Ricerche</orgName>
+						<desc>Sigla di Consiglio Nazionale delle Ricerche, la più grande struttura pubblica italiana con compiti scientifici. Costituito il 18 novembre 1923 e trasformato nel 1945 in organo dello Stato, ha svolto prevalentemente attività di formazione, promozione e coordinamento della ricerca in tutti i settori scientifici e tecnologici. Nel 1999, a seguito del d. legisl. 19, è divenuto «ente nazionale di ricerca con competenza scientifica generale e istituti scientifici distribuiti sul territorio, che svolge attività di prioritario interesse per l’avanzamento della scienza e per il progresso del paese». Con il d. legisl. 127/4 giugno 2003, ha assunto il compito di svolgere, promuovere, diffondere, trasferire e valorizzare attività di ricerca nei principali settori delle conoscenze e delle loro applicazioni per lo sviluppo scientifico, tecnologico, economico e sociale del paese, obiettivo affidato all’ente nel convincimento che l’attività di ricerca e sviluppo, determinante per la competitività del sistema economico nazionale, possa generare nuova occupazione, maggior benessere e maggiore coesione sociale.</desc>
+					</org>
+
+					
+					<org type="academy" xml:id="ISTC"> <!--aggiunta-->
+						<orgName type="main" ref="https://www.istc.cnr.it/it/page/presentazione">Istituto di Scienze e Tecnologie della Cognizione</orgName>
+						<desc>L'Istituto di Scienze e Tecnologie della Cognizione (ISTC) è un istituto interdisciplinare, con numerose integrazioni fra i laboratori e fra i temi di ricerca. Gli obiettivi di ricerca di ISTC convergono  sull'analisi, la rappresentazione, il ragionamento automatico, la simulazione e l'interpretazione critica dei processi cognitivi e sociali negli umani e nei primati non umani, dal livello fisiologico a quello fenomenologico e computazionale.</desc>
+					</org>
+										
+                </listOrg>
+
+            </div>
+
+        </body>
+
+    </text>
+</TEI>
