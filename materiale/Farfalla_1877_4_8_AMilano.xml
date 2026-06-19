@@ -37,7 +37,7 @@
             <publicationStmt>
                 <authority ref="entita_nominate.xml#ISTC">CNR ISTC - Istituto di Scienze e Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche</authority>
                 <authority ref="entita_nominate.xml#UniCT">Università di Catania</authority>
-                <date when="2025">2026</date>
+                <date when="2026">2026</date>
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
                 </availability>
@@ -103,52 +103,158 @@
     
     <text>
         <body>
+            
             <pb n="89" xml:id="Farfalla_1877_4_8_89" facs="#pag_89"/> <!--inizio pagina 89-->
+            <cb n="1" xml:id="col_1-p.89"/> <!--inizio colonna 1-->
+
             <div type="intestazione" facs="#titolo">
                 <head type="main" rend="uppercase">A MILANO!</head>
                 <metamark function="sectionDivider">-</metamark>
             </div>
 
             <div type="text">
-                <p xml:id="p_1" facs="#paragrafo_1">
-                    <!--testo paragrafo 1-->
-                </p>
-                
+                <div type="section" n="1" facs="#sezione_1">
+                    <p rend="first-line-indented" xml:id="p_1">
+                        <!-- Fra la trentesima [...] trappole immortali.... -->
+                    </p>
+
+                    <p rend="first-line-indented" xml:id="p_2">
+                        <!-- E la giovinetta [...] per incominciare.... -->
+                    </p>
+                    
+                    <p rend="first-line-indented" xml:id="p_3">
+                        <!-- E da Mitilene [...] anni. -->
+                    </p>
+
+                    <p rend="first-line-indented" xml:id="p_4">
+                        <!-- Mitilenesi... [...] Farfalla -->
+                    </p>
+                </div>
+
                 <metamark function="sectionDivider">*</metamark>
 
-                <!--COME GESTIRE IL CAMBIO DI COLONNA?-->
-                <p xml:id="p_2" facs="#paragrafo_2_inizio #paragrafo_2_fine">
-                    <!--testo paragrafo 2 INIZIO-->
-                    <cb /> <!--column beginning-->
-                    <!--testo paragrafo 2 FINE-->
-                </p>
-                
+                <div type="section" n="2" facs="#sezione_2_inizio #sezione_2_fine">
+                    <p rend="first-line-indented" xml:id="p_5">
+                        <!-- La mia prima [...] vigorosa. -->
+                    </p>
+
+                    <p rend="first-line-indented" xml:id="p_6">
+                        <!-- Un raggio [...] cellula so-. -->
+                        <cb n="2" xml:id="col_2-p.89"/> <!--cambio colonna-->
+                        <!-- litaria [...] nutrii -->
+                    </p>
+                    
+                    <p rend="first-line-indented" xml:id="p_7">
+                        <!-- I buffi [...] lioncelli. -->
+                    </p>
+
+                    <p rend="first-line-indented" xml:id="p_8">
+                        <!-- Assioma [...] infelice. -->
+                    </p>
+                    
+                    <p rend="first-line-indented" xml:id="p_9">
+                        <!-- Oggi [...] compia. -->
+                    </p>
+                    
+                    <p rend="first-line-indented" xml:id="p_10">
+                        <!-- Addio [...] mia! -->
+                    </p>
+                </div>
+
                 <metamark function="sectionDivider">*</metamark>
 
-                <p xml:id="p_3" facs="#paragrafo_3">
-                    <!--testo paragrafo 3-->
-                </p>
-                
+                <div type="section" n="3" facs="#sezione_3">
+                    <p rend="first-line-indented" xml:id="p_11">
+                        <!-- La Farfalla [...] Cagliari vostra. -->
+                    </p>
+
+                    <p rend="first-line-indented" xml:id="p_12">
+                        <!-- Udite. -->
+                    </p>
+                </div>
+
                 <metamark function="sectionDivider">*</metamark>
 
-                <p xml:id="p_4" facs="#paragrafo_4_inizio #paragrafo_4_fine">
-                    <!--testo paragrafo 4 INIZIO-->
-                    <pb n="90" xml:id="Farfalla_1877_4_8_90" facs="#pag_90"/> <!--cambio di pagina-->
-                    <!--testo paragrafo 4 FINE-->
-                </p>
-                
-                <metamark function="sectionDivider">*</metamark>
-                
-                <p xml:id="p_5" facs="#paragrafo_5">
-                    <!--testo paragrafo 5-->
-                </p>
+                <div type="section" n="4" facs="#sezione_4_inizio #sezione_4_fine">
+                    <p rend="first-line-indented" xml:id="p_13">
+                        <!-- Giunta [...] lasciava. -->
+                        <pb n="90" xml:id="Farfalla_1877_4_8_90" facs="#pag_90"/> <!--cambio pagina-->
+                        <cb n="3" xml:id="col_1-p.90"/> <!--cambio colonna-->
+                        <!-- la tunica [...] pubblico. -->
+                    </p>
 
-                <p xml:id="p_6" facs="#paragrafo_6_inizio #paragrafo_6_fine">
-                    <!--testo paragrafo 6 INIZIO-->
-                    <cb /> <!--column beginning-->
-                    <!--testo paragrafo 6 FINE-->
-                </p>
-                
+                    <p rend="first-line-indented" xml:id="p_14">
+                        <!-- La Farfalla [...] comprensiva -->
+                    </p>
+                    
+                    <p rend="first-line-indented" xml:id="p_15">
+                        <!-- Milano [...] d'aspetto. -->
+                    </p>
+
+                    <p rend="first-line-indented" xml:id="p_16">
+                        <!-- Milano [...] italiana. -->
+                    </p>
+                    
+                    <p rend="first-line-indented" xml:id="p_17">
+                        <!-- Milano [...] al cuore.... -->
+                    </p>
+                    
+                    <p rend="first-line-indented" xml:id="p_18">
+                        <!-- Milano [...] fioritura.... -->
+                    </p>
+
+                    <p rend="first-line-indented" xml:id="p_19">
+                        <!-- Ma primo [...] fiore della memoria.... -->
+                    </p>
+                </div>
+               
+                <metamark function="sectionDivider">*</metamark>
+
+
+                <div type="section" n="5" facs="#sezione_5">
+                    <p rend="first-line-indented" xml:id="p_20">
+                        <!-- Sì, perché [...] minuto. -->
+                    </p>
+
+                    <p rend="first-line-indented" xml:id="p_21">
+                        <!-- Essa [...] famiglia -->
+                    </p>
+
+                    <p rend="first-line-indented" xml:id="p_22">
+                        <!-- Essa [...] assidui -->
+                    </p>
+                    
+                    <p rend="first-line-indented" xml:id="p_23">
+                        <!-- Essa [...] caratteri -->
+                    </p>
+
+                    <p rend="first-line-indented" xml:id="p_24">
+                        <!-- In una parola [...] qui -->
+                    </p>
+                </div>
+
+                <metamark function="sectionDivider">*</metamark>
+
+                <div type="section" n="6" facs="#sezione_6_inizio #sezione_6_fine">
+                    <p rend="first-line-indented" xml:id="p_25">
+                        <!-- Esercito [...] della. -->
+                        <cb n="4" xml:id="col_2-p.90"/> <!--cambio colonna-->
+                        <!-- penna [...] mano -->
+                    </p>
+
+                    <p rend="first-line-indented" xml:id="p_26">
+                        <!-- Questa [...] commiato -->
+                    </p>
+
+                    <p rend="first-line-indented" xml:id="p_27">
+                        <!-- Ah udite!? [...] procella -->
+                    </p>
+                    
+                    <p rend="first-line-indented" xml:id="p_28">
+                        <!-- Dunque [...] sempre. -->
+                    </p>
+                </div>
+
             </div>
             
             <div type="closer" facs="#firma">
@@ -165,19 +271,19 @@
         <surface>
             <graphic url='immagini/a_milano/Farfalla_1877_4_8_89.jpg' width='3354.888888px' height='4965.888888px' xml:id="pag_89"/>
             <zone points = ' 455,1821 458,1998 1563,2000 1556,1826 ' xml:id="titolo"/>
-            <zone points = ' 317,2077 1705,2088 1683,4074 268,4076 ' xml:id="paragrafo_1"/>
-            <zone points = ' 319,4214 1681,4235 1687,4530 326,4524 ' xml:id="paragrafo_2_inizio"/>
-            <zone points = ' 1799,1816 3119,1826 3128,3262 1784,3257 ' xml:id="paragrafo_2_fine"/>
-            <zone points = ' 1768,3366 3134,3387 3127,4250 1783,4238 ' xml:id="paragrafo_3"/>
-            <zone points = ' 1780,4350 3137,4371 3143,4531 1779,4519 ' xml:id="paragrafo_4_inizio"/>
+            <zone points = ' 317,2077 1705,2088 1683,4074 268,4076 ' xml:id="sezione_1"/>
+            <zone points = ' 319,4214 1681,4235 1687,4530 326,4524 ' xml:id="sezione_2_inizio"/>
+            <zone points = ' 1799,1816 3119,1826 3128,3262 1784,3257 ' xml:id="sezione_2_fine"/>
+            <zone points = ' 1768,3366 3134,3387 3127,4250 1783,4238 ' xml:id="sezione_3"/>
+            <zone points = ' 1780,4350 3137,4371 3143,4531 1779,4519 ' xml:id="sezione_4_inizio"/>
         </surface>
 
         <surface>
             <graphic url='immagini/a_milano/Farfalla_1877_4_8_90.jpg' width='3401.66666px' height='4974.66666px' xml:id="pag_90"/>
-            <zone points = ' 277,529 1641,521 1626,2563 305,2579 ' xml:id="paragrafo_4_fine"/>
-            <zone points = ' 292,2677 1630,2659 1648,4299 314,4317 ' xml:id="paragrafo_5"/>
-            <zone points = ' 281,4402 1633,4404 1647,4551 288,4552 ' xml:id="paragrafo_6_inizio"/>
-            <zone points = ' 1737,477 3057,490 3070,1409 1733,1439 ' xml:id="paragrafo_6_fine"/>
+            <zone points = ' 277,529 1641,521 1626,2563 305,2579 ' xml:id="sezione_4_fine"/>
+            <zone points = ' 292,2677 1630,2659 1648,4299 314,4317 ' xml:id="sezione_5"/>
+            <zone points = ' 281,4402 1633,4404 1647,4551 288,4552 ' xml:id="sezione_6_inizio"/>
+            <zone points = ' 1737,477 3057,490 3070,1409 1733,1439 ' xml:id="sezione_6_fine"/>
             <zone points = ' 1745,1467 3043,1445 3060,1577 1770,1570 ' xml:id="firma"/>
         </surface>
         
