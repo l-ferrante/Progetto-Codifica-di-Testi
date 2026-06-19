@@ -61,11 +61,11 @@
                             <sex>M</sex>
                             <birth>
                                 <date when="1844">1844</date>
-                                <placeName ref="TEI-ListPlace.xml#PC">Piacenza</placeName>
+                                <placeName ref="#PC">Piacenza</placeName>
                             </birth>
                             <death>
                                 <date when="1907">1907</date>
-                                <placeName ref="TEI-ListPlace.xml#pontenure">Pontenure</placeName>
+                                <placeName ref="#pontenure">Pontenure</placeName>
                             </death>
                             <note source="https://www.treccani.it/enciclopedia/francesco-giarelli_(Dizionario-Biografico)/"><p>Francesco Giarelli nacque a Piacenza nel 1844, laureandosi in giurisprudenza ma dedicandosi presto al giornalismo. La sua carriera ebbe una svolta nel 1870 a Milano, grazie a F. Cavallotti, dopo aver coperto un processo politico. Qui collaborò con la Gazzetta di Milano e, come Don Lumachino, curò "I suoni dell'anima" sul Gazzettino rosa. Nel 1875, Cavallotti gli affidò la cronaca de La Ragione, dove G. divenne un precursore del giornalismo moderno. Trasformò il ruolo del cronista in inviato attivo e la cronaca in una forma di letteratura. Collaborò con figure come V. Hugo e G. Carducci, e come Psiche denunciò i mali sociali su La Farfalla. Co-autore di Il ventre di Milano, tornò a Piacenza nel 1889 per scrivere la Storia di Piacenza. Negli ultimi anni fu consigliere comunale e assessore alla Pubblica Istruzione. Scrisse numerosi articoli e studi, e le sue memorie, Vent'anni di giornalismo, pubblicate nel 1896. Morì a Pontenure nel 1907, lasciando un'impronta significativa nel giornalismo italiano.</p></note>
                         </person>
@@ -79,13 +79,55 @@
                             <sex>M</sex>
                             <birth>
                                 <date when="1858">1858</date>
-                                <placeName ref="TEI-ListPlace.xml#PA">Palermo</placeName>
+                                <placeName ref="#PA">Palermo</placeName>
                             </birth>
                             <death>
                                 <date when="1885">1885</date>
-                                <placeName ref="TEI-ListPlace.xml#erice">Erice</placeName>
+                                <placeName ref="#erice">Erice</placeName>
                             </death>
                             <note source="https://www.treccani.it/enciclopedia/enrico-onufrio/"><p>Scrittore (Palermo 1858 - Erice 1885); comproprietario e direttore della rivista La Farfalla.</p></note>
+                        </person>
+					
+					 <person xml:id="sacerdotiMinerva">
+                            <persName type="group" role="character">Sacerdoti di Minerva</persName>
+                            <sex>M</sex>
+                        </person>
+
+                        <person xml:id="minerva">
+                            <persName type="fictional">
+                                <forename>Minerva</forename>
+                            </persName>
+                            <sex>F</sex>
+                            <note source="https://www.treccani.it/enciclopedia/minerva/"><p>Antica divinità italica, entrata presto, probabilmente attraverso gli Etruschi, nel novero delle divinità dei Romani; in seguito fu identificata con la greca Atena. Il suo culto fu introdotto in Roma probabilmente al tempo dei Tarquini. Con Giove e Giunone fece parte della triade capitolina.</p></note>
+                        </person>
+
+                        <person xml:id="sira">
+                            <persName type="fictional">
+                                <forename>Sira</forename>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                        
+                        <person xml:id="compagneSira"> <!--aggiunta-->
+                            <persName type="group" role="character">Compagne di Sira</persName>
+                            <sex>F</sex>
+                        </person>
+
+                        <person xml:id="esiodo">
+                            <persName type="real" role="author">
+                                <ref target="http://viaf.org/viaf/122220717"/>
+                                <forename>Esiodo</forename>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date notBefore="-0750">metà VIII secolo a.C.</date>
+                                <placeName ref="#ascra">Ascra</placeName>
+                            </birth>
+                            <death>
+                                <date notAfter="-0600">VII secolo a.C.</date>
+                                <placeName ref="#ascra">Ascra</placeName>
+                            </death>
+                            <note source="https://www.treccani.it/enciclopedia/esiodo/"><p>Il poeta più antico della Grecia continentale (forse inizî sec. 7° a..C.), e il primo la cui personalità ha carattere storico. Le notizie, non leggendarie, che la tradizione antica ci ha conservato, sono desunte dai suoi scritti, specialmente dal poema le Opere.</p></note>
                         </person>
                 </listPerson>
 
@@ -122,27 +164,80 @@
                             <country key="IT">Italia</country>
                             <note resp="#LB" source="https://www.treccani.it/enciclopedia/erice/"><p>Comune della prov. di Trapani (fino al 1934 Monte San Giuliano), situato a 750 m s.l.m. sulla vetta del monte omonimo.</p></note>
                     </place>
+					
+					<place xml:id="PC" type="real">
+                            <placeName ref="https://www.geonames.org/3171058/piacenza.html">Piacenza</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/piacenza/"><p>Città dell’Emilia-Romagna (118,24 km2 con 104.260 ab. nel 2020, detti Piacentini), capoluogo di provincia. È situata a 61 m s.l.m. quasi all’estremità dell’antica via romana che parte dal mare e giunge fino al Po, sulla riva destra del fiume.</p></note>
+                    </place>
+
+                    <place xml:id="pontenure" type="real">
+                            <placeName ref="https://www.geonames.org/3170232/pontenure.html">Pontenure</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/pontenure/"><p>Comune della prov. di Piacenza (33,8 km2 con 5966 ab. nel 2008).</p></note>
+                    </place>
+                    
+                    <place xml:id="mitilene" type="real">
+                            <placeName ref="https://www.geonames.org/256866/mytilene.html">Mitilene</placeName>
+                            <country key="GR">Grecia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/mitilene/"><p>Città della Grecia (36.196 ab. nel 2001), capoluogo del nomo e dell’isola di Lesbo. Sorge sulla costa orientale, ad anfiteatro sopra un promontorio che era in origine un’isola, già in epoca classica congiunta alla riva. Mercato di agrumi, olio, spugne.</p></note>
+                    </place>
+
+                     <place xml:id="ellade" type="real">
+                            <placeName ref="https://www.geonames.org/390903/hellenic-republic.html">Grecia</placeName>
+                            <country key="GR">Grecia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/ellade/"><p>Nell’antichità, nome dapprima di una regione della Tessaglia meridionale, poi anche dei popoli abitanti più a S. Già nel 6° sec. a.C. per E. s’intendeva tutta la Grecia e con il nome di Elleni i Greci chiamavano sé stessi nel loro complesso. Al tempo di Erodoto (5° sec.) è già netta la distinzione tra Elleni e barbari e un secolo dopo di lui Elleni significa non più soltanto una comunità nazionale bensì una comunità di cultura.</p></note>
+                    </place>
+
+                    <place xml:id="atene" type="real">
+                            <placeName ref="https://www.geonames.org/264371/athens.html">Atene</placeName>
+                            <country key="GR">Grecia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/atene/"><p>Città (3.155.600 ab. nel 2018, considerando l’intera agglomerazione urbana, la Grande Atene, che include anche il Pireo); capitale della Grecia e capoluogo del nomo dell’Attica. È al centro di una piana costiera lungo la quale tuttavia si allineano alcuni rilievi (Imetto, 1026 m, a SE), solcata dai torrenti Cefiso e Ilisso. La città alla costituzione dello Stato greco (1834) contava appena 10.000 abitanti e si limitava a quello che è ora il quartiere della Plaka, a NE dell’Acropoli. Dopo la sua proclamazione a capitale della Grecia, estesi lavori di ampliamento e ammodernamento le conferirono aspetto monumentale, secondo uno schema urbanistico regolare, in cui spiccano edifici pubblici e grandi piazze.</p></note>
+                    </place>
+
+                    <place xml:id="attica" type="real">
+                            <placeName ref="https://www.geonames.org/6692632/attica.html">Attica</placeName>
+                            <country key="GR">Grecia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/attica/"><p>Penisola della Grecia orientale, tra i golfi Saronico (a SO) e Petaliòn (a E). Costituisce un nomo, con capoluogo Atene, la cui conurbazione è però amministrativamente autonoma.</p></note>
+                    </place>
+
+                    <place xml:id="acropoliAtene" type="real">
+                            <placeName ref="https://www.geonames.org/7729741/acropolis-of-athens.html">Acropoli di Atene</placeName>
+                            <country key="GR">Grecia</country>
+                            <note resp="#LF" source="https://it.wikipedia.org/wiki/Acropoli_di_Atene"><p>L'acropoli di Atene è un sito archeologico situato su uno sperone roccioso che domina la città di Atene; conserva i resti monumentali di numerosi edifici dell'Età antica, di grande rilevanza architettonica e storica, tra cui il Partenone, il più famoso monumento dell'antica Grecia e una delle massime espressioni dell'architettura greca classica.</p></note>
+                    </place>
+
+                    <place xml:id="ascra" type="real">
+                            <placeName ref="https://www.geonames.org/maps/google_38.327_23.0742.html">Ascra</placeName>
+                            <country key="GR">Grecia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/ascra_(Enciclopedia-Italiana)/"><p>Antica città di Beozia situata sull'Elicona, all'ingresso della cosiddetta Valle delle Muse, nota soprattutto come patria del poeta Esiodo.</p></note>
+                    </place>
                 </listPlace>
                 
             </div>
 
             <div xml:id="organizzazioni">
                 <listOrg>
-					<org type="academy" xml:id="UniCT"> <!--aggiunta-->
+					<org type="academy" xml:id="UniCT">
 						<orgName type="main" ref="https://it.wikipedia.org/wiki/Universit%C3%A0_degli_Studi_di_Catania">Università di Catania</orgName>
-						<placeName ref="coverlessListPlace.xml#CT">Catania</placeName>
+						<placeName ref="#CT">Catania</placeName>
 						<desc>L'Università degli Studi di Catania, ufficialmente Siciliae Studium Generale - Università di Catania[4], (anticamente Siculorum Gymnasium, Studij Publici o Almo Studio, acronimo UniCt) è un'università statale italiana fondata nel 1434, la più antica università della Sicilia e tra le maggiori in Italia per numero d'iscritti.</desc>
 					</org>
 
-					<org type="academy" xml:id="CNR"> <!--aggiunta-->
+					<org type="academy" xml:id="CNR">
 						<orgName type="main" ref="https://www.treccani.it/enciclopedia/cnr/?search=CNR">Centro Nazionale delle Ricerche</orgName>
 						<desc>Sigla di Consiglio Nazionale delle Ricerche, la più grande struttura pubblica italiana con compiti scientifici. Costituito il 18 novembre 1923 e trasformato nel 1945 in organo dello Stato, ha svolto prevalentemente attività di formazione, promozione e coordinamento della ricerca in tutti i settori scientifici e tecnologici. Nel 1999, a seguito del d. legisl. 19, è divenuto «ente nazionale di ricerca con competenza scientifica generale e istituti scientifici distribuiti sul territorio, che svolge attività di prioritario interesse per l’avanzamento della scienza e per il progresso del paese». Con il d. legisl. 127/4 giugno 2003, ha assunto il compito di svolgere, promuovere, diffondere, trasferire e valorizzare attività di ricerca nei principali settori delle conoscenze e delle loro applicazioni per lo sviluppo scientifico, tecnologico, economico e sociale del paese, obiettivo affidato all’ente nel convincimento che l’attività di ricerca e sviluppo, determinante per la competitività del sistema economico nazionale, possa generare nuova occupazione, maggior benessere e maggiore coesione sociale.</desc>
 					</org>
 
 					
-					<org type="academy" xml:id="ISTC"> <!--aggiunta-->
+					<org type="academy" xml:id="ISTC">
 						<orgName type="main" ref="https://www.istc.cnr.it/it/page/presentazione">Istituto di Scienze e Tecnologie della Cognizione</orgName>
 						<desc>L'Istituto di Scienze e Tecnologie della Cognizione (ISTC) è un istituto interdisciplinare, con numerose integrazioni fra i laboratori e fra i temi di ricerca. Gli obiettivi di ricerca di ISTC convergono  sull'analisi, la rappresentazione, il ragionamento automatico, la simulazione e l'interpretazione critica dei processi cognitivi e sociali negli umani e nei primati non umani, dal livello fisiologico a quello fenomenologico e computazionale.</desc>
+					</org>
+
+					<org type="journal" xml:id="farfalla">
+						<orgName type="main" ref="https://coverless.cnr.it/riviste.html">La Farfalla</orgName>
+						<desc>Fondata a Cagliari da Angelo Sommaruga, con cadenza quindicinale, «La Farfalla» vide la luce il 27 febbraio 1876. Si presentava al pubblico «semplice, pulita, senza fregi e senza fronzoli», quasi del tutto priva di quelle novità grafiche che caratterizzeranno le riviste successive. I maggiori collaboratori furono, oltre Giarelli, autore della maggior parte degli articoli, Ottone Bacaredda, Felice Cameroni, Paolo Valera, Ferdinando Fontana, Cesario Testa, Domenico Milelli, Remigio Zena. Nel 1877 Sommaruga ritornò a Milano, portando con sé la rivista. Il primo numero milanese del 30 settembre uscì con una nuova testata che preannunciava lo stile liberty: un disegno di Tranquillo Cremona che raffigurava una graziosa fanciulla incastonato tra le prime due lettere del titolo.</desc>
 					</org>
 										
                 </listOrg>
