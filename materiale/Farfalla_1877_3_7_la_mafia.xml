@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title>La mafia</title>
+                <respStmt>
+                    <resp>Codifica digitale XML TEI P5 a cura di</resp>
+                    <name xml:id="LB">Lorenzo Bianchi</name>    <!-- rivedere LB -->
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+				<edition n="1">Digital edition - <date when="2024-10">October 2024</date></edition>
+				<respStmt>
+					<resp>Digital edition project coordineted by</resp>
+					<name xml:id="DS">Daria Spampinato</name>
+					<name xml:id="ADS">Antonio Di Silvestro</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding model by</resp>
+					<name resp="#DS">Daria Spampinato</name>
+					<name xml:id="LM">Laura Mazzagufo</name>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DB">Denise Bruno</name>
+				</respStmt>
+				<funder>NextGenerationEU</funder>
+				<funder>Ministero dell'Università e della Ricerca</funder>
+				<funder>Italia Domani - Piano Nazionale di Ripresa e Resilienza</funder>
+				<funder ref="entita_nominate.xml#CNR">CNR - Consiglio Nazionale delle Ricerche</funder>
+				<funder ref="entita_nominate.xml#UniCT">Università di Catania</funder>
+			</editionStmt>
+
+            <publicationStmt>
+                <authority ref="entita_nominate.xml#ISTC">CNR ISTC - Istituto di Scienze e Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche</authority>
+                <authority ref="entita_nominate.xml#UniCT">Università di Catania</authority>
+                <date when="2025">2026</date>       <!-- non corrispondono (?) -->
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+                </availability>
+                <idno type="filename">Farfalla_1877_3_7_la_mafia.xml</idno>
+			</publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">La mafia</title>
+                        <author ref="entita_nominate.xml#enricoOnufrio">Enrico Onufrio</author>
+                    </analytic>
+                    <monogr>
+                        <title level="j" xml:id="farfalla">La Farfalla</title>
+                        <imprint>
+                            <pubPlace ref="entita_nominate.xml#CA">Cagliari</pubPlace>
+                            <date when="1877">1877</date>
+                        </imprint>
+                        <biblScope unit="volume">3</biblScope>
+                        <biblScope unit="issue">7</biblScope>
+                        <biblScope unit="page">68</biblScope>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <profileDesc>
+            <creation>
+                <date when="1877-04-08">8 aprile 1877</date>
+                <placeName ref="entita_nominate.xml#CA">Cagliari</placeName>
+            </creation>
+
+            <textClass>
+                <keywords>
+                    <term type="text" subtype="elzeviro">Articolo in rivista</term>
+                </keywords>
+                <keywords>
+                    <term type="themes" ref="entita_nominate.xml#problemaSociale">Problema sociale</term> <!--RIVEDERE -->
+                </keywords>
+            </textClass>
+
+            <langUsage>
+                <language ident="it">Italiano</language>
+                <language ident="it-x-800">Italiano di fine Ottocento</language>
+            </langUsage>
+
+            <abstract>
+                <p> <!-- Scrivere riassunto -->  </p>
+                <!-- esempio: <p>Questo testo, intitolato "Acquerelli di Pubblicismo: Eugenio Torelli-Viollier" e firmato "Masaccio," presenta una critica schietta e dettagliata del giornalista Eugenio Torelli-Viollier. L'autore dichiara di non nutrire simpatia per Torelli-Viollier, ma promette imparzialità nel giudicare la sua figura pubblica. Viene fornita una descrizione fisica e caratteriale di Torelli-Viollier, che lo ritrae come una persona fredda e riservata. Il testo traccia poi la sua carriera giornalistica, dalla collaborazione con Alessandro Dumas al suo ruolo nelle case editrici Sonzogno e Treves, fino alla direzione del Corriere della Sera. L'autore menziona anche le accese polemiche politiche e artistiche che coinvolsero Torelli-Viollier, in particolare con Felice Cavallotti, sottolineando la sua tenacia e la sua abilità nel perseguitare gli avversari. Infine, l'articolo critica le sue tattiche giornalistiche attuali, accusandolo di attacchi personali e di mancare di legalità nel dibattito pubblico.</p> -->
+            </abstract>
+
+        </profileDesc>
+
+        <revisionDesc>
+            <change status="draft" when="2026-06-19" resp="#LB">First draft june 19, 2026</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+
+            </div>
+        </body>
+    </text>
+
+</TEI>
