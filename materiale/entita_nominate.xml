@@ -37,6 +37,10 @@
                         <category xml:id="conflittoSociale">
                             <catDesc><term type="themes">Conflitto sociale</term>: Riferimenti al conflitto sociale</catDesc>  <!-- rivedere la definizione -->
                         </category>
+
+                        <category xml:id="problemaSociale">
+                            <catDesc><term type="themes">Problema sociale</term>Riferimenti a problemi sociali, ovvero, condizioni che affliggono vaste fasce di una popolazione, minacciando il benessere, la convivenza e i valori condivisi di una comunità</catDesc>    <!-- RIVEDERE-->
+                        </category>
                     </taxonomy>
                 </classDecl>
 		    </encodingDesc>
@@ -65,6 +69,24 @@
                             </death>
                             <note source="https://www.treccani.it/enciclopedia/francesco-giarelli_(Dizionario-Biografico)/"><p>Francesco Giarelli nacque a Piacenza nel 1844, laureandosi in giurisprudenza ma dedicandosi presto al giornalismo. La sua carriera ebbe una svolta nel 1870 a Milano, grazie a F. Cavallotti, dopo aver coperto un processo politico. Qui collaborò con la Gazzetta di Milano e, come Don Lumachino, curò "I suoni dell'anima" sul Gazzettino rosa. Nel 1875, Cavallotti gli affidò la cronaca de La Ragione, dove G. divenne un precursore del giornalismo moderno. Trasformò il ruolo del cronista in inviato attivo e la cronaca in una forma di letteratura. Collaborò con figure come V. Hugo e G. Carducci, e come Psiche denunciò i mali sociali su La Farfalla. Co-autore di Il ventre di Milano, tornò a Piacenza nel 1889 per scrivere la Storia di Piacenza. Negli ultimi anni fu consigliere comunale e assessore alla Pubblica Istruzione. Scrisse numerosi articoli e studi, e le sue memorie, Vent'anni di giornalismo, pubblicate nel 1896. Morì a Pontenure nel 1907, lasciando un'impronta significativa nel giornalismo italiano.</p></note>
                         </person>
+
+                        <person xml:id="enricoOnufrio">
+                            <persName type="real" role="author">
+                                <ref target="http://viaf.org/viaf/44601888"/>
+                                <forename>Enrico</forename>
+                                <surname>Onufrio</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date when="1858">1858</date>
+                                <placeName ref="TEI-ListPlace.xml#PA">Palermo</placeName>
+                            </birth>
+                            <death>
+                                <date when="1885">1885</date>
+                                <placeName ref="TEI-ListPlace.xml#erice">Erice</placeName>
+                            </death>
+                            <note source="https://www.treccani.it/enciclopedia/enrico-onufrio/"><p>Scrittore (Palermo 1858 - Erice 1885); comproprietario e direttore della rivista La Farfalla.</p></note>
+                        </person>
                 </listPerson>
 
             </div>
@@ -87,6 +109,18 @@
                             <placeName ref="https://www.geonames.org/2525068/catania.html">Catania</placeName>
                             <country key="IT">Italia</country>
                             <note resp="#LF" source="https://www.treccani.it/enciclopedia/catania/"><p>Comune della Sicilia orientale (182,9 km2 con 296.266 ab. nel 2020), capoluogo della provincia omonima. Porto sul Mar Ionio, si stende in posizione assai favorevole alle falde meridionali dell’Etna, al margine settentrionale di un’ampia insenatura costiera, cui dà il nome ( Golfo di C.). Ha clima mite, con scarse piogge. Gravemente danneggiata dall’eruzione etnea del 1669 e distrutta nel 1693 da un terremoto, fu riedificata nel 18° sec. secondo un organico piano regolatore a struttura ortogonale, fondato sugli assi principali delle attuali vie Etnea (in direzione N-S) e Sangiuliano (O-E).</p></note>
+                    </place>
+
+                    <place xml:id="PA" type="real">
+                            <placeName ref="https://www.geonames.org/6542127/palermo.html">Palermo</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/palermo/"><p>Comune della Siciliam città metropolitana e capoluogo di regione, situato sulla costa nord-occidentale dell’isola, all’interno dell’omonimo golfo; si estende nella breve pianura detta Conca d’Oro, dominata a N dal Monte Pellegrino. Le condizioni climatiche, in un quadro complessivamente mediterraneo, variano alquanto fra le coste (inverni miti; estati calde ma ventilate) e l’interno, dove l’escursione termica stagionale si accentua di molto.</p></note>
+                    </place>
+
+                    <place xml:id="erice" type="real">
+                            <placeName ref="https://www.geonames.org/6539112/erice.html">Erice</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/erice/"><p>Comune della prov. di Trapani (fino al 1934 Monte San Giuliano), situato a 750 m s.l.m. sulla vetta del monte omonimo.</p></note>
                     </place>
                 </listPlace>
                 
