@@ -98,6 +98,8 @@
 
         <revisionDesc>
             <change status="draft" when="2026-06-18" resp="#LF">First draft 18 giugno 2026</change>
+            <change status="draft" when="2026-06-18" resp="#LF">Struttura del testo</change>
+            <change status="draft" when="2026-06-19" resp="#LF">Codifica della prima sezione (19 giugno 2026)</change>
         </revisionDesc>
     </teiHeader>
     
@@ -115,19 +117,47 @@
             <div type="text">
                 <div type="section" n="1" facs="#sezione_1">
                     <p rend="first-line-indented" xml:id="p_1">
-                        <!-- Fra la trentesima [...] trappole immortali.... -->
+                        Fra la trentesima e la trentesima prima Olimpia-
+                        de, i <rs type="person" subtype="both" ref="entita_nominate.xml#sacerdotiMinerva">sacerdoti di <persName type="fictional" ref="entita_nominate.xml#minerva">Minerva</persName></rs>, di servizio a <placeName type="real" ref="entita_nominate.xml#mitilene">Mitilene</placeName>,
+                        s'incoronarono di citisi, si fecero venire innanzi <persName type="fictional" ref="entita_nominate.xml#sira">Sira</persName>,
+                        la più bella, e la più casta fra le fanciulle mitilenesi,
+                        e le dissero:
+                        <q><persName type="fictional" ref="entita_nominate.xml#sira">Sira</persName>, tu sei destinata dagli Iddii a diventare la
+                        sacerdotessa più grande nell'<placeName type="real" ref="entita_nominate.xml#ellade">Ellade</placeName> tutta. Ma perchè
+                        tu tale possa divenire, occorre che da <rs type="place" subtype="real" ref="entita_nominate.xml#mitilene">questa tua 
+                        terra</rs> tu ti dilunghi. <placeName type="real" ref="entita_nominate.xml#atene">Atene</placeName> ti aspetta, e il gremio
+                        delle vergini consacrate all'occhiglauca iddia che col
+                        sonante arco d'argento governa i cuori a fortezza ed
+                        a virtù.... Saluta dunque, o <persName type="fictional" ref="entita_nominate.xml#sira">Sira</persName>, saluta dunque <rs type="place" subtype="real" ref="entita_nominate.xml#mitilene">que-
+                        sta terra</rs> che ti ha veduta nascere, quest'aura bene-
+                        detta che t'ha vivificata nascente, questo cielo e
+                        questo mare che t'hanno fasciata d'azzurro e di por-
+                        pora nelle aurore e nei tramonti immortali....</q>
                     </p>
 
                     <p rend="first-line-indented" xml:id="p_2">
-                        <!-- E la giovinetta [...] per incominciare.... -->
+                        E la <rs type="person" subtype="fictional" ref="entita_nominate.xml#sira">giovanetta</rs> baciò sulle tempia le dolci <rs type="person" subtype="fictional" ref="entita_nominate.xml#compagneSira">com-
+                        pagne</rs> d'infanzia, e supplice si gettò innanzi alle er-
+                        me de' forti padri, e nelle bruna pupilla le brillaro-
+                        no le lacrime del congedo per tutta una prima vita
+                        che le si spezzava, per tutta una seconda che stava
+                        per incominciare....
                     </p>
                     
                     <p rend="first-line-indented" xml:id="p_3">
-                        <!-- E da Mitilene [...] anni. -->
+                        E da <placeName type="real" ref="entita_nominate.xml#mitilene">Mitilene</placeName> salpò sopra una sacra bireme pei
+                        porti dell'<placeName type="real" ref="entita_nominate.xml#attica">Attica</placeName>. E pose piede ad <placeName type="real" ref="entita_nominate.xml#atene">Atene</placeName>. E salì al-
+                        l'<placeName type="real" ref="entita_nominate.xml#acropoliAtene">Acropoli</placeName>: e dopo il suo tirocinio s'ebbe posto in
+                        capo l'aureo corno di massima sacerdotessa Palladia:
+                        ma il suo cuore - racconta <persName type="real" ref="entita_nominate.xml#esiodo">Esiodo</persName> - fu diviso:
+                        talchè si disse che <persName type="fictional" ref="entita_nominate.xml#sira">Sira</persName>, si cuori ebbene due. Uno
+                        per tempio d'<placeName type="real" ref="entita_nominate.xml#atene">Atene</placeName>: l'altro per la natia <placeName type="real" ref="entita_nominate.xml#mitilene">Mitilene</placeName> e
+                        per le soavi memorie dei giovani anni.
                     </p>
 
                     <p rend="first-line-indented" xml:id="p_4">
-                        <!-- Mitilenesi... [...] Farfalla -->
+                        Mitilenesi... di <placeName type="real" ref="entita_nominate.xml#CA">Cagliari</placeName>, ricevete il più cordiale,
+                        il più affettuoso addio della vostra <persName type="fictional" ref="entita_nominate.xml#sira">Sira</persName>.... <orgName rend="italic" type="journal" ref="entita_nominate.xml#farfalla">Farfalla</orgName>
                     </p>
                 </div>
 
