@@ -108,7 +108,7 @@
                             <sex>F</sex>
                         </person>
                         
-                        <person xml:id="compagneSira"> <!--aggiunta-->
+                        <person xml:id="compagneSira">
                             <persName type="group" role="character">Compagne di Sira</persName>
                             <sex>F</sex>
                         </person>
@@ -135,19 +135,19 @@
 
             <div xml:id="luoghi">
                 <listPlace>
-                    <place xml:id="CA" type="real"> <!--aggiunta-->
+                    <place xml:id="CA" type="real">
                             <placeName ref="https://www.geonames.org/2525473/cagliari.html">Cagliari</placeName>
                             <country key="IT">Italia</country>
                             <note resp="#LF" source="https://www.treccani.it/enciclopedia/cagliari/"><p>Comune della Sardegna meridionale (133,5 km2 con 149.883 ab. al censimento del 2011, divenuti 151.005 secondo rilevamenti ISTAT del 2020, detti cagliaritani), città metropolitana e capoluogo di regione; sede del governo regionale sardo.</p></note>
                     </place>
                             
-                    <place xml:id="MI" type="real"> <!--aggiunta-->
+                    <place xml:id="MI" type="real">
                             <placeName ref="https://www.geonames.org/3173435/milan.html">Milano</placeName>
                             <country key="IT">Italia</country>
                             <note resp="#LF" source="https://www.treccani.it/enciclopedia/milano/"><p>Comune della Lombardia (181,67 km2 con 1.406.242 ab. nel 2020), capoluogo di regione e città metropolitana, è la seconda città in Italia, dopo Roma, e costituisce la massima concentrazione delle forme più moderne e dinamiche dell’economia del paese.</p></note>
                         </place>
 
-                    <place xml:id="CT" type="real"> <!--aggiunta-->
+                    <place xml:id="CT" type="real">
                             <placeName ref="https://www.geonames.org/2525068/catania.html">Catania</placeName>
                             <country key="IT">Italia</country>
                             <note resp="#LF" source="https://www.treccani.it/enciclopedia/catania/"><p>Comune della Sicilia orientale (182,9 km2 con 296.266 ab. nel 2020), capoluogo della provincia omonima. Porto sul Mar Ionio, si stende in posizione assai favorevole alle falde meridionali dell’Etna, al margine settentrionale di un’ampia insenatura costiera, cui dà il nome ( Golfo di C.). Ha clima mite, con scarse piogge. Gravemente danneggiata dall’eruzione etnea del 1669 e distrutta nel 1693 da un terremoto, fu riedificata nel 18° sec. secondo un organico piano regolatore a struttura ortogonale, fondato sugli assi principali delle attuali vie Etnea (in direzione N-S) e Sangiuliano (O-E).</p></note>
@@ -221,7 +221,7 @@
 					<org type="academy" xml:id="UniCT">
 						<orgName type="main" ref="https://it.wikipedia.org/wiki/Universit%C3%A0_degli_Studi_di_Catania">Università di Catania</orgName>
 						<placeName ref="#CT">Catania</placeName>
-						<desc>L'Università degli Studi di Catania, ufficialmente Siciliae Studium Generale - Università di Catania[4], (anticamente Siculorum Gymnasium, Studij Publici o Almo Studio, acronimo UniCt) è un'università statale italiana fondata nel 1434, la più antica università della Sicilia e tra le maggiori in Italia per numero d'iscritti.</desc>
+						<desc>L'Università degli Studi di Catania, ufficialmente Siciliae Studium Generale - Università di Catania, (anticamente Siculorum Gymnasium, Studij Publici o Almo Studio, acronimo UniCt) è un'università statale italiana fondata nel 1434, la più antica università della Sicilia e tra le maggiori in Italia per numero d'iscritti.</desc>
 					</org>
 
 					<org type="academy" xml:id="CNR">
