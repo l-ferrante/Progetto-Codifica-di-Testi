@@ -105,6 +105,8 @@
                     La mafia
                 </head>
 
+                <metamark function="sectionDivider"/>
+
                 <div facs="prima_sezione">
                     <p>
                         <!-- indent--> Povera Sicilia! me l'hanno conciata per il dì delle feste --
@@ -135,6 +137,8 @@
                     </p>
                 </div>
             
+                <metamark function="sectionDivider"/>
+
                 <div facs="seconda_sezione">
                     <p>
                         <!-- indent--> La mafia! -- La Sicilia è un'equazione e la mafia è la sua
@@ -153,6 +157,8 @@
                         stiti di nero e piangi.... piangi che n'hai ben d'onde!
                     </p>
                 </div>
+
+                <metamark function="sectionDivider"/>
 
                 <div facs="terza_sezione_1">
                     <p>
@@ -188,10 +194,44 @@
                     </p>
                 </div>
 
+                <metamark function="sectionDivider"/>
+
                 <div facs="quarta_sezione">
                     <p>
-                        <!-- indent-->
+                        <!-- indent--> E il malandrinaggio? e il manutengolismo? -- Istituite una
+                        buona polizia in Sicilia che non ne ha mai avuta... e l'Italia forse
+                        neanco. Il processo del questore Bignami è un esempio chiaro e
+                        lampante. Ebbene, in Sicilia il bisogno d'una polizia si fa sentire
+                        più grave e più imperioso. I Borboni accarezzarono la sbirraglia,
+                        se ne fecero strumento di tirannide, la organizzarono per ado-
+                        prarla alla violenza ed al sopruso; e siccome a quei tempi
+                        nessun onest'uomo voleva esercitare il mestiere di polizziotto,
+                        ne venne per conseguenza una sbirraglia estratta dalla più
+                        infima classe, composta per lo più di uomini che un tempo innan-
+                        zi avevano molestato la società.... poi la proteggevano!
+                        <!-- indent--> Buona polizia! -- il reclamo è divenuto un po' vecchio
+                        ma quando si parla ai sordi!....
                     </p>
+                </div>
+                
+                <metamark function="sectionDivider"/>
+
+                <div facs="quinta_sezione">
+                    <p>
+                        <!-- indent--> Taluni hanno parlato a proposito della Sicilia; di quistione
+                        economica. Ne ho parlato anch'io in un lavoro pubblicato nel-
+                        la Nuova Antologia. I contadini in Sicilia sono scarsamente retri-
+                        buiti -- ebbene, perché non si provvede?
+                        <!-- indent--> Fu già nominata una commissione per un'inchiesta agraria....
+                        ma fu nominata in Italia.... la terra delle inchieste!
+                        <!-- indent--> C'è da sperare?
+                    </p>
+                </div>
+
+                <div facs="firma">
+                    <signed rend="bold">
+                        <persName type="real" ref="entita_nominate.xml#enricoOnufrio"><forename>Enrico</forename><surname>Onufrio</surname></persName>
+                    </signed>
                 </div>
 
             </div>
