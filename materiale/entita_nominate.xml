@@ -129,6 +129,111 @@
                             </death>
                             <note source="https://www.treccani.it/enciclopedia/esiodo/"><p>Il poeta più antico della Grecia continentale (forse inizî sec. 7° a..C.), e il primo la cui personalità ha carattere storico. Le notizie, non leggendarie, che la tradizione antica ci ha conservato, sono desunte dai suoi scritti, specialmente dal poema le Opere.</p></note>
                         </person>
+
+						<person xml:id="ercole">
+                            <persName type="fictional">
+                                <forename>Ercole</forename>
+                                <addName type="alias">Eracle</addName>
+                            </persName>
+                            <sex>M</sex>
+                            <note source="https://www.treccani.it/enciclopedia/ercole/"><p>Presso i Romani, nome dell’eroe greco Eracle, famoso per la sua forza.</p></note>
+                        </person>
+
+                        <person xml:id="licurgo">
+                            <persName type="real">
+                                <forename>Licurgo</forename>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date notBefore="-0800">IX secolo a.C.</date>
+                            </birth>
+                            <death>
+                                <date notAfter="-0700">VIII secolo a.C.</date>
+                            </death>
+                            <note source="https://www.treccani.it/enciclopedia/licurgo_(Enciclopedia-Italiana)/"><p>Antichissimo legislatore spartano. Appunto per spiegare come egli potesse introdurre in Sparta le sue leggi si riteneva che fosse stato membro d'una delle famiglie reali e tutore di un re.</p></note>
+                        </person>
+
+                        <person xml:id="solone">
+                            <persName type="real">
+                                <forename>Solone</forename>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date notBefore="-0640">640-30 a.C.</date>
+                            </birth>
+                            <death>
+                                <date notAfter="-0560">560 a.C. circa</date>
+                            </death>
+                            <note source="https://www.treccani.it/enciclopedia/solone/"><p>Legislatore ateniese (n. 640-30 a. C. - m. 560 circa), figlio di Execestide, di famiglia nobile.</p></note>
+                        </person>
+
+                        <person xml:id="pericle">
+                            <persName type="real">
+                                <forename>Solone</forename>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date notBefore="-0640">640-30 a.C.</date>
+                            </birth>
+                            <death>
+                                <date notAfter="-0560">560 a.C. circa</date>
+                            </death>
+                            <note source="https://www.treccani.it/enciclopedia/pericle/"><p>Uomo politico ateniese (495 circa - 429 a. C.), figlio di Santippo, imparentato per parte di madre con gli Alcmeonidi. Iniziò la sua carriera politica nel partito democratico di Efialte, che, con l'ostracismo di Cimone (461) e il declino del partito conservatore e dell'Areopago, conquistò la direzione della politica ateniese. Ma essendo stato quasi subito assassinato Efialte, P. si trovò solo a guidare a un tempo il suo partito e la politica ateniese, ciò che fece per oltre trent'anni (461-429) fondando il proprio potere sulla annuale, libera rielezione nel consiglio degli strateghi. In politica estera P. si propose come ultima mira il predominio ateniese sull'intera Grecia.</p></note>
+                        </person>
+
+                        <person xml:id="tegola">
+                            <persName type="real" role="author">
+                                <!-- <forename></forename> -->
+                                <!-- <surname></surname> -->
+                                <addName type="pseudonym">Tegola</addName>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <!-- <date when=""></date> -->
+                                <!-- <placeName ref=""></placeName> -->
+                            </birth>
+                            <death>
+                                <!-- <date when=""></date> -->
+                                <!-- <placeName ref=""></placeName> -->
+                            </death>
+                            <!-- <note source=""><p></p></note> -->
+                        </person>
+
+                        <person xml:id="vincentius">
+                            <persName type="real" role="author">
+                                <!-- <forename></forename> -->
+                                <!-- <surname></surname> -->
+                                <addName type="pseudonym">Vincentius</addName>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <!-- <date when=""></date> -->
+                                <!-- <placeName ref=""></placeName> -->
+                            </birth>
+                            <death>
+                                <!-- <date when=""></date> -->
+                                <!-- <placeName ref=""></placeName> -->
+                            </death>
+                            <!-- <note source=""><p></p></note> -->
+                        </person>
+
+                        <person xml:id="stolberg">
+                            <persName type="real" role="author">
+                                <!-- <forename></forename> -->
+                                <!-- <surname></surname> -->
+                                <addName type="pseudonym">Stolberg</addName>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <!-- <date when=""></date> -->
+                                <!-- <placeName ref=""></placeName> -->
+                            </birth>
+                            <death>
+                                <!-- <date when=""></date> -->
+                                <!-- <placeName ref=""></placeName> -->
+                            </death>
+                            <!-- <note source=""><p></p></note> -->
+                        </person>
                 </listPerson>
 
             </div>
@@ -240,6 +345,30 @@
                             <placeName ref="https://www.geonames.org/2643743/london.html">Londra</placeName>
                             <country key="UK">Regno Unito</country>     <!-- RIVEDERE SIGLA-->
                             <note resp="#LB" source="https://www.treccani.it/enciclopedia/parigi/"><p>(ingl. London) Città dell’Inghilterra, capitale della Gran Bretagna e centro commerciale, bancario e culturale fra i maggiori del mondo. Fu in origine un punto obbligato di passaggio sul Tamigi, il primo verso valle, dove le strade provenienti dall’interno e dirette per Durovernum (Canterbury) alla Manica (soprattutto al porto di Rutupiae, a N di Dover) potevano attraversare il fiume sia al guado di Westminster, sia, più tardi, al Ponte di Londra. La funzione portuale, ingigantitasi nel tempo, è quella cui Londra deve anche la sua preminenza mondiale come mercato finanziario.</p></note>
+                    </place>
+
+					<place xml:id="sardegna" type="real">
+                            <placeName ref="https://www.geonames.org/2523227/sardinia.html">Sardegna
+                                <addName type="alias">Ichnusa</addName>
+                            </placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/sardegna/"><p>Regione dell’Italia insulare (24.100 km2 con 1.611.621 ab. nel 2020, ripartiti in 377 Comuni; densità 67 ab./km2), costituita dall’isola omonima (23.833 km2; la seconda, per superficie, del Mediterraneo) e da diverse isole minori, le più notevoli delle quali fronteggiano le coste nord-orientali (Arcipelago della Maddalena, Tavolara), nord-occidentali (Asinara) e sud-occidentali (Sant’Antioco, San Pietro). È situata al centro del bacino occidentale del Mediterraneo, a uguale distanza (350-360 km) dalla costa ligure, dal Mezzogiorno francese, dalle Baleari. Il capoluogo di regione è Cagliari.</p></note>
+                            <note resp="#LF" source="https://it.wikipedia.org/wiki/Sardegna_(isola)"><p>La Sardegna è un'isola del mar Mediterraneo occidentale, la seconda per estensione e per popolazione dopo la Sicilia. Amministrativamente è territorio della Repubblica Italiana e rientra nell'omonima regione a statuto speciale.</p></note>
+                    </place>
+
+                    <place xml:id="sparta" type="real">
+                            <placeName ref="https://www.geonames.org/253394/sparta.html">Sparta
+                                <addName type="alias">Lacedemone</addName>
+                            </placeName>
+                            <country key="GR">Grecia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/sparta/"><p>Cittadina della Grecia, nel Peloponneso meridionale, capoluogo del nomo della Laconia, sulle rive del fiume Eurota.</p></note>
+                    </place>
+
+                    <place xml:id="marTirreno" type="real">
+                            <placeName ref="https://www.geonames.org/2522836/tyrrhenian-sea.html">Mar Tirreno</placeName>
+                            <country key="IT">Italia</country>
+                            <country key="FR">Francia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/mare-tirreno/"><p>Il bacino del Mediterraneo occidentale compreso tra l’Italia peninsulare e le tre isole maggiori. Fu detto dai Romani anche Mare Tuscum o Inferum, non comprendendovi il Mar Ligure, e talora denominato anche Mare Sardoum per designare il mare intorno alla Sardegna (specialmente a E). I limiti sono nettamente segnati soltanto in parte, ma ormai si intende per Mare Tirreno quello che bagna le coste orientali della Corsica e della Sardegna, quelle settentrionali della Sicilia e quelle occidentali dell’Italia centro-meridionale. Viene suddiviso in Mare Tirreno settentrionale e centromeridionale, con limite di separazione tra i due posto convenzionalmente al 41° parallelo N.</p></note>
                     </place>
                 </listPlace>
                 
