@@ -79,11 +79,11 @@
                             <sex>M</sex>
                             <birth>
                                 <date when="1858">1858</date>
-                                <placeName ref="TEI-ListPlace.xml#PA">Palermo</placeName>
+                                <placeName ref="#PA">Palermo</placeName>
                             </birth>
                             <death>
                                 <date when="1885">1885</date>
-                                <placeName ref="TEI-ListPlace.xml#erice">Erice</placeName>
+                                <placeName ref="#erice">Erice</placeName>
                             </death>
                             <note source="https://www.treccani.it/enciclopedia/enrico-onufrio/"><p>Scrittore (Palermo 1858 - Erice 1885); comproprietario e direttore della rivista La Farfalla.</p></note>
                         </person>
