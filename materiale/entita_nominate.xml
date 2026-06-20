@@ -41,6 +41,10 @@
                         <category xml:id="problemaSociale">
                             <catDesc><term type="themes">Problema sociale</term>Riferimenti a problemi sociali, ovvero, condizioni che affliggono vaste fasce di una popolazione, minacciando il benessere, la convivenza e i valori condivisi di una comunità</catDesc>    <!-- RIVEDERE-->
                         </category>
+						
+						<category xml:id="cronaca">
+                            <catDesc><term type="themes">Cronaca</term>Riferimenti a fatti di cronaca o in generale a eventi di qualsiasi tipo.</catDesc>
+                        </category>
                     </taxonomy>
                 </classDecl>
 		    </encodingDesc>
