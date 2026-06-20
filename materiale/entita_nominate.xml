@@ -156,7 +156,7 @@
                     <place xml:id="PA" type="real">
                             <placeName ref="https://www.geonames.org/6542127/palermo.html">Palermo</placeName>
                             <country key="IT">Italia</country>
-                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/palermo/"><p>Comune della Siciliam città metropolitana e capoluogo di regione, situato sulla costa nord-occidentale dell’isola, all’interno dell’omonimo golfo; si estende nella breve pianura detta Conca d’Oro, dominata a N dal Monte Pellegrino. Le condizioni climatiche, in un quadro complessivamente mediterraneo, variano alquanto fra le coste (inverni miti; estati calde ma ventilate) e l’interno, dove l’escursione termica stagionale si accentua di molto.</p></note>
+                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/palermo/"><p>Comune della Sicilia, città metropolitana e capoluogo di regione, situato sulla costa nord-occidentale dell’isola, all’interno dell’omonimo golfo; si estende nella breve pianura detta Conca d’Oro, dominata a N dal Monte Pellegrino. Le condizioni climatiche, in un quadro complessivamente mediterraneo, variano alquanto fra le coste (inverni miti; estati calde ma ventilate) e l’interno, dove l’escursione termica stagionale si accentua di molto.</p></note>
                     </place>
 
                     <place xml:id="erice" type="real">
@@ -211,6 +211,12 @@
                             <placeName ref="https://www.geonames.org/maps/google_38.327_23.0742.html">Ascra</placeName>
                             <country key="GR">Grecia</country>
                             <note resp="#LF" source="https://www.treccani.it/enciclopedia/ascra_(Enciclopedia-Italiana)/"><p>Antica città di Beozia situata sull'Elicona, all'ingresso della cosiddetta Valle delle Muse, nota soprattutto come patria del poeta Esiodo.</p></note>
+                    </place>
+
+                    <place xml:id="sicilia" type="real">
+                            <placeName ref="https://www.geonames.org/2523119/sicilia.html">Sicilia</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/sicilia_res-51b7c2ab-973b-11e5-8844-00271042e8d9/"><p>Regione a statuto speciale dell’Italia insulare. È lambita a N dal Mar Tirreno, a E dallo Ionio e a S dal Mar di Sicilia (o Mare Africano), che la separa dall’Africa attraverso il Canale di Sicilia o di Tunisi. Capoluogo di regione è Palermo. La Sicilia, per la sua posizione geografica, gode di un clima tipicamente mediterraneo lungo l’intero perimetro costiero; all’interno, la morfologia e la distanza dal mare determinano, invece, condizioni diversificate, specialmente per quanto concerne il regime termometrico.</p></note>
                     </place>
                 </listPlace>
                 
