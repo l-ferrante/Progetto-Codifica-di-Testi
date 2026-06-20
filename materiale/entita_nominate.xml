@@ -41,8 +41,8 @@
                         <category xml:id="problemaSociale">
                             <catDesc><term type="themes">Problema sociale</term>Riferimenti a problemi sociali, ovvero, condizioni che affliggono vaste fasce di una popolazione, minacciando il benessere, la convivenza e i valori condivisi di una comunità</catDesc>    <!-- RIVEDERE-->
                         </category>
-						
-						<category xml:id="cronaca">
+
+                        <category xml:id="cronaca">
                             <catDesc><term type="themes">Cronaca</term>Riferimenti a fatti di cronaca o in generale a eventi di qualsiasi tipo.</catDesc>
                         </category>
                     </taxonomy>
@@ -134,7 +134,7 @@
                             <note source="https://www.treccani.it/enciclopedia/esiodo/"><p>Il poeta più antico della Grecia continentale (forse inizî sec. 7° a..C.), e il primo la cui personalità ha carattere storico. Le notizie, non leggendarie, che la tradizione antica ci ha conservato, sono desunte dai suoi scritti, specialmente dal poema le Opere.</p></note>
                         </person>
 
-						<person xml:id="ercole">
+                        <person xml:id="ercole">
                             <persName type="fictional">
                                 <forename>Ercole</forename>
                                 <addName type="alias">Eracle</addName>
@@ -173,14 +173,14 @@
 
                         <person xml:id="pericle">
                             <persName type="real">
-                                <forename>Solone</forename>
+                                <forename>Pericle</forename>
                             </persName>
                             <sex>M</sex>
                             <birth>
-                                <date notBefore="-0640">640-30 a.C.</date>
+                                <date notBefore="-0495">495 a.C. circa</date>
                             </birth>
                             <death>
-                                <date notAfter="-0560">560 a.C. circa</date>
+                                <date notAfter="-0429">429 a.C.</date>
                             </death>
                             <note source="https://www.treccani.it/enciclopedia/pericle/"><p>Uomo politico ateniese (495 circa - 429 a. C.), figlio di Santippo, imparentato per parte di madre con gli Alcmeonidi. Iniziò la sua carriera politica nel partito democratico di Efialte, che, con l'ostracismo di Cimone (461) e il declino del partito conservatore e dell'Areopago, conquistò la direzione della politica ateniese. Ma essendo stato quasi subito assassinato Efialte, P. si trovò solo a guidare a un tempo il suo partito e la politica ateniese, ciò che fece per oltre trent'anni (461-429) fondando il proprio potere sulla annuale, libera rielezione nel consiglio degli strateghi. In politica estera P. si propose come ultima mira il predominio ateniese sull'intera Grecia.</p></note>
                         </person>
@@ -238,6 +238,9 @@
                             </death>
                             <!-- <note source=""><p></p></note> -->
                         </person>
+
+                        
+
                 </listPerson>
 
             </div>
@@ -293,9 +296,15 @@
                     </place>
 
                      <place xml:id="ellade" type="real">
-                            <placeName ref="https://www.geonames.org/390903/hellenic-republic.html">Grecia</placeName>
+                            <placeName ref="https://www.geonames.org/390903/hellenic-republic.html">Ellade</placeName>
                             <country key="GR">Grecia</country>
                             <note resp="#LF" source="https://www.treccani.it/enciclopedia/ellade/"><p>Nell’antichità, nome dapprima di una regione della Tessaglia meridionale, poi anche dei popoli abitanti più a S. Già nel 6° sec. a.C. per E. s’intendeva tutta la Grecia e con il nome di Elleni i Greci chiamavano sé stessi nel loro complesso. Al tempo di Erodoto (5° sec.) è già netta la distinzione tra Elleni e barbari e un secolo dopo di lui Elleni significa non più soltanto una comunità nazionale bensì una comunità di cultura.</p></note>
+                    </place>
+
+                    <place xml:id="grecia" type="real">
+                            <placeName ref="https://www.geonames.org/390903/hellenic-republic.html">Grecia</placeName>
+                            <country key="GR">Grecia</country>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/grecia/"><p>Stato dell’Europa meridionale, comprendente la parte inferiore della Penisola Balcanica, gli arcipelaghi delle Ionie e dell’Egeo e l’isola di Creta. Confina a NO con l’Albania, a N con Repubblica della Macedonia del Nord e Bulgaria e a E con la Turchia; è bagnata a O dal Mar Ionio, a E dall’Egeo. L’insieme delle isole occupa 1/5 dell’intera superficie. Il nome lat. Graecia fu usato soltanto dai Romani; i Greci usavano (e usano tuttora) il termine ῾Ελλάς «Ellade» e, come etnico, ῞Ελληνες «Elleni».</p></note>
                     </place>
 
                     <place xml:id="atene" type="real">
@@ -348,10 +357,10 @@
                     <place xml:id="londra" type="real">
                             <placeName ref="https://www.geonames.org/2643743/london.html">Londra</placeName>
                             <country key="UK">Regno Unito</country>     <!-- RIVEDERE SIGLA-->
-                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/parigi/"><p>(ingl. London) Città dell’Inghilterra, capitale della Gran Bretagna e centro commerciale, bancario e culturale fra i maggiori del mondo. Fu in origine un punto obbligato di passaggio sul Tamigi, il primo verso valle, dove le strade provenienti dall’interno e dirette per Durovernum (Canterbury) alla Manica (soprattutto al porto di Rutupiae, a N di Dover) potevano attraversare il fiume sia al guado di Westminster, sia, più tardi, al Ponte di Londra. La funzione portuale, ingigantitasi nel tempo, è quella cui Londra deve anche la sua preminenza mondiale come mercato finanziario.</p></note>
+                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/londra/"><p>(ingl. London) Città dell’Inghilterra, capitale della Gran Bretagna e centro commerciale, bancario e culturale fra i maggiori del mondo. Fu in origine un punto obbligato di passaggio sul Tamigi, il primo verso valle, dove le strade provenienti dall’interno e dirette per Durovernum (Canterbury) alla Manica (soprattutto al porto di Rutupiae, a N di Dover) potevano attraversare il fiume sia al guado di Westminster, sia, più tardi, al Ponte di Londra. La funzione portuale, ingigantitasi nel tempo, è quella cui Londra deve anche la sua preminenza mondiale come mercato finanziario.</p></note>
                     </place>
 
-					<place xml:id="sardegna" type="real">
+                    <place xml:id="sardegna" type="real">
                             <placeName ref="https://www.geonames.org/2523227/sardinia.html">Sardegna
                                 <addName type="alias">Ichnusa</addName>
                             </placeName>
