@@ -107,7 +107,7 @@
     <text>
         <body>
             
-            <pb n="89" xml:id="Farfalla_1877_4_8_89" facs="immagini/Farfalla_1877_4_8_89.jpg"/> <!--inizio pagina 89-->
+            <pb n="89" xml:id="Farfalla_1877_4_8_89" facs="immagini/a_milano/Farfalla_1877_4_8_89.jpg"/> <!--inizio pagina 89-->
             <cb n="1" xml:id="col_1-p.89"/> <!--inizio colonna 1-->
 
             <div type="intestazione" facs="#titolo">
@@ -242,7 +242,7 @@
                     <p rend="first-line-indented" xml:id="p_13">
                         Giunta alla pubertà la donzella romana deponeva
                         la pretesa infantile ed indossava il peplo: lasciava
-                        <pb n="90" xml:id="Farfalla_1877_4_8_90" facs="immagini/Farfalla_1877_4_8_90.jpg"/> <!--cambio pagina-->
+                        <pb n="90" xml:id="Farfalla_1877_4_8_90" facs="immagini/a_milano/Farfalla_1877_4_8_90.jpg"/> <!--cambio pagina-->
                         <cb n="3" xml:id="col_1-p.90"/> <!--cambio colonna-->
                         la tunica succinta ed assumeva il balteo: e cingeva
                         l'armilla al braccio manco, e incoronava la fronte
@@ -393,7 +393,7 @@
 
     <facsimile xml:id="a_milano">
         <surface>
-            <graphic url='immagini/Farfalla_1877_4_8_89.jpg' width='3354.5px' height='4965.5px' xml:id="pag_89"/>
+            <graphic url='immagini/a_milano/Farfalla_1877_4_8_89.jpg' width='3354.5px' height='4965.5px' xml:id="pag_89"/>
             <zone ulx="342" uly="1806" lrx="1695" lry="2069" xml:id="titolo"/>
             <zone ulx="345" uly="2079" lrx="1680" lry="4080" xml:id="sezione_1"/>
             <zone ulx="353" uly="4215" lrx="1670" lry="4559" xml:id="sezione_2_inizio"/>
@@ -403,7 +403,7 @@
         </surface>
 
         <surface>
-            <graphic url='immagini/Farfalla_1877_4_8_90.jpg' width='3402.333334px' height='4975.333334px' xml:id="pag_90"/>
+            <graphic url='immagini/a_milano/Farfalla_1877_4_8_90.jpg' width='3402.333334px' height='4975.333334px' xml:id="pag_90"/>
             <zone ulx="264" uly="514" lrx="1647" lry="2551" xml:id="sezione_4_fine"/>
             <zone ulx="291" uly="2681" lrx="1642" lry="4290" xml:id="sezione_5"/>
             <zone ulx="294" uly="4396" lrx="1637" lry="4578" xml:id="sezione_6_inizio"/>
