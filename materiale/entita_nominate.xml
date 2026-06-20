@@ -218,6 +218,29 @@
                             <country key="IT">Italia</country>
                             <note resp="#LB" source="https://www.treccani.it/enciclopedia/sicilia_res-51b7c2ab-973b-11e5-8844-00271042e8d9/"><p>Regione a statuto speciale dell’Italia insulare. È lambita a N dal Mar Tirreno, a E dallo Ionio e a S dal Mar di Sicilia (o Mare Africano), che la separa dall’Africa attraverso il Canale di Sicilia o di Tunisi. Capoluogo di regione è Palermo. La Sicilia, per la sua posizione geografica, gode di un clima tipicamente mediterraneo lungo l’intero perimetro costiero; all’interno, la morfologia e la distanza dal mare determinano, invece, condizioni diversificate, specialmente per quanto concerne il regime termometrico.</p></note>
                     </place>
+
+                    <place xml:id="NA" type="real">
+                            <placeName ref="https://www.geonames.org/3172394/naples.html">Napoli</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/napoli/"><p>Comune della Campania, capoluogo di regione e città metropolitana. Il centro più notevole del Mezzogiorno d’Italia per ampiezza demografica, tradizioni storiche e rilevanza dell’apparato economico, celebrato dall’antichità classica per clima e varietà di panorami e reso poi famoso dal patrimonio archeologico dei dintorni, da collezioni museografiche e insigni monumenti collegati ai fasti della sua storia. Il clima è mite, con temperature medie annue sui 16 °C.</p></note>
+                    </place>
+
+                    <place xml:id="IT" type="real">
+                            <placeName ref="https://www.geonames.org/3175395/italian-republic.html">Italia</placeName>
+                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/italia/"><p>Stato dell’Europa meridionale, corrispondente a una delle regioni naturali europee meglio individuate, data la nettezza dei confini marittimi e di quello terrestre.</p></note>
+                    </place>
+
+                    <place xml:id="parigi" type="real">
+                            <placeName ref="https://www.geonames.org/2968815/paris.html">Parigi</placeName>
+                            <country key="FR">Francia</country>
+                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/parigi/"><p>(fr. Paris) Città capitale della Francia. È situata sulle rive della Senna, al centro dell’Île-de-France, e alla confluenza nella Senna della Marna e dell’Oise. I musei e le collezioni d’arte di Parigi sono tra i più importanti del mondo. L’origine delle preziosissime collezioni del Louvre va indicata in quella raccolta di opere d’arte dei re di Francia, che, iniziata da Carlo V, arricchita da Francesco I, raggiunse il suo massimo risultato nel «Cabinet» di Versailles, di Luigi XIV.</p></note>
+                    </place>
+
+                    <place xml:id="londra" type="real">
+                            <placeName ref="https://www.geonames.org/2643743/london.html">Londra</placeName>
+                            <country key="UK">Regno Unito</country>     <!-- RIVEDERE SIGLA-->
+                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/parigi/"><p>(ingl. London) Città dell’Inghilterra, capitale della Gran Bretagna e centro commerciale, bancario e culturale fra i maggiori del mondo. Fu in origine un punto obbligato di passaggio sul Tamigi, il primo verso valle, dove le strade provenienti dall’interno e dirette per Durovernum (Canterbury) alla Manica (soprattutto al porto di Rutupiae, a N di Dover) potevano attraversare il fiume sia al guado di Westminster, sia, più tardi, al Ponte di Londra. La funzione portuale, ingigantitasi nel tempo, è quella cui Londra deve anche la sua preminenza mondiale come mercato finanziario.</p></note>
+                    </place>
                 </listPlace>
                 
             </div>
