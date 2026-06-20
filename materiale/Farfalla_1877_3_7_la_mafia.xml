@@ -178,7 +178,7 @@
                             è solo rappresentata dai Siciliani.... tutt'altro! In ognuna di
                             quelle isolette c'è un'esposizione interprovinciale di camorri<lb break="no"/>
                             sti.... precisamente come l'esposizione artistica che s'è aperta
-                            giorni addietro a Napoli, ma nelle carceri di Palermo camorra
+                            giorni addietro a <placeName ref="entita_nominate.xml#NA">Napoli</placeName>, ma nelle carceri di <placeName ref="entita_nominate.xml#PA">Palermo</placeName> camorra
                             non ce n'è -- fuori delle carceri, di camorra si parla assai po<lb break="no"/>
                             co; vuol dire che essa non giunge all'altezza di quella camor<lb break="no"/>
                             ra in cappello a cilindro e stivali verniciati che tiene alta la cre<lb break="no"/>
@@ -193,9 +193,9 @@
                         <p xml:id="p_10" rend="first-line-indented">
                             In quanto al furto, all'assassinio, le statistiche parlano chia<lb break="no"/>
                             ro. In <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> si ruba, si ammazza e si amministra la  giustizia
-                            come in molti luoghi d'Italia..... Non parlo fuori dall'Italia. Pa<lb break="no"/>
-                            rigi, il <hi rend="italic">cervello dell'umanità</hi> -- ed è vero -- è attualmente orren<lb break="no"/>
-                            do palcoscienico die più orrendi delitti. E Londra? A Londra la
+                            come in molti luoghi d'<placeName ref="entita_nominate.xml#IT">Italia</placeName>..... Non parlo fuori dall'<placeName ref="entita_nominate.xml#IT">Italia</placeName>. <placeName ref="entita_nominate.xml#parigi">Pa<lb break="no"/>
+                            rigi</placeName>, il <hi rend="italic">cervello dell'umanità</hi> -- ed è vero -- è attualmente orren<lb break="no"/>
+                            do palcoscienico die più orrendi delitti. E <placeName ref="entita_nominate.xml#londra">Londra</placeName>? A <placeName ref="entita_nominate.xml#londra">Londra</placeName> la
                             feccia esiste più abbondante , più vera, più assassina.... Perché
                             rimbeccarsi le accuse a vicenda? Che ognuno lavi i suoi cenci
                             per conto proprio!
@@ -208,7 +208,7 @@
                 <div facs="#quarta_sezione" n="4">
                     <p xml:id="p_11" rend="first-line-indented">
                         E il malandrinaggio? e il manutengolismo? -- Istituite una
-                        buona polizia in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> che non ne ha mai avuta... e l'Italia forse
+                        buona polizia in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> che non ne ha mai avuta... e l'<placeName ref="entita_nominate.xml#IT">Italia</placeName> forse
                         neanco. Il processo del questore Bignami è un esempio chiaro e
                         lampante. Ebbene, in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> il bisogno d'una polizia si fa sentire
                         più grave e più imperioso. I Borboni accarezzarono la sbirraglia,
@@ -236,7 +236,7 @@
                     </p>
                     <p xml:id="p_14" rend="first-line-indented">
                         Fu già nominata una commissione per un'inchiesta agraria....
-                        ma fu nominata in Italia.... la terra delle inchieste!
+                        ma fu nominata in <placeName ref="entita_nominate.xml#IT">Italia</placeName>.... la terra delle inchieste!
                     </p>
                     <p xml:id="p_15" rend="first-line-indented">
                         C'è da sperare?
