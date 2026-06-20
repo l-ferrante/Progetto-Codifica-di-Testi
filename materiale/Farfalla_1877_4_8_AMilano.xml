@@ -97,7 +97,7 @@
 
         <revisionDesc>
             <change status="draft" when="2026-06-18" resp="#LF">First draft 18 giugno 2026</change>
-            <change status="draft" when="2026-06-18" resp="#LF">Struttura del testo (divisione in div e paragradi)</change>
+            <change status="draft" when="2026-06-18" resp="#LF">Struttura del testo (divisione in div e paragrafi)</change>
             <change status="draft" when="2026-06-19" resp="#LF">Codifica della prima sezione (19 giugno 2026)</change>
             <change status="draft" when="2026-06-20" resp="#LF">Codifica di seconda, terza, quarta, quinta e sesta sezione (20 giugno 2026)</change>
 
@@ -107,7 +107,7 @@
     <text>
         <body>
             
-            <pb n="89" xml:id="Farfalla_1877_4_8_89" facs="#pag_89"/> <!--inizio pagina 89-->
+            <pb n="89" xml:id="Farfalla_1877_4_8_89" facs="immagini/Farfalla_1877_4_8_89.jpg"/> <!--inizio pagina 89-->
             <cb n="1" xml:id="col_1-p.89"/> <!--inizio colonna 1-->
 
             <div type="intestazione" facs="#titolo">
@@ -242,7 +242,7 @@
                     <p rend="first-line-indented" xml:id="p_13">
                         Giunta alla pubertà la donzella romana deponeva
                         la pretesa infantile ed indossava il peplo: lasciava
-                        <pb n="90" xml:id="Farfalla_1877_4_8_90" facs="#pag_90"/> <!--cambio pagina-->
+                        <pb n="90" xml:id="Farfalla_1877_4_8_90" facs="immagini/Farfalla_1877_4_8_90.jpg"/> <!--cambio pagina-->
                         <cb n="3" xml:id="col_1-p.90"/> <!--cambio colonna-->
                         la tunica succinta ed assumeva il balteo: e cingeva
                         l'armilla al braccio manco, e incoronava la fronte
@@ -393,22 +393,22 @@
 
     <facsimile xml:id="a_milano">
         <surface>
-            <graphic url='immagini/a_milano/Farfalla_1877_4_8_89.jpg' width='3354.888888px' height='4965.888888px' xml:id="pag_89"/>
-            <zone points = ' 455,1821 458,1998 1563,2000 1556,1826 ' xml:id="titolo"/>
-            <zone points = ' 317,2077 1705,2088 1683,4074 268,4076 ' xml:id="sezione_1"/>
-            <zone points = ' 319,4214 1681,4235 1687,4530 326,4524 ' xml:id="sezione_2_inizio"/>
-            <zone points = ' 1799,1816 3119,1826 3128,3262 1784,3257 ' xml:id="sezione_2_fine"/>
-            <zone points = ' 1768,3366 3134,3387 3127,4250 1783,4238 ' xml:id="sezione_3"/>
-            <zone points = ' 1780,4350 3137,4371 3143,4531 1779,4519 ' xml:id="sezione_4_inizio"/>
+            <graphic url='immagini/Farfalla_1877_4_8_89.jpg' width='3354.5px' height='4965.5px' xml:id="pag_89"/>
+            <zone ulx="342" uly="1806" lrx="1695" lry="2069" xml:id="titolo"/>
+            <zone ulx="345" uly="2079" lrx="1680" lry="4080" xml:id="sezione_1"/>
+            <zone ulx="353" uly="4215" lrx="1670" lry="4559" xml:id="sezione_2_inizio"/>
+            <zone ulx="1790" uly="1812" lrx="3148" lry="3265" xml:id="sezione_2_fine"/>
+            <zone ulx="1760" uly="3360" lrx="3134" lry="4228" xml:id="sezione_3"/>
+            <zone ulx="1782" uly="4349" lrx="3132" lry="4554" xml:id="sezione_4_inizio"/>
         </surface>
 
         <surface>
-            <graphic url='immagini/a_milano/Farfalla_1877_4_8_90.jpg' width='3401.66666px' height='4974.66666px' xml:id="pag_90"/>
-            <zone points = ' 277,529 1641,521 1626,2563 305,2579 ' xml:id="sezione_4_fine"/>
-            <zone points = ' 292,2677 1630,2659 1648,4299 314,4317 ' xml:id="sezione_5"/>
-            <zone points = ' 281,4402 1633,4404 1647,4551 288,4552 ' xml:id="sezione_6_inizio"/>
-            <zone points = ' 1737,477 3057,490 3070,1409 1733,1439 ' xml:id="sezione_6_fine"/>
-            <zone points = ' 1745,1467 3043,1445 3060,1577 1770,1570 ' xml:id="firma"/>
+            <graphic url='immagini/Farfalla_1877_4_8_90.jpg' width='3402.333334px' height='4975.333334px' xml:id="pag_90"/>
+            <zone ulx="264" uly="514" lrx="1647" lry="2551" xml:id="sezione_4_fine"/>
+            <zone ulx="291" uly="2681" lrx="1642" lry="4290" xml:id="sezione_5"/>
+            <zone ulx="294" uly="4396" lrx="1637" lry="4578" xml:id="sezione_6_inizio"/>
+            <zone ulx="1721" uly="522" lrx="3101" lry="1452" xml:id="sezione_6_fine"/>
+            <zone ulx="1729" uly="1465" lrx="3075" lry="1587" xml:id="firma"/>
         </surface>
         
     </facsimile>
