@@ -100,6 +100,8 @@
 
     <text>
         <body>
+            <pb n="68" xml:id="Farfalla_1877_3_7_68" facs="immagini/la_mafia.jpg"/>
+
             <div type="intestazione">
                 <head type="main" facs="#titolo">
                     La mafia
@@ -260,7 +262,7 @@
 
     <facsimile xml:id="la_mafia">
         <surface>
-            <graphic url='la_mafia.jpg' width='3500.333334px' height='4988.333334px' />
+            <graphic url='la_mafia.jpg' width='3500.333334px' height='4988.333334px' xml:id="pag_68" />
             <zone ulx="791" uly="1942" lrx="1283" lry="2044" xml:id="titolo" />
             <zone ulx="322" uly="2147" lrx="1665" lry="3023" xml:id="prima_sezione" />
             <zone ulx="390" uly="3127" lrx="1669" lry="3751" xml:id="seconda_sezione" />
