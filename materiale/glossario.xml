@@ -38,6 +38,21 @@
                         <gloss resp="#LF" target="https://it.wikipedia.org/wiki/Realismo_(letteratura)">In letteratura il realismo è una tendenza a rappresentare la realtà oggettiva, sia cogliendone in modo problematico i risvolti politici e sociali nella vita quotidiana, sia inserendo personaggi in un preciso contesto storico e ambientale, anche remoto.</gloss>
                     </item>
 
+                    <item>
+                        <term xml:id="scapigliatura" type="forma_letteraria" subtype="ismi">Scapigliatura</term>
+                        <gloss resp="#LF" target="https://www.treccani.it/enciclopedia/scapigliatura_(Enciclopedia-Italiana)/">Va sotto questo nome un movimento letterario al quale diede vita in Milano, tra il 1860 e il 1870, un gruppo di scrittori e di artisti, diversi per temperamento, ma concordi nell'avversione al gusto dominante e alla tradizione, unanimi nella volontà di difendere l'autonomia dell'arte, di richiamarla a un più intimo contatto con la vita, a una più essenziale sincerità d'ispirazione, a una più spontanea immediatezza d'espressione. Sotto un certo aspetto la scapigliatura può essere considerata anche come un fenomeno politico e morale. Fu un tentativo d'agitare le acque della vita italiana stagnanti in un facile e ozioso quietismo, una reazione contro lo spirito borghese, pratico, utilitario, contro la povertà e la grettezza spirituale in cui si spegnevano gli eroici bagliori del Risorgimento.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="bozzetto" type="verbum" subtype="arti_visive">Bozzetto</term>
+                        <gloss resp="#LF" target="https://www.treccani.it/vocabolario/bozzetto/">Nella storia dell’arte, composizione, quadretto quasi impressionistico, in voga spec. nella seconda metà dell’800. In letteratura, racconto breve, che descrive con piglio realistico e vivezza impressionistica una situazione, un luogo, un carattere, tratti per lo più dalla vita di ogni giorno.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="vero" type="verbum" subtype="vero_verita">Vero</term>
+                        <gloss resp="#LF" target="https://it.wikipedia.org/wiki/Verismo https://it.wikipedia.org/wiki/Luigi_Capuana">Il primo autore italiano a teorizzare il verismo fu Capuana, che parlò di "poesia del vero". Nella raccolta di saggi <title>Il Teatro italiano contemporaneo. Studi sulla letteratura contemporanea</title> (1872) la poetica del verismo che Capuana aveva elaborato si poneva come regola fondamentale quella di ritrarre direttamente dal vero. Lo scrittore doveva assumere dalla vita contemporanea la materia e narrare fatti realmente accaduti, senza limitarsi a ritrarli dall'esterno, ma ricostruendo la storia cogliendo e rivelando tutto il processo mediante il quale il fatto si era prodotto.</gloss>
+                    </item>
+
                 </list>
             </div>
 
