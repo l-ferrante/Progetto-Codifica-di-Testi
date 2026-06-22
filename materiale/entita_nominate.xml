@@ -55,22 +55,22 @@
         <body>
             <div xml:id="persone">
                 <listPerson>
-                        <person xml:id="francescoGiarelli">
-                            <persName type="real" role="author">
-                                <ref target="http://viaf.org/viaf/29371274"/>
-                                <forename>Francesco</forename>
-                                <surname>Giarelli</surname>
-                                <addName type="pseudonym">Psiche</addName>
-                            </persName>
-                            <sex>M</sex>
-                            <birth>
-                                <date when="1844">1844</date>
-                                <placeName ref="#PC">Piacenza</placeName>
-                            </birth>
-                            <death>
-                                <date when="1907">1907</date>
-                                <placeName ref="#pontenure">Pontenure</placeName>
-                            </death>
+                    <person xml:id="francescoGiarelli">
+                        <persName type="real" role="author">
+                            <ref target="http://viaf.org/viaf/29371274"/>
+                            <forename>Francesco</forename>
+                            <surname>Giarelli</surname>
+                            <addName type="pseudonym">Psiche</addName>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1844">1844</date>
+                            <placeName ref="#PC">Piacenza</placeName>
+                        </birth>
+                        <death>
+                            <date when="1907">1907</date>
+                            <placeName ref="#pontenure">Pontenure</placeName>
+                        </death>
                             <note source="https://www.treccani.it/enciclopedia/francesco-giarelli_(Dizionario-Biografico)/"><p>Francesco Giarelli nacque a Piacenza nel 1844, laureandosi in giurisprudenza ma dedicandosi presto al giornalismo. La sua carriera ebbe una svolta nel 1870 a Milano, grazie a F. Cavallotti, dopo aver coperto un processo politico. Qui collaborò con la Gazzetta di Milano e, come Don Lumachino, curò "I suoni dell'anima" sul Gazzettino rosa. Nel 1875, Cavallotti gli affidò la cronaca de La Ragione, dove G. divenne un precursore del giornalismo moderno. Trasformò il ruolo del cronista in inviato attivo e la cronaca in una forma di letteratura. Collaborò con figure come V. Hugo e G. Carducci, e come Psiche denunciò i mali sociali su La Farfalla. Co-autore di Il ventre di Milano, tornò a Piacenza nel 1889 per scrivere la Storia di Piacenza. Negli ultimi anni fu consigliere comunale e assessore alla Pubblica Istruzione. Scrisse numerosi articoli e studi, e le sue memorie, Vent'anni di giornalismo, pubblicate nel 1896. Morì a Pontenure nel 1907, lasciando un'impronta significativa nel giornalismo italiano.</p></note>
                         </person>
 
@@ -91,8 +91,65 @@
                             </death>
                             <note source="https://www.treccani.it/enciclopedia/enrico-onufrio/"><p>Scrittore (Palermo 1858 - Erice 1885); comproprietario e direttore della rivista La Farfalla.</p></note>
                         </person>
+
+                        <person xml:id="sidneySonnino">
+                            <persName type="real">
+                                <ref target="http://viaf.org/viaf/7411466"/>
+                                <forename>Sidney Costantino</forename>
+                                <surname>Sonnino</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date when="1847">1847</date>
+                                <placeName ref="#PI">Pisa</placeName>
+                            </birth>
+                            <death>
+                                <date when="1922">1922</date>
+                                <placeName ref="#RM">Roma</placeName>
+                            </death>
+                            <note source="https://www.treccani.it/enciclopedia/sonnino-sidney-costantino-barone/"><p>Uomo politico italiano (Pisa 1847 - Roma 1922). Deputato della destra, ministro delle Finanze e del Tesoro, risanò il bilancio statale. Dopo avere rivestito la carica di presidente del Consiglio (1906 e 1909-10), come ministro degli Esteri fu il firmatario del Patto di Londra (1915), che strenuamente difese al termine del primo conflitto mondiale nel corso della Conferenza della pace.</p></note>
+                        </person>
+
+                        <person xml:id="leopoldoFranchetti">
+                            <persName type="real">
+                                <ref target="http://viaf.org/viaf/14794584"/>
+                                <forename>Leopoldo</forename>
+                                <surname>Franchetti</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date when="1847">1847</date>
+                                <placeName ref="#FI">Firenze</placeName>
+                            </birth>
+                            <death>
+                                <date when="1917">1917</date>
+                                <placeName ref="#RM">Roma</placeName>
+                            </death>
+                            <note source="https://www.treccani.it/enciclopedia/leopoldo-franchetti"><p>Pubblicista e uomo politico italiano (Firenze 1847 - Roma 1917); propugnò, insieme con S. Sonnino, lo studio e la soluzione dei concreti problemi economici, sociali e politici della nuova Italia, contribuendovi con inchieste personali (come quelle che diedero luogo a Condizioni economiche e amministrative delle Province napoletane, 1875, e La Sicilia nel 1876, 1877, compiuta insieme col Sonnino e di fondamentale importanza per l'impostazione del problema del Mezzogiorno) e con la Rassegna settimanale (1878-1882), di tendenza conservatrice-illuminata, che riuscì rivista politica assai pregevole e influente (tra i collaboratori: S. Sonnino, P. Villari, ecc.). Pioniere di una razionale attività coloniale, compì una missione in Libia (La Missione Franchetti in Tripolitania, 1914). Deputato dalla 15a alla 22a legislatura (1882-1909), fu poi nominato senatore.</p></note>
+                        </person>
+
+                        <person xml:id="teocrito">
+                            <persName type="real">
+                                <ref target="http://viaf.org/viaf/95161348"/>
+                                <forename>Teocrito</forename>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date notBefore="-0320">320 a.C.</date>
+                                <placeName ref="SR">Siracusa</placeName>
+                            </birth>
+                            <death>
+                                <date notAfter="-0250">250 a.C.</date>
+                            </death>
+                            <note source="https://www.treccani.it/enciclopedia/teocrito"><p>Poeta greco (4º-3º sec. a. C.). T. è uno dei maggiori, forse il maggiore poeta dell'età ellenistica. Scrisse molto: inni, elegie, liriche, giambi, epigrammi. Il genere per il quale diventò famoso già nell'antichità è il bucolico. Tra gli idilli più famosi: Il Ciclope, Le Talisie, Ila, Le Siracusane, Le incantatrici, I mietitori, L'amore di Cinisca (Eschine e Tionico), Le Cariti (encomio di Gerone) e il Tolomeo (encomio del Filadelfo).</p></note>
+                        </person>
+
+                        <person xml:id="ciclopi">
+                            <persName type="group fictional">Ciclopi</persName>
+                            <note source="https://www.treccani.it/enciclopedia/ciclopi/">Figure favolose della mitologia greca, di statura gigantesca e fornite di un solo occhio situato in mezzo alla fronte. Nell’Odissea sono una collettività di giganti spregiatori degli dei, che vivono in caverne allo stato pressoché di natura e antropofagi; sono pastori e il loro capo è Polifemo, figlio di Posidone.</note>
+                        </person>
 					
-					 <person xml:id="sacerdotiMinerva">
+					    <person xml:id="sacerdotiMinerva">
                             <persName type="group" role="character">Sacerdoti di Minerva</persName>
                             <sex>M</sex>
                         </person>
@@ -389,6 +446,24 @@
                             <country key="EG">Egitto</country>
                             <note resp="#LB" source="https://it.wikipedia.org/wiki/Biblioteca_di_Alessandria"><p>La Biblioteca reale di Alessandria fu la più grande e ricca biblioteca del mondo antico ed uno dei principali poli culturali ellenistici. Fu costruita nel III secolo a.C. durante il regno di Tolomeo II Filadelfo. Andò distrutta nell'antichità, subendo una serie di danni a partire dall'anno 48 a.C. fino alla distruzione definitiva nel 642 d.C. a seguito della conquista islamica. In suo ricordo è stata edificata, ed è in funzione dal 2002, la moderna Bibliotheca Alexandrina.</p></note>
                     </place>
+
+                    <place xml:id="RM" type="real">
+                            <placeName ref="https://www.geonames.org/3169070/rome.html">Roma</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/roma"><p>Città del Lazio, capitale della Repubblica Italiana; capoluogo di regione e città metropolitana. La città sorge al centro di un’area pianeggiante, di forma approssimativamente triangolare, che si estende lungo entrambe le rive del tratto terminale del Tevere. Collocabile nell’ambito mediterraneo, il clima di Roma comporta temperature molto miti con medie annue di 15,9 °C; il mese più freddo, gennaio, ha una media di 7 °C, quello più caldo, luglio, di 25 °C.</p></note>
+                    </place>
+
+                    <place xml:id="PI" type="real">
+                            <placeName ref="https://www.geonames.org/6542122/pisa.html">Pisa</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/pisa"><p>Città della Toscana occidentale, capoluogo di provincia. Sorge a circa 12 km dal Tirreno, nella pianura alluvionale costiera formata dall’Arno, che l’attraversa dividendola in due parti, di cui quella destra contiene il nucleo primitivo dell’abitato, mentre quella sinistra è posteriore al Mille.</p></note>
+                    </place>
+
+                    <place xml:id="FI" type="real">
+                            <placeName ref="https://www.geonames.org/6542285/firenze.html">Firenze</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/firenze/"><p>Comune della Toscana, città metropolitana e capoluogo della regione, situato a un’altezza media di 50 m s.l.m., all’estremità sud-orientale di un bacino intermontano, percorso dall’Arno, nel quale sorgono altre due importanti città: Prato e Pistoia. Il fiume, che divide F. in due parti disuguali (a destra la parte maggiore: quartieri di Santa Maria Novella, San Giovanni, Santa Croce; a sinistra l’Oltrarno: quartiere di Santo Spirito), nella periferia della città riceve da sinistra la Greve e da destra altri più modesti affluenti. Il clima è di tipo submediterraneo, con notevole variabilità interannuale: la temperatura media annua è di 15 °C; quella di gennaio di 6,5 °C; quella di luglio di 25°; cadono, in media, 872 mm di pioggia all’anno. Aeroporto a Peretola, sobborgo occidentale della città.</p></note>
+                    </place>
                 </listPlace>
                 
             </div>
@@ -402,7 +477,7 @@
 					</org>
 
 					<org type="academy" xml:id="CNR">
-						<orgName type="main" ref="https://www.treccani.it/enciclopedia/cnr/?search=CNR">Centro Nazionale delle Ricerche</orgName>
+						<orgName type="main" ref="https://www.treccani.it/enciclopedia/cnr">Centro Nazionale delle Ricerche</orgName>
 						<desc>Sigla di Consiglio Nazionale delle Ricerche, la più grande struttura pubblica italiana con compiti scientifici. Costituito il 18 novembre 1923 e trasformato nel 1945 in organo dello Stato, ha svolto prevalentemente attività di formazione, promozione e coordinamento della ricerca in tutti i settori scientifici e tecnologici. Nel 1999, a seguito del d. legisl. 19, è divenuto «ente nazionale di ricerca con competenza scientifica generale e istituti scientifici distribuiti sul territorio, che svolge attività di prioritario interesse per l’avanzamento della scienza e per il progresso del paese». Con il d. legisl. 127/4 giugno 2003, ha assunto il compito di svolgere, promuovere, diffondere, trasferire e valorizzare attività di ricerca nei principali settori delle conoscenze e delle loro applicazioni per lo sviluppo scientifico, tecnologico, economico e sociale del paese, obiettivo affidato all’ente nel convincimento che l’attività di ricerca e sviluppo, determinante per la competitività del sistema economico nazionale, possa generare nuova occupazione, maggior benessere e maggiore coesione sociale.</desc>
 					</org>
 
@@ -415,6 +490,11 @@
 					<org type="journal" xml:id="farfalla">
 						<orgName type="main" ref="https://coverless.cnr.it/riviste.html">La Farfalla</orgName>
 						<desc>Fondata a Cagliari da Angelo Sommaruga, con cadenza quindicinale, «La Farfalla» vide la luce il 27 febbraio 1876. Si presentava al pubblico «semplice, pulita, senza fregi e senza fronzoli», quasi del tutto priva di quelle novità grafiche che caratterizzeranno le riviste successive. I maggiori collaboratori furono, oltre Giarelli, autore della maggior parte degli articoli, Ottone Bacaredda, Felice Cameroni, Paolo Valera, Ferdinando Fontana, Cesario Testa, Domenico Milelli, Remigio Zena. Nel 1877 Sommaruga ritornò a Milano, portando con sé la rivista. Il primo numero milanese del 30 settembre uscì con una nuova testata che preannunciava lo stile liberty: un disegno di Tranquillo Cremona che raffigurava una graziosa fanciulla incastonato tra le prime due lettere del titolo.</desc>
+					</org>
+
+                    <org type="association" xml:id="mafia"> <!-- RIVEDERE type-->
+						<orgName type="main" ref="https://www.treccani.it/enciclopedia/mafia/">Mafia</orgName>
+						<desc>Complesso di organizzazioni criminali sorte in Sicilia nel XIX sec., diffuse su base territoriale, rette dalla legge dell’omertà e strutturate gerarchicamente. La parola mafia comparve nel 1863 prima in una commedia dialettale e subito dopo in un documento della questura di Palermo. Tra Otto e Novecento, e fino a oggi, con essa è stata indicata una fenomenologia criminale tipica della parte centro-occidentale della Sicilia, caratterizzata da profondo radicamento nella cultura locale e da connessioni con il potere politico ed economico.</desc>
 					</org>
 										
                 </listOrg>

@@ -87,8 +87,7 @@
             </langUsage>
 
             <abstract>
-                <p> <!-- Scrivere riassunto -->  </p>
-                <!-- esempio: <p>Questo testo, intitolato "Acquerelli di Pubblicismo: Eugenio Torelli-Viollier" e firmato "Masaccio," presenta una critica schietta e dettagliata del giornalista Eugenio Torelli-Viollier. L'autore dichiara di non nutrire simpatia per Torelli-Viollier, ma promette imparzialità nel giudicare la sua figura pubblica. Viene fornita una descrizione fisica e caratteriale di Torelli-Viollier, che lo ritrae come una persona fredda e riservata. Il testo traccia poi la sua carriera giornalistica, dalla collaborazione con Alessandro Dumas al suo ruolo nelle case editrici Sonzogno e Treves, fino alla direzione del Corriere della Sera. L'autore menziona anche le accese polemiche politiche e artistiche che coinvolsero Torelli-Viollier, in particolare con Felice Cavallotti, sottolineando la sua tenacia e la sua abilità nel perseguitare gli avversari. Infine, l'articolo critica le sue tattiche giornalistiche attuali, accusandolo di attacchi personali e di mancare di legalità nel dibattito pubblico.</p> -->
+                <p>Il testo, intitolato "La mafia", affronta il tema della mafia in Sicilia. Non si tratta però di un attacco alla questione siciliana; al contrario, Onufrio cerca di smontare lo stereotipo della Sicilia come terra di criminali. Critica in particolare chi ingigantisce il problema della criminalità, che in realtà è molto più presente in altri luoghi. Accenna inoltre alla questione economica, menzionando la scarsissima retribuzione dei contadini siciliani.</p>
             </abstract>
 
         </profileDesc>
@@ -105,7 +104,7 @@
 
             <div type="intestazione">
                 <head type="main" facs="#titolo">
-                    La mafia
+                    La <orgName ref="entita_nominate.xml#mafia">mafia</orgName>
                 </head>
             </div>
 
@@ -127,7 +126,7 @@
                         una ragazza a quindici anni.
                     </p>
                     <p xml:id="p_3" rend="first-line-indented">
-                         I signori Sonnino e Franchetti, dopo un pellegrinaggio in 
+                        I signori <persName ref="entita_nominate.xml#sidneySonnino">Sonnino</persName> e <persName ref="entita_nominate.xml#leopoldoFranchetti">Franchetti</persName>, dopo un pellegrinaggio in 
                         <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName>, fanno gemere sotto i torchi due volumi per mezzo dei
                         quali si viene a sapere che cosa è la <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName>.
                     </p>
@@ -137,8 +136,8 @@
                     <p xml:id="p_5" rend="first-line-indented">
                         Proprio non c'è che dire -- in questo secolo di lumi s'è
                         voluto accendere a forza un fiammifero per rischiarare un'i<lb break="no"/>
-                        sola -- problema nella quale i Ciclopi fecero il diavolo a quat<lb break="no"/>
-                        tro e Teocrito suonò la zampogna all'ombra dei carrubi.
+                        sola -- problema nella quale i <persName ref="entita_nominate.xml#ciclopi">Ciclopi</persName> fecero il diavolo a quat<lb break="no"/>
+                        tro e <persName ref="entita_nominate.xml#teocrito">Teocrito</persName> suonò la zampogna all'ombra dei carrubi.
                     </p>
                 </div>
             
@@ -146,14 +145,14 @@
 
                 <div facs="#seconda_sezione" n="2">
                     <p xml:id="p_6" rend="first-line-indented">
-                        La mafia! -- La <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> è un'equazione e la mafia è la sua
+                        La <orgName ref="entita_nominate.xml#mafia">mafia</orgName>! -- La <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> è un'equazione e la <orgName ref="entita_nominate.xml#mafia">mafia</orgName> è la sua
                         incognita. D'onde nasce il brigantaggio, donde nasce il ma<lb break="no"/>
                         nutengolismo, d'onde la camorra? Ecco il quesito -- Bisogna
                         inforcare gli occhiali, prender tabacco, starnutare tre volte
                         e poi ricorrere agli archivii storici, alle pergamene, alle ta<lb break="no"/>
                         volette,.... Peccato che la <placeName ref="entita_nominate.xml#bibliotecaAlessandrina">biblioteca Alessandrina</placeName> siasi abbru<lb break="no"/>
                         ciata? A quest'ora si saprebbe un po' meglio l'orgine della
-                        mafia in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName>!
+                        <orgName ref="entita_nominate.xml#mafia">mafia</orgName> in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName>!
                     </p>
                     <p xml:id="p_7" rend="first-line-indented">
                         Ad ogni modo qualche cosa si sa. Figuratevi che un Ari<lb break="no"/>
@@ -214,7 +213,7 @@
                         più grave e più imperioso. I Borboni accarezzarono la sbirraglia,
                         se ne fecero strumento di tirannide, la organizzarono per ado<lb break="no"/>
                         prarla alla violenza ed al sopruso; e siccome a quei tempi
-                        nessun onest'uomo voleva esercitare il mestiere di polizziotto,
+                        nessun onest'uomo voleva esercitare il mestiere di poliziotto,
                         ne venne per conseguenza una sbirraglia estratta dalla più
                         infima classe, composta per lo più di uomini che un tempo innan<lb break="no"/>
                         zi avevano molestato la società.... poi la proteggevano!
