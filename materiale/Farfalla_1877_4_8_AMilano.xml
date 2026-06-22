@@ -100,6 +100,7 @@
             <change status="draft" when="2026-06-18" resp="#LF">Struttura del testo (divisione in div e paragrafi)</change>
             <change status="draft" when="2026-06-19" resp="#LF">Codifica della prima sezione (19 giugno 2026)</change>
             <change status="draft" when="2026-06-20" resp="#LF">Codifica di seconda, terza, quarta, quinta e sesta sezione (20 giugno 2026)</change>
+            <change status="draft" when="2026-06-21" resp="#LF">Marcatura di termini relativi al verismo (21 giugno 2026)</change>
 
         </revisionDesc>
     </teiHeader>
@@ -268,10 +269,10 @@
                     <p rend="first-line-indented" xml:id="p_16">
                         <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName> - sede naturale, fuoco centrico e magne-
                         tico - di tutto quanto gli ingegni sodi o bizzarri,
-                        patetici o <hi rend="italic">realisti</hi> producono nel campo delle idee -
+                        patetici o <term type="verbum" subtype="studio_osservazione" rend="italic" ref="glossario.xml#realismo">realisti</term> producono nel campo delle idee -
                         le offrirà, topograficamente ed intellettualmente par-
                         lando - la sede migliore, per ivi erigere il suo la-
-                        baro alla vista di tutta la scapigliatura italiana.
+                        baro alla vista di tutta la <term type="forma_letteraria" subtype="ismi" ref="glossario.xml#scapigliatura">scapigliatura</term> italiana.
                     </p>
                     
                     <p rend="first-line-indented" xml:id="p_17">
@@ -323,7 +324,7 @@
                         Essa sarà sempre con voi a mezzo delle illustra-
                         zioni di questi luoghi benedetti da Dio e dimenticati
                         codardamente dagli uomini. A mezzo d'una serie di
-                        bozzetti caratteristici di qui: cui vivificherà la penna
+                        <term type="verbum" subtype="arti_visive" ref="glossario.xml#bozzetto">bozzetti</term> caratteristici di qui: cui vivificherà la penna
                         del vostro <persName type="real" ref="entita_nominate.xml#tegola" rend="italic">Tegola</persName>, del vostro <rs type="person" subtype="real" ref="entita_nominate.xml#francescoGiarelli" rend="italic">Sottoscritto</rs>, del vostro
                         <persName type="real" ref="entita_nominate.xml#vincentius" rend="italic">Vincentius</persName>, del vostro <persName type="real" ref="entita_nominate.xml#stolberg" rend="italic">Stolberg</persName> - di tutti insomma
                         i vostri figli più intellettuali - che ne rimarranno i
@@ -352,7 +353,7 @@
                         centi - amici d'allora e d'adesso - battaglieri della
                         <cb n="4" xml:id="col_2-p.90"/> <!--cambio colonna-->
                         penna di qualunque partito, ma tutti giurati alla
-                        bandiera del bello, del vero, del grande - qua tutti
+                        bandiera del bello, del <term type="verbum" subtype="vero_verita" ref="glossario.xml#vero">vero</term>, del grande - qua tutti
                         la mano.
                     </p>
 
