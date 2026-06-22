@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Glossario per i termini specialistici negli articoli codificati</title>
+                        <respStmt>
+                            <resp>Creazione e gestione della lista a cura di:</resp>
+                            <name xml:id="LF">Lorenzo Ferrante</name>
+                            <name xml:id="LB">Lorenzo Bianchi</name>
+                        </respStmt>
+                </titleStmt>
+
+                <publicationStmt>
+                    <publisher></publisher>
+                    <date when="2026-06">Giugno 2026</date>
+                    <idno type="filename">glossario.xml</idno>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <p>Documento nativo digitale</p>
+                </sourceDesc>
+            </fileDesc>
+
+
+        </teiHeader>
+
+    <text>
+        <body>
+            <div type="glossary">
+
+                <list type="gloss">
+                    <item>
+                        <term xml:id="realismo" type="verbum" subtype="studio_osservazione">Realismo</term>
+                        <gloss resp="#LF" target="https://it.wikipedia.org/wiki/Realismo_(letteratura)">In letteratura il realismo è una tendenza a rappresentare la realtà oggettiva, sia cogliendone in modo problematico i risvolti politici e sociali nella vita quotidiana, sia inserendo personaggi in un preciso contesto storico e ambientale, anche remoto.</gloss>
+                    </item>
+
+                </list>
+            </div>
+
+        </body>
+
+    </text>
+</TEI>
