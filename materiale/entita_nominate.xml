@@ -356,7 +356,7 @@
 
                     <place xml:id="londra" type="real">
                             <placeName ref="https://www.geonames.org/2643743/london.html">Londra</placeName>
-                            <country key="UK">Regno Unito</country>     <!-- RIVEDERE SIGLA-->
+                            <country key="GB">Regno Unito</country>
                             <note resp="#LB" source="https://www.treccani.it/enciclopedia/londra/"><p>(ingl. London) Città dell’Inghilterra, capitale della Gran Bretagna e centro commerciale, bancario e culturale fra i maggiori del mondo. Fu in origine un punto obbligato di passaggio sul Tamigi, il primo verso valle, dove le strade provenienti dall’interno e dirette per Durovernum (Canterbury) alla Manica (soprattutto al porto di Rutupiae, a N di Dover) potevano attraversare il fiume sia al guado di Westminster, sia, più tardi, al Ponte di Londra. La funzione portuale, ingigantitasi nel tempo, è quella cui Londra deve anche la sua preminenza mondiale come mercato finanziario.</p></note>
                     </place>
 
@@ -382,6 +382,12 @@
                             <country key="IT">Italia</country>
                             <country key="FR">Francia</country>
                             <note resp="#LF" source="https://www.treccani.it/enciclopedia/mare-tirreno/"><p>Il bacino del Mediterraneo occidentale compreso tra l’Italia peninsulare e le tre isole maggiori. Fu detto dai Romani anche Mare Tuscum o Inferum, non comprendendovi il Mar Ligure, e talora denominato anche Mare Sardoum per designare il mare intorno alla Sardegna (specialmente a E). I limiti sono nettamente segnati soltanto in parte, ma ormai si intende per Mare Tirreno quello che bagna le coste orientali della Corsica e della Sardegna, quelle settentrionali della Sicilia e quelle occidentali dell’Italia centro-meridionale. Viene suddiviso in Mare Tirreno settentrionale e centromeridionale, con limite di separazione tra i due posto convenzionalmente al 41° parallelo N.</p></note>
+                    </place>
+
+                    <place xml:id="bibliotecaAlessandrina" type="real">
+                            <placeName ref="https://www.geonames.org/8555991/bibliotheca-alexandrina.html">Biblioteca Alessandrina</placeName>
+                            <country key="EG">Egitto</country>
+                            <note resp="#LB" source="https://it.wikipedia.org/wiki/Biblioteca_di_Alessandria"><p>La Biblioteca reale di Alessandria fu la più grande e ricca biblioteca del mondo antico ed uno dei principali poli culturali ellenistici. Fu costruita nel III secolo a.C. durante il regno di Tolomeo II Filadelfo. Andò distrutta nell'antichità, subendo una serie di danni a partire dall'anno 48 a.C. fino alla distruzione definitiva nel 642 d.C. a seguito della conquista islamica. In suo ricordo è stata edificata, ed è in funzione dal 2002, la moderna Bibliotheca Alexandrina.</p></note>
                     </place>
                 </listPlace>
                 
