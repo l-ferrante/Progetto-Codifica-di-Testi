@@ -257,7 +257,7 @@
                                 <!-- <date when=""></date> -->
                                 <!-- <placeName ref=""></placeName> -->
                             </death>
-                            <!-- <note source=""><p></p></note> -->
+                            <note>Pseudonimo di collaboratore della rivista "La Farfalla" non ancora identificato dalle ricerche correnti.</note>
                         </person>
 
                         <person xml:id="vincentius">
@@ -275,7 +275,7 @@
                                 <!-- <date when=""></date> -->
                                 <!-- <placeName ref=""></placeName> -->
                             </death>
-                            <!-- <note source=""><p></p></note> -->
+							<note>Pseudonimo di collaboratore della rivista "La Farfalla" non ancora identificato dalle ricerche correnti.</note>
                         </person>
 
                         <person xml:id="stolberg">
@@ -293,11 +293,8 @@
                                 <!-- <date when=""></date> -->
                                 <!-- <placeName ref=""></placeName> -->
                             </death>
-                            <!-- <note source=""><p></p></note> -->
+							<note>Pseudonimo di collaboratore della rivista "La Farfalla" non ancora identificato dalle ricerche correnti.</note>
                         </person>
-
-                        
-
                 </listPerson>
 
             </div>
