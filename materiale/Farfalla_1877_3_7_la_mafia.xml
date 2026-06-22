@@ -66,6 +66,17 @@
 
         </fileDesc>
 
+        <encodingDesc>
+            <editorialDecl>
+                <hyphenation>
+                    <p>Si è scelto di rimuovere i trattini "-" per le parole spezzate a fine riga.</p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è scelto di normalizzare gli spazi fra le parole.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+
         <profileDesc>
             <creation>
                 <date when="1877-04-08">8 aprile 1877</date>
@@ -146,8 +157,8 @@
                 <div facs="#seconda_sezione" n="2">
                     <p xml:id="p_6" rend="first-line-indented">
                         La <orgName ref="entita_nominate.xml#mafia">mafia</orgName>! &#8212; La <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> è un'equazione e la <orgName ref="entita_nominate.xml#mafia">mafia</orgName> è la sua
-                        incognita. D'onde nasce il brigantaggio, donde nasce il ma<lb break="no"/>
-                        nutengolismo, d'onde la <orgName ref="entita_nominate.xml#camorra">camorra</orgName>? Ecco il quesito &#8212; Bisogna
+                        incognita. D'onde nasce il <term ref="glossario.xml#brigantaggio">brigantaggio</term>, donde nasce il <term ref="glossario.xml#manutengolismo">ma<lb break="no"/>
+                        nutengolismo</term>, d'onde la <orgName ref="entita_nominate.xml#camorra">camorra</orgName>? Ecco il quesito &#8212; Bisogna
                         inforcare gli occhiali, prender tabacco, starnutare tre volte
                         e poi ricorrere agli archivii storici, alle pergamene, alle ta<lb break="no"/>
                         volette,.... Peccato che la <placeName ref="entita_nominate.xml#bibliotecaAlessandrina">biblioteca Alessandrina</placeName> siasi abbru<lb break="no"/>
@@ -168,7 +179,7 @@
                     <div facs="#terza_sezione_1">
                         <p xml:id="p_8" rend="first-line-indented">
                             La <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> è la terra della <orgName ref="entita_nominate.xml#camorra">camorra</orgName> &#8212; Tante grazie. &#8212; La
-                            <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> è la terra del furto, del malandrinaggio, dell'assassinio....
+                            <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> è la terra del furto, del <term ref="glossario.xml#malandrinaggio">malandrinaggio</term>, dell'assassinio....
                             Adagio per carità!
                         </p>
                         <p xml:id="p_9" rend="first-line-indented">
@@ -206,7 +217,7 @@
 
                 <div facs="#quarta_sezione" n="4">
                     <p xml:id="p_11" rend="first-line-indented">
-                        E il malandrinaggio? e il manutengolismo? &#8212; Istituite una
+                        E il <term ref="glossario.xml#malandrinaggio">malandrinaggio</term>? e il <term ref="glossario.xml#manutengolismo">manutengolismo</term>? &#8212; Istituite una
                         buona <orgName ref="entita_nominate.xml#polizia">polizia</orgName> in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> che non ne ha mai avuta... e l'<placeName ref="entita_nominate.xml#IT">Italia</placeName> forse
                         neanco. Il processo del questore <persName ref="entita_nominate.xml#vincenzoBignami">Bignami</persName> è un esempio chiaro e
                         lampante. Ebbene, in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> il bisogno d'una <orgName ref="entita_nominate.xml#polizia">polizia</orgName> si fa sentire
@@ -229,7 +240,7 @@
                 <div facs="#quinta_sezione" n="5">
                     <p xml:id="p_13" rend="first-line-indented">
                         Taluni hanno parlato a proposito della <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName>; di quistione
-                        economica. Ne ho parlato anch'io in un lavoro pubblicato nel<lb break="no"/>
+                    <!-- FINIRE-->    economica. Ne ho parlato anch'io in un lavoro pubblicato nel<lb break="no"/>
                         la <hi rend="italic">Nuova Antologia</hi>. I contadini in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> sono scarsamente retri<lb break="no"/>
                         buiti &#8212; ebbene, perché non si provvede?
                     </p>
