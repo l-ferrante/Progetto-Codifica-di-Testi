@@ -53,6 +53,21 @@
                         <gloss resp="#LF" target="https://it.wikipedia.org/wiki/Verismo https://it.wikipedia.org/wiki/Luigi_Capuana">Il primo autore italiano a teorizzare il verismo fu Capuana, che parlò di "poesia del vero". Nella raccolta di saggi <title>Il Teatro italiano contemporaneo. Studi sulla letteratura contemporanea</title> (1872) la poetica del verismo che Capuana aveva elaborato si poneva come regola fondamentale quella di ritrarre direttamente dal vero. Lo scrittore doveva assumere dalla vita contemporanea la materia e narrare fatti realmente accaduti, senza limitarsi a ritrarli dall'esterno, ma ricostruendo la storia cogliendo e rivelando tutto il processo mediante il quale il fatto si era prodotto.</gloss>
                     </item>
 
+                    <item>
+                        <term xml:id="brigantaggio" type="verbum" subtype="evoluzione_sociale">Brigantaggio</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/vocabolario/brigantaggio/">L’attività criminosa dei briganti: atti di b.; darsi al b., alla vita di brigante. Anche, i gruppi, le bande organizzate, il fenomeno da essi costituito: il b. dell’Ottocento, del regno delle Due Sicilie; combattere, estirpare il brigantaggio.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="manutengolismo" type="verbum" subtype="evoluzione_sociale">Manutengolismo</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/enciclopedia/mafia_(Enciclopedia-delle-scienze-sociali)/">Il favoreggiamento di briganti e delinquenti, nonché l'uso di questi stessi personaggi per la custodia e la gestione delle aziende.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="malandrinaggio" type="verbum" subtype="evoluzione_sociale">Malandrinaggio</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/vocabolario/malandrinaggio/">L’attività, la vita dei malandrini: atti di m.; darsi al malandrinaggio. Anche, l’insieme dei malandrini e il fenomeno da essi costituito, brigantaggio.</gloss>
+                    </item>
+
                 </list>
             </div>
 
