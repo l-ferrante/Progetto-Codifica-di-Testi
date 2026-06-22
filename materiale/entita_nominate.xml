@@ -485,6 +485,12 @@
                             <country key="IT">Italia</country>
                             <note resp="#LB" source="https://www.treccani.it/enciclopedia/firenze/"><p>Comune della Toscana, città metropolitana e capoluogo della regione, situato a un’altezza media di 50 m s.l.m., all’estremità sud-orientale di un bacino intermontano, percorso dall’Arno, nel quale sorgono altre due importanti città: Prato e Pistoia. Il fiume, che divide F. in due parti disuguali (a destra la parte maggiore: quartieri di Santa Maria Novella, San Giovanni, Santa Croce; a sinistra l’Oltrarno: quartiere di Santo Spirito), nella periferia della città riceve da sinistra la Greve e da destra altri più modesti affluenti. Il clima è di tipo submediterraneo, con notevole variabilità interannuale: la temperatura media annua è di 15 °C; quella di gennaio di 6,5 °C; quella di luglio di 25°; cadono, in media, 872 mm di pioggia all’anno. Aeroporto a Peretola, sobborgo occidentale della città.</p></note>
                     </place>
+
+                    <place xml:id="isoleDom" type="real">
+                        <placeName>Isole di domicilio coatto</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LB"><p>Piccole isole nelle quali venivano mandati a soggiornare individui ritenuti pericolosi. Fra queste isole vi sono: Favignana, Pantelleria, Lipari e Ustica</p></note>
+                    </place>
                 </listPlace>
                 
             </div>
