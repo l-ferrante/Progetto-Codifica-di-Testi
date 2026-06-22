@@ -141,14 +141,38 @@
                             <death>
                                 <date notAfter="-0250">250 a.C.</date>
                             </death>
-                            <note source="https://www.treccani.it/enciclopedia/teocrito"><p>Poeta greco (4º-3º sec. a. C.). T. è uno dei maggiori, forse il maggiore poeta dell'età ellenistica. Scrisse molto: inni, elegie, liriche, giambi, epigrammi. Il genere per il quale diventò famoso già nell'antichità è il bucolico. Tra gli idilli più famosi: Il Ciclope, Le Talisie, Ila, Le Siracusane, Le incantatrici, I mietitori, L'amore di Cinisca (Eschine e Tionico), Le Cariti (encomio di Gerone) e il Tolomeo (encomio del Filadelfo).</p></note>
+                            <note source="https://www.treccani.it/enciclopedia/teocrito"><p>Poeta greco (IV-III sec. a. C.). T. è uno dei maggiori, forse il maggiore poeta dell'età ellenistica. Scrisse molto: inni, elegie, liriche, giambi, epigrammi. Il genere per il quale diventò famoso già nell'antichità è il bucolico. Tra gli idilli più famosi: Il Ciclope, Le Talisie, Ila, Le Siracusane, Le incantatrici, I mietitori, L'amore di Cinisca (Eschine e Tionico), Le Cariti (encomio di Gerone) e il Tolomeo (encomio del Filadelfo).</p></note>
                         </person>
 
                         <person xml:id="ciclopi">
                             <persName type="group fictional">Ciclopi</persName>
                             <note source="https://www.treccani.it/enciclopedia/ciclopi/">Figure favolose della mitologia greca, di statura gigantesca e fornite di un solo occhio situato in mezzo alla fronte. Nell’Odissea sono una collettività di giganti spregiatori degli dei, che vivono in caverne allo stato pressoché di natura e antropofagi; sono pastori e il loro capo è Polifemo, figlio di Posidone.</note>
                         </person>
+
+                        <person xml:id="clio">  <!-- RIVEDERE epiteto -->
+                            <persName type="fictional">
+                                <forename>Clio</forename>
+                            </persName>
+                            <sex>F</sex>
+                            <note source="https://www.treccani.it/enciclopedia/clio/"><p>Nella mitologia greca, la prima delle nove Muse, figlia di Zeus e Mnemosine, considerata la musa del canto epico e della storia.</p></note>
+                        </person>
+
+                        <person xml:id="vincenzoBignami">   <!-- RIVEDERE -->
+                            <persName type="real">
+                                <forename>Vincenzo</forename>
+                                <surname>Bignami</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <note source="https://www.deputazionesubalpina.it/doc/bsbs%202024-2.pdf"><p>Fu questore di Torino. Fu coinvolto in uno scandalo di appalti nel 1876.</p></note>
+                        </person>
 					
+                        <personGrp role="relatives" xml:id="borboni">
+                            <persName>
+                                <surname>Borboni</surname>
+                            </persName>
+                            <note source="https://www.treccani.it/enciclopedia/borbone">Famiglia reale di origine francese (fr. Bourbon), che regnò in parecchi stati dell'Europa occidentale e meridionale (Francia, Spagna, Napoli, Parma e Lucca) e fu, con gli Asburgo, la più potente famiglia principesca dell'Europa. Il nome di Borboni (dal castello Bourbon, oggi B.-l'Archambault, nella Francia centrale), fu portato da una modesta famiglia feudale, vassalla dei conti di Bourges, ma dai quali si emancipò già sul finire del sec. 10º; il vero fondatore della potenza della famiglia fu Archambaud VI (1116-1171), che sposò Agnese, figlia di Umberto II conte di Savoia, cognata del re di Francia Luigi VI. Con lui si estinse la linea maschile dei B.: beni e titoli furono portati dalla nipote Matilde (1171-1215) al marito Guy de Dampierre; estintosi il ramo maschile dei B.-Dampierre (1249), dopo alcune successioni femminili, Beatrice col suo matrimonio con Roberto di Clermont (1276), sesto figlio di re Luigi IX, dà inizio alla nuova dinastia dei B. di sangue reale, come ramo della dinastia capetingia.</note>
+                        </personGrp>
+
 					    <person xml:id="sacerdotiMinerva">
                             <persName type="group" role="character">Sacerdoti di Minerva</persName>
                             <sex>M</sex>
@@ -188,7 +212,7 @@
                                 <date notAfter="-0600">VII secolo a.C.</date>
                                 <placeName ref="#ascra">Ascra</placeName>
                             </death>
-                            <note source="https://www.treccani.it/enciclopedia/esiodo/"><p>Il poeta più antico della Grecia continentale (forse inizî sec. 7° a..C.), e il primo la cui personalità ha carattere storico. Le notizie, non leggendarie, che la tradizione antica ci ha conservato, sono desunte dai suoi scritti, specialmente dal poema le Opere.</p></note>
+                            <note source="https://www.treccani.it/enciclopedia/esiodo/"><p>Il poeta più antico della Grecia continentale (forse inizi VII sec. a..C.), e il primo la cui personalità ha carattere storico. Le notizie, non leggendarie, che la tradizione antica ci ha conservato, sono desunte dai suoi scritti, specialmente dal poema le Opere.</p></note>
                         </person>
 
                         <person xml:id="ercole">
@@ -316,7 +340,7 @@
                     <place xml:id="CT" type="real">
                             <placeName ref="https://www.geonames.org/2525068/catania.html">Catania</placeName>
                             <country key="IT">Italia</country>
-                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/catania/"><p>Comune della Sicilia orientale (182,9 km2 con 296.266 ab. nel 2020), capoluogo della provincia omonima. Porto sul Mar Ionio, si stende in posizione assai favorevole alle falde meridionali dell’Etna, al margine settentrionale di un’ampia insenatura costiera, cui dà il nome ( Golfo di C.). Ha clima mite, con scarse piogge. Gravemente danneggiata dall’eruzione etnea del 1669 e distrutta nel 1693 da un terremoto, fu riedificata nel 18° sec. secondo un organico piano regolatore a struttura ortogonale, fondato sugli assi principali delle attuali vie Etnea (in direzione N-S) e Sangiuliano (O-E).</p></note>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/catania/"><p>Comune della Sicilia orientale (182,9 km2 con 296.266 ab. nel 2020), capoluogo della provincia omonima. Porto sul Mar Ionio, si stende in posizione assai favorevole alle falde meridionali dell’Etna, al margine settentrionale di un’ampia insenatura costiera, cui dà il nome ( Golfo di C.). Ha clima mite, con scarse piogge. Gravemente danneggiata dall’eruzione etnea del 1669 e distrutta nel 1693 da un terremoto, fu riedificata nel XVIII sec. secondo un organico piano regolatore a struttura ortogonale, fondato sugli assi principali delle attuali vie Etnea (in direzione N-S) e Sangiuliano (O-E).</p></note>
                     </place>
 
                     <place xml:id="PA" type="real">
@@ -352,7 +376,7 @@
                      <place xml:id="ellade" type="real">
                             <placeName ref="https://www.geonames.org/390903/hellenic-republic.html">Ellade</placeName>
                             <country key="GR">Grecia</country>
-                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/ellade/"><p>Nell’antichità, nome dapprima di una regione della Tessaglia meridionale, poi anche dei popoli abitanti più a S. Già nel 6° sec. a.C. per E. s’intendeva tutta la Grecia e con il nome di Elleni i Greci chiamavano sé stessi nel loro complesso. Al tempo di Erodoto (5° sec.) è già netta la distinzione tra Elleni e barbari e un secolo dopo di lui Elleni significa non più soltanto una comunità nazionale bensì una comunità di cultura.</p></note>
+                            <note resp="#LF" source="https://www.treccani.it/enciclopedia/ellade/"><p>Nell’antichità, nome dapprima di una regione della Tessaglia meridionale, poi anche dei popoli abitanti più a S. Già nel VI sec. a.C. per E. s’intendeva tutta la Grecia e con il nome di Elleni i Greci chiamavano sé stessi nel loro complesso. Al tempo di Erodoto (V sec.) è già netta la distinzione tra Elleni e barbari e un secolo dopo di lui Elleni significa non più soltanto una comunità nazionale bensì una comunità di cultura.</p></note>
                     </place>
 
                     <place xml:id="grecia" type="real">
@@ -492,6 +516,16 @@
                     <org type="association" xml:id="mafia"> <!-- RIVEDERE type-->
 						<orgName type="main" ref="https://www.treccani.it/enciclopedia/mafia/">Mafia</orgName>
 						<desc>Complesso di organizzazioni criminali sorte in Sicilia nel XIX sec., diffuse su base territoriale, rette dalla legge dell’omertà e strutturate gerarchicamente. La parola mafia comparve nel 1863 prima in una commedia dialettale e subito dopo in un documento della questura di Palermo. Tra Otto e Novecento, e fino a oggi, con essa è stata indicata una fenomenologia criminale tipica della parte centro-occidentale della Sicilia, caratterizzata da profondo radicamento nella cultura locale e da connessioni con il potere politico ed economico.</desc>
+					</org>
+
+                    <org type="association" xml:id="camorra"> <!-- RIVEDERE type-->
+						<orgName type="main" ref="https://www.treccani.it/enciclopedia/camorra/">Camorra</orgName>
+						<desc>Associazione criminale esistente nel Napoletano fin dall’epoca spagnola (XVI sec.). Occorre distinguere tra c. tradizionale, durata fino alla Seconda guerra mondiale, e il fenomeno camorristico contemporaneo. Nella situazione e concezione tradizionale, comportarsi in maniera camorristica significava agire in conformità a un codice di prestigio e di supremazia, che prevedeva l’uso della violenza e della frode nel corso di una serie di scontri e di competizioni tra individui e gruppi. Ciò portava all’emersione di «un’élite» di uomini di c., che cercavano di stabilire un potere di governo su una data zona, tramite la creazione di un gruppo di amici, clienti e consanguinei disposti ad appoggiarli nell’esercizio delle loro attività. Ogni gruppo tendeva a monopolizzare l’intera gamma delle attività illegali e paralegali (gioco d’azzardo, prostituzione, contrabbando, estorsioni ecc.) che si svolgevano sul proprio territorio, insieme a una quota limitata degli affari legali. I rapporti tra gruppi camorristici confinanti conoscevano fasi di cooperazione alternate a fasi di conflitto anche molto acute. I camorristi godevano di una cospicua legittimazione popolare, cui si aggiungeva un’antica delega da parte delle autorità ufficiali per la gestione dell’ordine pubblico. Il cambiamento della c. dopo la Seconda guerra mondiale può essere interpretato nei termini di uno sviluppo delle funzioni economiche e politiche svolte dal potere camorristico, che rinuncia a collaborare al mantenimento dell’ordine pubblico.</desc>
+					</org>
+
+                    <org type="institution" xml:id="polizia"> <!-- RIVEDERE type-->
+						<orgName type="main" ref="https://www.treccani.it/enciclopedia/polizia/">Polizia</orgName>
+						<desc>Insieme di corpi militari e civili dello Stato, o di enti pubblici territoriali, con cui si mira alla rimozione di tutte le cause che possono ostacolare la tranquilla e ordinata convivenza civile o ledere gli interessi legittimi dei singoli.</desc>
 					</org>
 										
                 </listOrg>

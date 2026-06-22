@@ -147,7 +147,7 @@
                     <p xml:id="p_6" rend="first-line-indented">
                         La <orgName ref="entita_nominate.xml#mafia">mafia</orgName>! -- La <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> è un'equazione e la <orgName ref="entita_nominate.xml#mafia">mafia</orgName> è la sua
                         incognita. D'onde nasce il brigantaggio, donde nasce il ma<lb break="no"/>
-                        nutengolismo, d'onde la camorra? Ecco il quesito -- Bisogna
+                        nutengolismo, d'onde la <orgName ref="entita_nominate.xml#camorra">camorra</orgName>? Ecco il quesito -- Bisogna
                         inforcare gli occhiali, prender tabacco, starnutare tre volte
                         e poi ricorrere agli archivii storici, alle pergamene, alle ta<lb break="no"/>
                         volette,.... Peccato che la <placeName ref="entita_nominate.xml#bibliotecaAlessandrina">biblioteca Alessandrina</placeName> siasi abbru<lb break="no"/>
@@ -157,7 +157,7 @@
                     <p xml:id="p_7" rend="first-line-indented">
                         Ad ogni modo qualche cosa si sa. Figuratevi che un Ari<lb break="no"/>
                         starco colle orecchie fuori misura disse che la <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> non ha
-                        avuta una vita costituzionale.... O Clio musa della storia, ve<lb break="no"/>
+                        avuta una vita costituzionale.... O <persName ref="entita_nominate.xml#clio">Clio</persName> musa della storia, ve<lb break="no"/>
                         stiti di nero e piangi.... piangi che n'hai ben d'onde!
                     </p>
                 </div>
@@ -167,19 +167,19 @@
                 <div n="3">
                     <div facs="#terza_sezione_1">
                         <p xml:id="p_8" rend="first-line-indented">
-                            La <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> è la terra della camorra -- Tante grazie. -- La
+                            La <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> è la terra della <orgName ref="entita_nominate.xml#camorra">camorra</orgName> -- Tante grazie. -- La
                             <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> è la terra del furto, del malandrinaggio,dell'assassinio....
                             Adagio per carità!
                         </p>
                         <p xml:id="p_9" rend="first-line-indented">
-                            In quanto alla camorra.... pardon! La camorra esisteva nei
+                            In quanto alla <orgName ref="entita_nominate.xml#camorra">camorra</orgName>.... pardon! La <orgName ref="entita_nominate.xml#camorra">camorra</orgName> esisteva nei
                             bagni, nelle isole di domicilio coatto ed esiste tuttora ma non
                             è solo rappresentata dai Siciliani.... tutt'altro! In ognuna di
                             quelle isolette c'è un'esposizione interprovinciale di camorri<lb break="no"/>
                             sti.... precisamente come l'esposizione artistica che s'è aperta
-                            giorni addietro a <placeName ref="entita_nominate.xml#NA">Napoli</placeName>, ma nelle carceri di <placeName ref="entita_nominate.xml#PA">Palermo</placeName> camorra
-                            non ce n'è -- fuori delle carceri, di camorra si parla assai po<lb break="no"/>
-                            co; vuol dire che essa non giunge all'altezza di quella camor<lb break="no"/>
+                            giorni addietro a <placeName ref="entita_nominate.xml#NA">Napoli</placeName>, ma nelle carceri di <placeName ref="entita_nominate.xml#PA">Palermo</placeName> <orgName ref="entita_nominate.xml#camorra">camorra</orgName>
+                            non ce n'è -- fuori delle carceri, di <orgName ref="entita_nominate.xml#camorra">camorra</orgName> si parla assai po<lb break="no"/>
+                            co; vuol dire che essa <!-- RIVEDERE (rs??) --> non giunge all'altezza di quella camor<lb break="no"/>
                             ra in cappello a cilindro e stivali verniciati che tiene alta la cre<lb break="no"/>
                             sta altrove, nelle città più rinomate e negli stati sociali pun<lb break="no"/>
                             to fangosi.
@@ -207,10 +207,10 @@
                 <div facs="#quarta_sezione" n="4">
                     <p xml:id="p_11" rend="first-line-indented">
                         E il malandrinaggio? e il manutengolismo? -- Istituite una
-                        buona polizia in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> che non ne ha mai avuta... e l'<placeName ref="entita_nominate.xml#IT">Italia</placeName> forse
-                        neanco. Il processo del questore Bignami è un esempio chiaro e
-                        lampante. Ebbene, in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> il bisogno d'una polizia si fa sentire
-                        più grave e più imperioso. I Borboni accarezzarono la sbirraglia,
+                        buona <orgName ref="entita_nominate.xml#polizia">polizia</orgName> in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> che non ne ha mai avuta... e l'<placeName ref="entita_nominate.xml#IT">Italia</placeName> forse
+                        neanco. Il processo del questore <persName ref="entita_nominate.xml#vincenzoBignami">Bignami</persName> è un esempio chiaro e
+                        lampante. Ebbene, in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> il bisogno d'una <orgName ref="entita_nominate.xml#polizia">polizia</orgName> si fa sentire
+                        più grave e più imperioso. I <persName ref="entita_nominate.xml#borboni">Borboni</persName> accarezzarono la sbirraglia,
                         se ne fecero strumento di tirannide, la organizzarono per ado<lb break="no"/>
                         prarla alla violenza ed al sopruso; e siccome a quei tempi
                         nessun onest'uomo voleva esercitare il mestiere di poliziotto,
@@ -219,7 +219,7 @@
                         zi avevano molestato la società.... poi la proteggevano!
                     </p>
                     <p xml:id="p_12" rend="first-line-indented">
-                        Buona polizia! -- il reclamo è divenuto un po' vecchio
+                        Buona <orgName ref="entita_nominate.xml#polizia">polizia</orgName>! -- il reclamo è divenuto un po' vecchio
                         ma quando si parla ai sordi!....
                     </p>
                 </div>
