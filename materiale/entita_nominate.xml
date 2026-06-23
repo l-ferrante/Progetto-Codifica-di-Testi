@@ -128,6 +128,24 @@
                             <note source="https://www.treccani.it/enciclopedia/leopoldo-franchetti"><p>Pubblicista e uomo politico italiano (Firenze 1847 - Roma 1917); propugnò, insieme con S. Sonnino, lo studio e la soluzione dei concreti problemi economici, sociali e politici della nuova Italia, contribuendovi con inchieste personali (come quelle che diedero luogo a Condizioni economiche e amministrative delle Province napoletane, 1875, e La Sicilia nel 1876, 1877, compiuta insieme col Sonnino e di fondamentale importanza per l'impostazione del problema del Mezzogiorno) e con la Rassegna settimanale (1878-1882), di tendenza conservatrice-illuminata, che riuscì rivista politica assai pregevole e influente (tra i collaboratori: S. Sonnino, P. Villari, ecc.). Pioniere di una razionale attività coloniale, compì una missione in Libia (La Missione Franchetti in Tripolitania, 1914). Deputato dalla 15a alla 22a legislatura (1882-1909), fu poi nominato senatore.</p></note>
                         </person>
 
+                        <person xml:id="luigiCapuana">
+                            <persName type="real">
+                                <ref target="http://viaf.org/viaf/24615920"/>
+                                <forename>Luigi</forename>
+                                <surname>Capuana</surname>
+                            </persName>
+                            <sex>M</sex>
+                            <birth>
+                                <date when="1839">1839</date>
+                                <placeName ref="#mineo">Mineo</placeName>
+                            </birth>
+                            <death>
+                                <date when="1915">1915</date>
+                                <placeName ref="#CT">Catania</placeName>
+                            </death>
+                            <note source="https://www.treccani.it/enciclopedia/luigi-capuana/"><p>Scrittore italiano (Mineo 1839 - Catania 1915), prof. nell'Istituto superiore di magistero in Roma e poi (1902) nell'univ. di Catania. Esordì come poeta, ma la sua attività si volse ben presto alla critica letteraria e alla narrativa. In quella egli occupa un posto notevole non solo per l'acutezza e sensibilità del gusto che, formatosi sul De Sanctis, giovò a scrittori come Verga e Pirandello nel trovare la loro via, ma per il vigore con cui propugnò, primo in Italia, il romanzo naturalista (Studi sulla letteratura contemporanea, prima serie, 1880; seconda serie, 1882; Gli "ismi" contemporanei, 1898; ecc.). Come narratore, nelle sue numerose novelle (Le paesane, 1894; Nuove paesane, 1898; ecc.), e nei romanzi (Giacinta, 1879; Profumo, 1890; Il Marchese di Roccaverdina, 1902, il migliore), lo studio di psicologia e di casi d'eccezione lo fa spesso rimanere sul piano della curiosità scientifica, ma un'arguzia, poi, tutta paesana lo porta a una felice caratterizzazione di figure e ambienti di provincia. Il C. è anche autore di favole e racconti per ragazzi.</p></note>
+                        </person>
+
                         <person xml:id="teocrito">
                             <persName type="real">
                                 <ref target="http://viaf.org/viaf/95161348"/>
@@ -149,7 +167,7 @@
                             <note source="https://www.treccani.it/enciclopedia/ciclopi/">Figure favolose della mitologia greca, di statura gigantesca e fornite di un solo occhio situato in mezzo alla fronte. Nell’Odissea sono una collettività di giganti spregiatori degli dei, che vivono in caverne allo stato pressoché di natura e antropofagi; sono pastori e il loro capo è Polifemo, figlio di Posidone.</note>
                         </person>
 
-                        <person xml:id="clio">  <!-- RIVEDERE epiteto -->
+                        <person xml:id="clio">
                             <persName type="fictional">
                                 <forename>Clio</forename>
                             </persName>
@@ -491,6 +509,12 @@
                             <country key="IT">Italia</country>
                             <note resp="#LB"><p>Piccole isole nelle quali venivano mandati a soggiornare individui ritenuti pericolosi. Fra queste isole vi sono: Favignana, Pantelleria, Lipari e Ustica</p></note>
                     </place>
+
+                    <place xml:id="mineo" type="real">
+                            <placeName ref="https://www.geonames.org/6537806/mineo.html">Mineo</placeName>
+                            <country key="IT">Italia</country>
+                            <note resp="#LB" source="https://www.treccani.it/enciclopedia/mineo/"><p>Comune della prov. di Catania. Occupa probabilmente il luogo dell’antica Mene.</p></note>
+                    </place>
                 </listPlace>
                 
             </div>
@@ -539,6 +563,46 @@
             </div>
 
         </body>
+
+        <back>
+
+            <div type="work">
+				<listBibl xml:id="bibliografiaPrimaria">
+
+					<biblStruct type="romanzo" xml:id="giacinta">
+						<monogr>
+							<author ref="#luigiCapuana">Luigi Capuana</author>
+							<title type="main" level="m">Giacinta</title>
+							<imprint>
+								<publisher>Brigola</publisher>
+								<pubPlace ref="#MI">Milano</pubPlace>
+								<date when="1879">1879</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+				</listBibl>
+
+
+				<!-- <listBibl xml:id="bibliografiaSecondaria">
+						
+						<biblStruct xml:id="spiritismo">
+							<monogr>
+								<author ref="coverlessListPerson.xml#luigiCapuana">Luigi Capuana</author>
+								<title type="main" level="m">Spiritismo?</title>
+								<imprint>
+									<pubPlace>Catania</pubPlace>
+									<publisher>Giannotta</publisher>
+									<date when="1884">1884</date>
+								</imprint>
+							</monogr>
+						</biblStruct>
+					
+				</listBibl> -->
+
+			</div>
+
+        </back>
 
     </text>
 </TEI>

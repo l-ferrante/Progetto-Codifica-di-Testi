@@ -59,6 +59,19 @@
                         <biblScope unit="issue">1</biblScope>
                         <biblScope unit="page">9</biblScope>
                     </monogr>
+
+                    <relatedItem type="reviewOf">   <!-- RIVEDERE se serve -->
+                        <biblStruct>
+                            <monogr>
+                                <title ref="entita_nominate.xml#giacinta" level="m">Giacinta</title>
+                                <author ref="entita_nominate.xml#luigiCapuana">Luigi Capuana</author>
+                                <imprint>
+                                    <pubPlace ref="entita_nominate.xml#MI">Milano</pubPlace>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </relatedItem>
+
                 </biblStruct>
 
             </sourceDesc>
@@ -94,7 +107,7 @@
             </langUsage>
 
             <abstract>
-                <p><!-- SCRIVERE RIASSUNTO --></p>
+                <p>Il testo è una recensione della "Giacinta" di Luigi Capuana. L'autore della recensione afferma che non è tanto la trama ad essere speciale, ma lo spirito di osservazione di Capuana. "Giacinta" viene definito come il romanzo a tesi più riuscito degli ultimi 3 anni.</p>
             </abstract>
 
         </profileDesc>
@@ -125,7 +138,9 @@
 
     <facsimile xml:id="la_mafia">
         <surface>
-            <graphic url='immagini/Farfalla_1879_5_1_9.jpg' width='' height='' xml:id="pag_9" />
+            <graphic url='Farfalla_1879_5_1_9.jpg' width='3378px' height='5086px' xml:id="pag_9"/>
+            <zone ulx="309" uly="2744" lrx="1667" lry="4645" />
+            <zone ulx="1729" uly="435" lrx="3103" lry="1671" />
         </surface>        
     </facsimile>
 
