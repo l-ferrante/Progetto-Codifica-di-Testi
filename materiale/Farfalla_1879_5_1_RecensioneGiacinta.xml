@@ -6,7 +6,7 @@
     <teiHeader xml:lang="it">
         <fileDesc>
             <titleStmt>
-                <title>Recensione a L. Capuana, La giacinta</title>
+                <title>Recensione a L. Capuana, Giacinta</title>
                 <respStmt>
                     <resp>Codifica digitale XML TEI P5 a cura di</resp>
                     <name xml:id="LB">Lorenzo Bianchi</name>
@@ -41,13 +41,13 @@
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
                 </availability>
-                <idno type="filename">Farfalla_1877_5_1_LaGiacinta.xml</idno>
+                <idno type="filename">Farfalla_1877_5_1_RecensioneGiacinta.xml</idno>
 			</publicationStmt>
             
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <title level="a">Recensione a L. Capuana, La giacinta</title>
+                        <title ref="entita_nominate.xml#giacinta" level="a">Recensione a L. Capuana, Giacinta</title>
                     </analytic>
                     <monogr>
                         <title level="j" xml:id="farfalla">La Farfalla</title>
@@ -84,10 +84,7 @@
 
             <textClass>
                 <keywords>
-                    <term type="text" subtype="elzeviro">Articolo in rivista</term>
-                </keywords>
-                <keywords>
-                    <term type="themes" ref="entita_nominate.xml#problemaSociale">Problema sociale</term>
+                    <term type="text" subtype="recensione_italiana">Recensione</term>
                 </keywords>
             </textClass>
 
