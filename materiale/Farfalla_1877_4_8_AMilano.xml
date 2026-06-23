@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- <!DOCTYPE TEI SYSTEM "tei_all.dtd"> -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="it">
@@ -14,7 +14,7 @@
             </titleStmt>
 
             <editionStmt>
-				<edition n="1">Digital edition - <date when="2024-10">October 2024</date></edition>
+				<edition n="1">Digital edition - <date when="2026-07">July 2026</date></edition>
 				<respStmt>
 					<resp>Digital edition project coordineted by</resp>
 					<name xml:id="DS">Daria Spampinato</name>
@@ -66,6 +66,24 @@
             </sourceDesc>
 
         </fileDesc>
+
+        <encodingDesc>
+            <p>
+                Per la codifica del presente testo sono state, in massima parte, seguite le linee guida del progetto Coverless.
+                La principale differenza consiste nella gestione delle entità nominate, la quale, se nelle linee guida
+                prevedeva di utilizzare una lista esterna per ogni tipo di entità nominata (quindi: una lista per i luoghi,
+                una lista per le persone e una lista per le organizzazioni), qui è stata implementata
+                utilizzato un'unica lista esterna di entità nominate (entita_nominate.xml).
+            </p>
+            <hyphenation>
+                <p>
+                    Si è scelto di rimuovere i trattini "-" per le parole spezzate a fine riga. e di utilizzare il tag "lb" con
+                    attributo "break = 'no' " per segnalare la fine di una riga al termine della quale si trova una parola
+                    che continua nella riga successiva.
+                </p>
+            </hyphenation>
+        </encodingDesc>
+
 
         <profileDesc>
             <creation>
@@ -119,28 +137,28 @@
             <div type="text">
                 <div type="section" n="1" facs="#sezione_1">
                     <p rend="first-line-indented" xml:id="p_1">
-                        Fra la trentesima e la trentesima prima Olimpia-
+                        Fra la trentesima e la trentesima prima Olimpia<lb break="no"/>
                         de, i <rs type="person" subtype="both" ref="entita_nominate.xml#sacerdotiMinerva">sacerdoti di <persName type="fictional" ref="entita_nominate.xml#minerva">Minerva</persName></rs>, di servizio a <placeName type="real" ref="entita_nominate.xml#mitilene">Mitilene</placeName>,
                         s'incoronarono di citisi, si fecero venire innanzi <persName type="fictional" ref="entita_nominate.xml#sira">Sira</persName>,
                         la più bella, e la più casta fra le fanciulle mitilenesi,
                         e le dissero:
-                        <q><persName type="fictional" ref="entita_nominate.xml#sira">Sira</persName>, tu sei destinata dagli Iddii a diventare la
+                        - <q><persName type="fictional" ref="entita_nominate.xml#sira">Sira</persName>, tu sei destinata dagli Iddii a diventare la
                         sacerdotessa più grande nell'<placeName type="real" ref="entita_nominate.xml#ellade">Ellade</placeName> tutta. Ma perchè
                         tu tale possa divenire, occorre che da <rs type="place" subtype="real" ref="entita_nominate.xml#mitilene">questa tua 
                         terra</rs> tu ti dilunghi. <placeName type="real" ref="entita_nominate.xml#atene">Atene</placeName> ti aspetta, e il gremio
                         delle vergini consacrate all'occhiglauca iddia che col
                         sonante arco d'argento governa i cuori a fortezza ed
-                        a virtù.... Saluta dunque, o <persName type="fictional" ref="entita_nominate.xml#sira">Sira</persName>, saluta dunque <rs type="place" subtype="real" ref="entita_nominate.xml#mitilene">que-
-                        sta terra</rs> che ti ha veduta nascere, quest'aura bene-
+                        a virtù.... Saluta dunque, o <persName type="fictional" ref="entita_nominate.xml#sira">Sira</persName>, saluta dunque <rs type="place" subtype="real" ref="entita_nominate.xml#mitilene">que<lb break="no"/>
+                        sta terra</rs> che ti ha veduta nascere, quest'aura bene<lb break="no"/>
                         detta che t'ha vivificata nascente, questo cielo e
-                        questo mare che t'hanno fasciata d'azzurro e di por-
+                        questo mare che t'hanno fasciata d'azzurro e di por<lb break="no"/>
                         pora nelle aurore e nei tramonti immortali....</q>
                     </p>
 
                     <p rend="first-line-indented" xml:id="p_2">
-                        E la <rs type="person" subtype="fictional" ref="entita_nominate.xml#sira">giovanetta</rs> baciò sulle tempia le dolci <rs type="person" subtype="fictional" ref="entita_nominate.xml#compagneSira">com-
-                        pagne</rs> d'infanzia, e supplice si gettò innanzi alle er-
-                        me de' forti padri, e nella bruna pupilla le brillaro-
+                        E la <rs type="person" subtype="fictional" ref="entita_nominate.xml#sira">giovanetta</rs> baciò sulle tempia le dolci <rs type="person" subtype="fictional" ref="entita_nominate.xml#compagneSira">com<lb break="no"/>
+                        pagne</rs> d'infanzia, e supplice si gettò innanzi alle er<lb break="no"/>
+                        me de' forti padri, e nella bruna pupilla le brillaro<lb break="no"/>
                         no le lacrime del congedo per tutta una prima vita
                         che le si spezzava, per tutta una seconda che stava
                         per incominciare....
@@ -148,7 +166,7 @@
                     
                     <p rend="first-line-indented" xml:id="p_3">
                         E da <placeName type="real" ref="entita_nominate.xml#mitilene">Mitilene</placeName> salpò sopra una sacra bireme pei
-                        porti dell'<placeName type="real" ref="entita_nominate.xml#attica">Attica</placeName>. E pose piede ad <placeName type="real" ref="entita_nominate.xml#atene">Atene</placeName>. E salì al-
+                        porti dell'<placeName type="real" ref="entita_nominate.xml#attica">Attica</placeName>. E pose piede ad <placeName type="real" ref="entita_nominate.xml#atene">Atene</placeName>. E salì al<lb break="no"/>
                         l'<placeName type="real" ref="entita_nominate.xml#acropoliAtene">Acropoli</placeName>: e dopo il suo tirocinio s'ebbe posto in
                         capo l'aureo corno di massima sacerdotessa Palladia:
                         ma il suo cuore - racconta <persName type="real" ref="entita_nominate.xml#esiodo">Esiodo</persName> - fu diviso:
@@ -173,19 +191,19 @@
 
                     <p rend="first-line-indented" xml:id="p_6">
                         Un raggio di questo fuoco liquefatto che ha nome
-                        «sole di <placeName type="real" ref="entita_nominate.xml#sardegna">Sardegna</placeName>» ha dischiusa la mia cellula <w lemma="solitaria">so-
+                        «sole di <placeName type="real" ref="entita_nominate.xml#sardegna">Sardegna</placeName>» ha dischiusa la mia cellula <w lemma="solitaria">so<lb break="no"/>
                         <cb n="2" xml:id="col_2-p.89"/> <!--cambio colonna-->
                         litaria</w>, un lembo di questo firmamento dal profondo
-                        cobalto ha tinte le mie incolore alucce di bruco. Ad-
-                        dormentarmi larva oscura ed impercettibile, mi so-
-                        no destata farfalla dall'ali screziate, dai riflessi me-
+                        cobalto ha tinte le mie incolore alucce di bruco. Ad<lb break="no"/>
+                        dormentarmi larva oscura ed impercettibile, mi so<lb break="no"/>
+                        no destata farfalla dall'ali screziate, dai riflessi me<lb break="no"/>
                         tallici, dal volo smagliante come il fremolio d'una
                         gocciola d'oro danzante per l'aria. E respirai e mi
                         nutrii.
                     </p>
                     
                     <p rend="first-line-indented" xml:id="p_7">
-                        I buffi <unclear resp="#LF" cert="high">profumati</unclear>, che il vento ruba alle cime o-
+                        I buffi <unclear resp="#LF" cert="high">profumati</unclear>, che il vento ruba alle cime o
                         dorate delle vostre vergini foreste, hanno ossigenato
                         il mio piccolo, informe organismo. E me non il floscio
                         latte della alimentazione volgare nutrì: ma invece
@@ -198,8 +216,8 @@
 
                     <p rend="first-line-indented" xml:id="p_8">
                         Assioma etnologico: non nascono nè rachitici
-                        nè servi in riva al mare di <rs type="place" subtype="real" ref="entita_nominate.xml#sardegna">quest'isola</rs> grande e in-
-                        felice.
+                        nè servi in riva al mare di <rs type="place" subtype="real" ref="entita_nominate.xml#sardegna">quest'isola</rs> grande e in<lb break="no"/>
+                        felice
                     </p>
                     
                     <p rend="first-line-indented" xml:id="p_9">
@@ -218,17 +236,17 @@
                 <div type="section" n="3" facs="#sezione_3">
                     <p rend="first-line-indented" xml:id="p_11">
                         La <orgName rend="italic" type="journal" ref="entita_nominate.xml#farfalla">Farfalla</orgName>, più che mai fidente, impenna
-                        al suo volo le ali. Essa si trasporta a <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName>. Dalla <rs type="place" subtype="real" ref="entita_nominate.xml#sardegna">perife-
-                        ria</rs> essa si trasferisce al <rs type="place" subtype="real" ref="entita_nominate.xml#MI">centro</rs>. Dal <rs type="place" subtype="real" ref="entita_nominate.xml#sardegna">regno della na-
-                        tura</rs> trapianta la sua piccola tenda nel <rs type="place" subtype="real" ref="entita_nominate.xml#MI">regno del-
+                        al suo volo le ali. Essa si trasporta a <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName>. Dalla <rs type="place" subtype="real" ref="entita_nominate.xml#sardegna">perife<lb break="no"/>
+                        ria</rs> essa si trasferisce al <rs type="place" subtype="real" ref="entita_nominate.xml#MI">centro</rs>. Dal <rs type="place" subtype="real" ref="entita_nominate.xml#sardegna">regno della na<lb break="no"/>
+                        tura</rs> trapianta la sua piccola tenda nel <rs type="place" subtype="real" ref="entita_nominate.xml#MI">regno del<lb break="no"/>
                         l'arte</rs>. Da <placeName type="real" ref="entita_nominate.xml#sparta">Lacedemone</placeName> va nell'<placeName type="real" ref="entita_nominate.xml#attica">Attica</placeName>. Ebbene <placeName type="real" ref="entita_nominate.xml#sparta">Sparta</placeName>
                         non ha nulla da invidiare ad <placeName type="real" ref="entita_nominate.xml#atene">Atene</placeName>. Nascere nella terra di
                         <persName type="real" ref="entita_nominate.xml#licurgo">Licurgo</persName>, vivere nella terra di <persName type="real" ref="entita_nominate.xml#solone">Solone</persName> - ciò
-                        costituiva ai tempi di <persName type="real" ref="entita_nominate.xml#pericle">Pericle</persName> il vero, il completo ci-
+                        costituiva ai tempi di <persName type="real" ref="entita_nominate.xml#pericle">Pericle</persName> il vero, il completo ci<lb break="no"/>
                         vismo greco. Abbiamo la coscienza di non avere mai
-                        demeritata la fortuna dei natali sardi: a noi render-
+                        demeritata la fortuna dei natali sardi: a noi render<lb break="no"/>
                         ci degni del domicilio lombardo. E ci riusciremo,
-                        poiché ci segue a <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName> il viatico della nostra sa-
+                        poiché ci segue a <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName> il viatico della nostra sa<lb break="no"/>
                         cra riconoscenza a <placeName type="real" ref="entita_nominate.xml#CA">Cagliari</placeName> vostra.
                     </p>
 
@@ -255,7 +273,7 @@
                     </p>
 
                     <p rend="first-line-indented" xml:id="p_14">
-                        La <orgName rend="italic" type="journal" ref="entita_nominate.xml#farfalla">Farfalla</orgName> posa oggi da giovanetta romana, al-
+                        La <orgName rend="italic" type="journal" ref="entita_nominate.xml#farfalla">Farfalla</orgName> posa oggi da giovanetta romana, al<lb break="no"/>
                         l'atto della sua trasformazione. Essa vuol rendersi più seducente, più ampia e più comprensiva.
                     </p>
                     
@@ -267,29 +285,29 @@
                     </p>
 
                     <p rend="first-line-indented" xml:id="p_16">
-                        <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName> - sede naturale, fuoco centrico e magne-
+                        <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName> - sede naturale, fuoco centrico e magne<lb break="no"/>
                         tico - di tutto quanto gli ingegni sodi o bizzarri,
                         patetici o <term type="verbum" subtype="studio_osservazione" rend="italic" ref="glossario.xml#realismo">realisti</term> producono nel campo delle idee -
-                        le offrirà, topograficamente ed intellettualmente par-
-                        lando - la sede migliore, per ivi erigere il suo la-
+                        le offrirà, topograficamente ed intellettualmente par<lb break="no"/>
+                        land - la sede migliore, per ivi erigere il suo la<lb break="no"/>
                         baro alla vista di tutta la <term type="forma_letteraria" subtype="ismi" ref="glossario.xml#scapigliatura">scapigliatura</term> italiana.
                     </p>
                     
                     <p rend="first-line-indented" xml:id="p_17">
-                        <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName> - dove il giornalismo artistico è un bi-
+                        <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName> - dove il giornalismo artistico è un bi<lb break="no"/>
                         sogno, dove l'amor del leggere è una febbre, dove
-                        l'alleanza del disegno col pensiero è una forza onni-
+                        l'alleanza del disegno col pensiero è una forza onni<lb break="no"/>
                         potente - darà alla <orgName rend="italic" type="journal" ref="entita_nominate.xml#farfalla">Farfalla</orgName> d'uscire al pubblico
-                        settimanalmente, di fregiare le sue colonne di illu-
-                        strazioni squisite, di parlare doppiamente all'intellet-
+                        settimanalmente, di fregiare le sue colonne di illu<lb break="no"/>
+                        strazioni squisite, di parlare doppiamente all'intellet<lb break="no"/>
                         to e agli occhi, alla fantasia ed al cuore....
                     </p>
                     
                     <p rend="first-line-indented" xml:id="p_18">
-                        <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName> - in una parola - è la tappa predesti-
-                        nata alla nostra virilità efflorescente, al nostro svi-
-                        luppo più assoluto, alla nostra più acremente olez-
-                        zante fioritura....
+                        <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName> - in una parola - è la tappa predesti<lb break="no"/>
+                        nata alla nostra virilità efflorescente, al nostro svi<lb break="no"/>
+                        luppo più assoluto, alla nostra più acremente olez<lb break="no"/>
+                        zante zante fioritura....
                     </p>
 
                     <p rend="first-line-indented" xml:id="p_19">
@@ -299,7 +317,6 @@
                 </div>
                
                 <metamark function="sectionDivider">*</metamark>
-
 
                 <div type="section" n="5" facs="#sezione_5">
                     <p rend="first-line-indented" xml:id="p_20">
@@ -311,7 +328,7 @@
                         Essa continuerà a rovesciare, sull'<rs type="place" subtype="real" ref="entita_nominate.xml#sardegna">isola</rs> tutta la
                         tribù delle sue errabonde compagne, che seguiteranno
                         a far capolino da tutte le botteghe di librai, da tutti
-                        i pubblici ritrovi, da tutti i vostri <foreign xml:lang="fr" rend="italic">boudoirs</foreign>, o let-
+                        i pubblici ritrovi, da tutti i vostri <foreign xml:lang="fr" rend="italic">boudoirs</foreign>, o let<lb break="no"/>
                         trici innamorate, da tutti i luoghi infine dove ci sia
                         posto per i suoi fascicoli, ora mesti, ora fieri, ora
                         soavi, ora amari - ma sempre di voi memori: di
@@ -319,9 +336,8 @@
                         cara festa di famiglia.
                     </p>
 
-                    <!-- RIVEDERE PSEUDONIMI -->
                     <p rend="first-line-indented" xml:id="p_22">
-                        Essa sarà sempre con voi a mezzo delle illustra-
+                        Essa sarà sempre con voi a mezzo delle illustra<lb break="no"/>
                         zioni di questi luoghi benedetti da Dio e dimenticati
                         codardamente dagli uomini. A mezzo d'una serie di
                         <term type="verbum" subtype="arti_visive" ref="glossario.xml#bozzetto">bozzetti</term> caratteristici di qui: cui vivificherà la penna
@@ -349,7 +365,7 @@
 
                 <div type="section" n="6" facs="#sezione_6_inizio #sezione_6_fine">
                     <p rend="first-line-indented" xml:id="p_25">
-                        Esercito pio e gentile - simpatie vecchie e re-
+                        Esercito pio e gentile - simpatie vecchie e re<lb break="no"/>
                         centi - amici d'allora e d'adesso - battaglieri della
                         <cb n="4" xml:id="col_2-p.90"/> <!--cambio colonna-->
                         penna di qualunque partito, ma tutti giurati alla
@@ -365,11 +381,11 @@
                     <p rend="first-line-indented" xml:id="p_27">
                         Ah udite?!.. È la campanella di bordo che ci
                         chiama.
-                        <q>- Addio...</q>
-                        <q>- Chi ha detto addio? Il connubio delle anime
+                        - <q>Addio...</q>
+                        - <q>Chi ha detto addio? Il connubio delle anime
                             non ammette separazioni. I domicilii, le residenze si
-                            mutano: il mistico amplesso dei pensieri, delle aspi-
-                            razioni, sta fermo, è incrollabile come, o <placeName type="real" ref="entita_nominate.xml#sardegna">Sardegna</placeName>, i
+                            mutano: il mistico amplesso dei pensieri, delle aspi<lb break="no"/>
+                            razioni sta fermo, è incrollabile come, o <placeName type="real" ref="entita_nominate.xml#sardegna">Sardegna</placeName>, i
                             tuoi scogli invano flagellati dal <placeName type="real" ref="entita_nominate.xml#marTirreno">Tirreno</placeName> in procella.
                         </q>
                     </p>
@@ -379,7 +395,6 @@
                         sempre.
                     </p>
                 </div>
-
             </div>
             
             <div type="closer" facs="#firma">
@@ -387,9 +402,7 @@
                     <persName type="real" ref="entita_nominate.xml#francescoGiarelli"><addName type="pseudonym">Psiche</addName></persName>
                 </signed>
             </div>
-
         </body>
-
     </text>
 
     <facsimile xml:id="a_milano">
@@ -413,7 +426,5 @@
         </surface>
         
     </facsimile>
-    
-
 
 </TEI>
