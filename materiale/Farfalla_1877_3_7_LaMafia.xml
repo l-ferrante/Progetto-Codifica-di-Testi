@@ -14,7 +14,7 @@
             </titleStmt>
 
             <editionStmt>
-				<edition n="1">Digital edition - <date when="2024-10">October 2024</date></edition>
+				<edition n="1">Digital edition - <date when="2026-07">July 2026</date></edition>
 				<respStmt>
 					<resp>Digital edition project coordineted by</resp>
 					<name xml:id="DS">Daria Spampinato</name>
@@ -41,7 +41,7 @@
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
                 </availability>
-                <idno type="filename">Farfalla_1877_3_7_la_mafia.xml</idno>
+                <idno type="filename">Farfalla_1877_3_7_LaMafia.xml</idno>
 			</publicationStmt>
             
             <sourceDesc>
@@ -104,6 +104,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change status="completed" when="2026-06-23" resp="#LB">Final review and end of work</change>
             <change status="draft" when="2026-06-19" resp="#LB">First draft june 19, 2026</change>
         </revisionDesc>
     </teiHeader>

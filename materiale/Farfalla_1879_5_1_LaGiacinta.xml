@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title>Recensione a L. Capuana, La giacinta</title>
+                <respStmt>
+                    <resp>Codifica digitale XML TEI P5 a cura di</resp>
+                    <name xml:id="LB">Lorenzo Bianchi</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+				<edition n="1">Digital edition - <date when="2026-07">July 2026</date></edition>
+				<respStmt>
+					<resp>Digital edition project coordineted by</resp>
+					<name xml:id="DS">Daria Spampinato</name>
+					<name xml:id="ADS">Antonio Di Silvestro</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding model by</resp>
+					<name resp="#DS">Daria Spampinato</name>
+					<name xml:id="LM">Laura Mazzagufo</name>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DB">Denise Bruno</name>
+				</respStmt>
+				<funder>NextGenerationEU</funder>
+				<funder>Ministero dell'Università e della Ricerca</funder>
+				<funder>Italia Domani - Piano Nazionale di Ripresa e Resilienza</funder>
+				<funder ref="entita_nominate.xml#CNR">CNR - Consiglio Nazionale delle Ricerche</funder>
+				<funder ref="entita_nominate.xml#UniCT">Università di Catania</funder>
+			</editionStmt>
+
+            <publicationStmt>
+                <authority ref="entita_nominate.xml#ISTC">CNR ISTC - Istituto di Scienze e Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche</authority>
+                <authority ref="entita_nominate.xml#UniCT">Università di Catania</authority>
+                <date when="2026">2026</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+                </availability>
+                <idno type="filename">Farfalla_1877_5_1_LaGiacinta.xml</idno>
+			</publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">Recensione a L. Capuana, La giacinta</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j" xml:id="farfalla">La Farfalla</title>
+                        <imprint>
+                            <pubPlace ref="entita_nominate.xml#MI">Milano</pubPlace>
+                            <date when="1879">1879</date>
+                        </imprint>
+                        <biblScope unit="volume">5</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <biblScope unit="page">9</biblScope>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+            <editorialDecl>
+                <hyphenation>
+                    <p>Si è scelto di rimuovere i trattini "-" per le parole spezzate a fine riga.</p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è scelto di normalizzare gli spazi fra le parole.</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <creation>
+                <date when="1879">1879</date>
+                <placeName ref="entita_nominate.xml#MI">Milano</placeName>
+            </creation>
+
+            <textClass>
+                <keywords>
+                    <term type="text" subtype="elzeviro">Articolo in rivista</term>
+                </keywords>
+                <keywords>
+                    <term type="themes" ref="entita_nominate.xml#problemaSociale">Problema sociale</term>
+                </keywords>
+            </textClass>
+
+            <langUsage>
+                <language ident="it">Italiano</language>
+                <language ident="it-x-800">Italiano di fine Ottocento</language>
+            </langUsage>
+
+            <abstract>
+                <p>Il testo, intitolato "La mafia", affronta il tema della mafia in Sicilia. Non si tratta però di un attacco alla questione siciliana; al contrario, Onufrio cerca di smontare lo stereotipo della Sicilia come terra di criminali. Critica in particolare chi ingigantisce il problema della criminalità, che in realtà è molto più presente in altri luoghi. Accenna inoltre alla questione economica, menzionando la scarsissima retribuzione dei contadini siciliani.</p>
+            </abstract>
+
+        </profileDesc>
+
+        <revisionDesc>
+            <change status="draft" when="2026-06-19" resp="#LB">First draft june 23, 2026</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <pb n="9" xml:id="Farfalla_1879_5_1_9" facs="immagini/Farfalla_1879_5_1_9.jpg"/>
+            <cb n="1" xml:id="col_1-p.9"/>
+
+            <div type="intestazione">
+                
+            </div>
+
+            <div type="text">
+
+                <div type="closer">
+                    
+                </div>
+
+            </div>
+        </body>
+    </text>
+
+    <facsimile xml:id="la_mafia">
+        <surface>
+            <graphic url='immagini/Farfalla_1879_5_1_9.jpg' width='' height='' xml:id="pag_9" />
+        </surface>        
+    </facsimile>
+
+
+</TEI>
