@@ -122,25 +122,77 @@
             <pb n="9" xml:id="Farfalla_1879_5_1_9" facs="immagini/Farfalla_1879_5_1_9.jpg"/>
             <cb n="1" xml:id="col_1-p.9"/>
 
-            <div type="intestazione">
-                
-            </div>
+            <metamark function="sectionDivider">**</metamark>
 
             <div type="text">
 
-                <div type="closer">
+                <div type="section" facs="#prima_colonna #seconda_colonna" n="1">
+                    <p xml:id="p_1" rend="first-line-indented">
+                        Sì, la Giacinta di L. Capuana è un capolavoro.
+                        Ho letto il volume sino all'ultima pagina, e provo
+                        irresistibile il bisogno di proclamare questa mia
+                        sensazione: Giacinta è un capolavoro.
+                    </p>
+                    <p xml:id="p_2" rend="first-line-indented">
+                        Che cosa espone?
+                    </p>
+                        Tutto e niente.
+                        Si tratta di una fanciulla cui sua madre non
+                    ha mai amata, mancandogliene il tempo, tutto da
+                    lei dedicato a non lasciarsi sfuggire i suoi amanti,
+                    tollerati dal buon marito con supina accontenta-
+                    tura.
+                        Si tratta d'un amante -- Andrea -- che la
+                    fanciulla non vuole avere per marito -- sapendo
+                    che ancora bambina era stata turpemente violata
+                    da un giovane servo -- ma che essa vuol avere
+                    per amante: e perciò diventa moglie di uno stu-
+                    pido conte, ch'essa incorona la stessa prima notte
+                    delle nozze.
+                        Si tratta di Giacinta, che per anni ed anni si
+                    gode tutto per sé, al cospetto della società -- cui
+                    disprezza -- e del marito -- di cui ride -- il suo
+                    Andrea -- il quale non arrossisce di farsi man-
+                    tenere da lei, finché in un momento di tarda resi-
+                    piscenza le fa capire che non le vuol più bene.
+                        Si tratta infine di Giacinta, che, avuta questa
+                    convinzione, si avvelena e muore.
+                        Come vedete l'intreccio non è una novità. Ma
+                    qui l'intreccio non conta. E' lo studio del cuore
+                    <cb n="2" xml:id="col_2-p.89"/>
+                    di donna che batte qui dentro poderose le sue ali.
+                    E' lo spirito alto di osservazione, che vivifica da
+                    capo a fondo tutta questa lunga pagina di dolore.
+                    E' insomma la verità che ossigena parola per pa-
+                    rola questo libro, del quale Luigi Capuana -- che
+                    non appartiene certo agli esagerati della scuola
+                    realista -- può, deve anzi a buon diritto, andare
+                    lieto ed altiero: poiché Giacinta è forse, o senza
+                    forse, il romanzo a tesi più riuscito, in quest'ultimo
+                    triennio di vita letteraria italiana.
+                        Profili di donna furono una promessa: Giacinta
+                    ne è l'attendimento.
+                        Proclamiamolo dunque: Luigli Capuana è di
+                    quelli che promettono dieci ed attengono cinquanta.
+                        Tanto meglio per lui e per l'arte, nelle cui
+                    sfere superiori questa sua Giacinta lo colloca di
+                    sbalzo.
+                        E questo è il punto.
                     
                 </div>
 
             </div>
+
+            <metamark function="sectionDivider">**</metamark>
+
         </body>
     </text>
 
-    <facsimile xml:id="la_mafia">
+    <facsimile xml:id="giacinta">
         <surface>
             <graphic url='Farfalla_1879_5_1_9.jpg' width='3378px' height='5086px' xml:id="pag_9"/>
-            <zone ulx="309" uly="2744" lrx="1667" lry="4645" />
-            <zone ulx="1729" uly="435" lrx="3103" lry="1671" />
+            <zone ulx="309" uly="2744" lrx="1667" lry="4645" xml:id="prima_colonna"/>
+            <zone ulx="1729" uly="435" lrx="3103" lry="1671" xml:id="seconda_colonna"/>
         </surface>        
     </facsimile>
 
