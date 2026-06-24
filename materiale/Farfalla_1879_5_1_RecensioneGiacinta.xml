@@ -41,13 +41,14 @@
                 <availability status="free">
                     <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
                 </availability>
-                <idno type="filename">Farfalla_1877_5_1_RecensioneGiacinta.xml</idno>
+                <idno type="filename">Farfalla_1879_5_1_RecensioneGiacinta.xml</idno>
 			</publicationStmt>
             
             <sourceDesc>
                 <biblStruct>
                     <analytic>
                         <title level="a">Recensione a L. Capuana, Giacinta</title>
+                        <author>Autore ignoto</author>
                     </analytic>
                     <monogr>
                         <title level="j" xml:id="farfalla">La Farfalla</title>
@@ -92,7 +93,7 @@
 
         <profileDesc>
             <creation>
-                <date when="1879">1879</date>
+                <date when="1879-07-06">6 luglio 1879</date>
                 <placeName ref="entita_nominate.xml#MI">Milano</placeName>
             </creation>
 
@@ -110,7 +111,7 @@
         </profileDesc>
 
         <revisionDesc>
-            <change status="draft" when="2026-06-19" resp="#LB">First draft june 23, 2026</change>
+            <change status="draft" when="2026-06-23" resp="#LB">First draft june 23, 2026</change>
         </revisionDesc>
     </teiHeader>
 
