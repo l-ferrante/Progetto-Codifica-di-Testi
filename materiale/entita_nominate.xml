@@ -609,23 +609,6 @@
 
 				</listBibl>
 
-
-				<!-- <listBibl xml:id="bibliografiaSecondaria">
-						
-						<biblStruct xml:id="spiritismo">
-							<monogr>
-								<author ref="coverlessListPerson.xml#luigiCapuana">Luigi Capuana</author>
-								<title type="main" level="m">Spiritismo?</title>
-								<imprint>
-									<pubPlace>Catania</pubPlace>
-									<publisher>Giannotta</publisher>
-									<date when="1884">1884</date>
-								</imprint>
-							</monogr>
-						</biblStruct>
-					
-				</listBibl> -->
-
 			</div>
 
         </back>
