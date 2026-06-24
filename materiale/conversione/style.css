@@ -1,0 +1,37 @@
+body{
+    margin: 0 2.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.immagine img{width: 100%;}
+
+.testo{
+    padding: 0 5%;
+}
+.testo h1{text-align: center;}
+
+.rientro{
+    text-indent: 5%;
+}
+
+.sezioni{
+    display: none;
+}
+
+#nav{
+    text-align: center;
+}
+
+#nav button{
+    width: 30%;
+    border: 1px black solid;
+    border-radius: 16px;
+    padding: 1.5%;
+    margin: 1%;
+}
+
+#nav button:hover{
+    cursor: pointer;
+}
