@@ -39,7 +39,7 @@
                         </category>
 
                         <category xml:id="problemaSociale">
-                            <catDesc><term type="themes">Problema sociale</term>Riferimenti a problemi sociali, ovvero, condizioni che affliggono vaste fasce di una popolazione, minacciando il benessere, la convivenza e i valori condivisi di una comunità</catDesc>    <!-- RIVEDERE-->
+                            <catDesc><term type="themes">Problema sociale</term>Riferimenti a problemi sociali, ovvero, condizioni che affliggono vaste fasce di una popolazione, minacciando il benessere, la convivenza e i valori condivisi di una comunità</catDesc>
                         </category>
 
                         <category xml:id="cronaca">
@@ -175,7 +175,7 @@
                             <note source="https://www.treccani.it/enciclopedia/clio/"><p>Nella mitologia greca, la prima delle nove Muse, figlia di Zeus e Mnemosine, considerata la musa del canto epico e della storia.</p></note>
                         </person>
 
-                        <person xml:id="vincenzoBignami">   <!-- RIVEDERE -->
+                        <person xml:id="vincenzoBignami">
                             <persName type="real">
                                 <forename>Vincenzo</forename>
                                 <surname>Bignami</surname>
@@ -557,17 +557,17 @@
 						<desc>Fondata a Cagliari da Angelo Sommaruga, con cadenza quindicinale, «La Farfalla» vide la luce il 27 febbraio 1876. Si presentava al pubblico «semplice, pulita, senza fregi e senza fronzoli», quasi del tutto priva di quelle novità grafiche che caratterizzeranno le riviste successive. I maggiori collaboratori furono, oltre Giarelli, autore della maggior parte degli articoli, Ottone Bacaredda, Felice Cameroni, Paolo Valera, Ferdinando Fontana, Cesario Testa, Domenico Milelli, Remigio Zena. Nel 1877 Sommaruga ritornò a Milano, portando con sé la rivista. Il primo numero milanese del 30 settembre uscì con una nuova testata che preannunciava lo stile liberty: un disegno di Tranquillo Cremona che raffigurava una graziosa fanciulla incastonato tra le prime due lettere del titolo.</desc>
 					</org>
 
-                    <org type="association" xml:id="mafia"> <!-- RIVEDERE type-->
+                    <org type="association" xml:id="mafia">
 						<orgName type="main" ref="https://www.treccani.it/enciclopedia/mafia/">Mafia</orgName>
 						<desc>Complesso di organizzazioni criminali sorte in Sicilia nel XIX sec., diffuse su base territoriale, rette dalla legge dell’omertà e strutturate gerarchicamente. La parola mafia comparve nel 1863 prima in una commedia dialettale e subito dopo in un documento della questura di Palermo. Tra Otto e Novecento, e fino a oggi, con essa è stata indicata una fenomenologia criminale tipica della parte centro-occidentale della Sicilia, caratterizzata da profondo radicamento nella cultura locale e da connessioni con il potere politico ed economico.</desc>
 					</org>
 
-                    <org type="association" xml:id="camorra"> <!-- RIVEDERE type-->
+                    <org type="association" xml:id="camorra">
 						<orgName type="main" ref="https://www.treccani.it/enciclopedia/camorra/">Camorra</orgName>
 						<desc>Associazione criminale esistente nel Napoletano fin dall’epoca spagnola (XVI sec.). Occorre distinguere tra c. tradizionale, durata fino alla Seconda guerra mondiale, e il fenomeno camorristico contemporaneo. Nella situazione e concezione tradizionale, comportarsi in maniera camorristica significava agire in conformità a un codice di prestigio e di supremazia, che prevedeva l’uso della violenza e della frode nel corso di una serie di scontri e di competizioni tra individui e gruppi. Ciò portava all’emersione di «un’élite» di uomini di c., che cercavano di stabilire un potere di governo su una data zona, tramite la creazione di un gruppo di amici, clienti e consanguinei disposti ad appoggiarli nell’esercizio delle loro attività. Ogni gruppo tendeva a monopolizzare l’intera gamma delle attività illegali e paralegali (gioco d’azzardo, prostituzione, contrabbando, estorsioni ecc.) che si svolgevano sul proprio territorio, insieme a una quota limitata degli affari legali. I rapporti tra gruppi camorristici confinanti conoscevano fasi di cooperazione alternate a fasi di conflitto anche molto acute. I camorristi godevano di una cospicua legittimazione popolare, cui si aggiungeva un’antica delega da parte delle autorità ufficiali per la gestione dell’ordine pubblico. Il cambiamento della c. dopo la Seconda guerra mondiale può essere interpretato nei termini di uno sviluppo delle funzioni economiche e politiche svolte dal potere camorristico, che rinuncia a collaborare al mantenimento dell’ordine pubblico.</desc>
 					</org>
 
-                    <org type="institution" xml:id="polizia"> <!-- RIVEDERE type-->
+                    <org type="institution" xml:id="polizia">
 						<orgName type="main" ref="https://www.treccani.it/enciclopedia/polizia/">Polizia</orgName>
 						<desc>Insieme di corpi militari e civili dello Stato, o di enti pubblici territoriali, con cui si mira alla rimozione di tutte le cause che possono ostacolare la tranquilla e ordinata convivenza civile o ledere gli interessi legittimi dei singoli.</desc>
 					</org>
