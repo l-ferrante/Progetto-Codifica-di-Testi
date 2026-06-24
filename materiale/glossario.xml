@@ -49,8 +49,8 @@
                     </item>
 
                     <item>
-                        <term xml:id="vero" type="verbum" subtype="vero_verita">Vero</term>
-                        <gloss resp="#LF" target="https://it.wikipedia.org/wiki/Verismo https://it.wikipedia.org/wiki/Luigi_Capuana">Il primo autore italiano a teorizzare il verismo fu Capuana, che parlò di "poesia del vero". Nella raccolta di saggi <title>Il Teatro italiano contemporaneo. Studi sulla letteratura contemporanea</title> (1872) la poetica del verismo che Capuana aveva elaborato si poneva come regola fondamentale quella di ritrarre direttamente dal vero. Lo scrittore doveva assumere dalla vita contemporanea la materia e narrare fatti realmente accaduti, senza limitarsi a ritrarli dall'esterno, ma ricostruendo la storia cogliendo e rivelando tutto il processo mediante il quale il fatto si era prodotto.</gloss>
+                        <term xml:id="vero" type="verbum" subtype="vero_verita">Vero, Verità</term>
+                        <gloss resp="#LF #LB" target="https://it.wikipedia.org/wiki/Verismo https://it.wikipedia.org/wiki/Luigi_Capuana">Il primo autore italiano a teorizzare il verismo fu Capuana, che parlò di "poesia del vero". Nella raccolta di saggi <title>Il Teatro italiano contemporaneo. Studi sulla letteratura contemporanea</title> (1872) la poetica del verismo che Capuana aveva elaborato si poneva come regola fondamentale quella di ritrarre direttamente dal vero. Lo scrittore doveva assumere dalla vita contemporanea la materia e narrare fatti realmente accaduti, senza limitarsi a ritrarli dall'esterno, ma ricostruendo la storia cogliendo e rivelando tutto il processo mediante il quale il fatto si era prodotto.</gloss>
                     </item>
 
                     <item>
@@ -70,6 +70,48 @@
 
                     <item>
                         <term xml:id="studioCuore" type="verbum" subtype="studio_osservazione">Studio del cuore di donna</term>
+                    </item>
+
+                    <item>
+                        <term xml:id="spiritoOss" type="verbum" subtype="studio_osservazione">Spirito alto di osservazione</term>
+                    </item>
+
+                    <item>
+                        <term xml:id="intreccio" type="forma_letteraria" subtype="narrazione">Intreccio</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/enciclopedia/intreccio/">Il complesso delle vicende che costituiscono la trama, l’argomento di un’opera narrativa o drammatica.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="capolavoro" type="forma_letteraria" subtype="autorialita_narrativita">Capolavoro</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/enciclopedia/capolavoro/">Opera (e per estens. anche azione, impresa, comportamento) eccellente in genere.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="scuolaRealista" type="forma_letteraria" subtype="ismi">Scuola realista</term>
+                        <gloss resp="#LB" target="https://it.wikipedia.org/wiki/Realismo_(letteratura)">In letteratura il realismo è una tendenza a rappresentare la realtà oggettiva, sia cogliendone in modo problematico i risvolti politici e sociali nella vita quotidiana, sia inserendo personaggi in un preciso contesto storico e ambientale, anche remoto.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="romanzoTesi" type="forma_letteraria" subtype="genere_letterario">Romanzo a tesi</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/vocabolario/tesi/">Nel linguaggio della critica letteraria, opere nelle quali l’autore si propone programmaticamente la dimostrazione di una tesi morale, sociale, politica, ecc.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="cosaEspone" type="stile" subtype="sintassi">Che cosa espone?</term>
+                    </item>
+
+                    <item>
+                        <term xml:id="tuttoNiente" type="stile" subtype="sintassi">Tutto e niente.</term>
+                    </item>
+
+                    <item>
+                        <term xml:id="resipiscenza" type="stile" subtype="registro">Resipiscenza</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/vocabolario/resipiscenza/">Il rinsavire e il ravvedersi, riconoscendo l’errore in cui si è caduti, tornando al retto operare. Nel diritto penale la r. del colpevole ha efficacia esimente o attenuante sulla punizione del reato, per considerazioni fondate sia su motivi di giustizia (minore entità dell’offesa al diritto) sia su ragioni sintomatiche (minore capacità a delinquere).</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="supinaAcc" type="stile" subtype="registro">Supina accontentatura</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/vocabolario/supino1/">Supino (fig.): che rivela passiva acquiescenza, eccessiva accondiscendenza, mancanza assoluta di reazione di fronte a imposizioni, sopraffazioni e sim., o a gravi avversità.</gloss>
                     </item>
 
                 </list>

@@ -126,23 +126,23 @@
                 <div type="section" facs="#prima_colonna #seconda_colonna" n="1">
 
                     <p xml:id="p_1" rend="first-line-indented">
-                        Sì, la <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> di <persName type="real" ref="entita_nominate.xml#luigiCapuana"><forename full="init">L.</forename> <surname>Capuana</surname></persName> è un capolavoro.
+                        Sì, la <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> di <persName type="real" ref="entita_nominate.xml#luigiCapuana"><forename full="init">L.</forename> <surname>Capuana</surname></persName> è un <term ref="glossario.xml#capolavoro">capolavoro</term>.
                         Ho letto il <rs type="work" ref="entita_nominate.xml#giacinta">volume</rs> sino all'ultima pagina, e provo
                         irresistibile il bisogno di proclamare questa mia
-                        sensazione: <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> è un capolavoro.
+                        sensazione: <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> è un <term ref="glossario.xml#capolavoro">capolavoro</term>.
                     </p>
                     <p xml:id="p_2" rend="first-line-indented">
-                        Che cosa espone?
+                        <term ref="glossario.xml#cosaEspone">Che cosa espone?</term>
                     </p>
                     <p xml:id="p_3" rend="first-line-indented">
-                        Tutto e niente.
+                        <term ref="glossario.xml#tuttoNiente">Tutto e niente.</term>
                     </p>
                     <p xml:id="p_4" rend="first-line-indented">
                         Si tratta di una <rs type="person" subtype="fictional" ref="entita_nominate.xml#giacintaPersonaggio">fanciulla</rs> cui sua madre non
                         ha mai amata, mancandogliene il tempo, tutto da
                         lei dedicato a non lasciarsi sfuggire i suoi amanti,
-                        tollerati dal buon marito con supina accontenta<lb break="no"/>
-                        tura.
+                        tollerati dal buon marito con <term ref="glossario.xml#supinaAcc">supina accontenta<lb break="no"/>
+                        tura</term>.
                     </p>
                     <p xml:id="p_5" rend="first-line-indented">
                         Si tratta d'un amante &#8212; <persName type="fictional" ref="entita_nominate.xml#andreaPersonaggio"><hi rend="italic">Andrea</hi></persName> &#8212; che <rs type="person" subtype="fictional" ref="entita_nominate.xml#giacintaPersonaggio">la
@@ -158,26 +158,26 @@
                         gode tutto per sé, al cospetto della società &#8212; cui
                         disprezza &#8212; e del marito &#8212; di cui ride &#8212; il suo
                         <persName type="fictional" ref="entita_nominate.xml#andreaPersonaggio"><hi rend="italic">Andrea</hi></persName> &#8212; il quale non arrossisce di farsi man-
-                        tenere da lei, finché in un momento di tarda resi<lb break="no"/>
-                        piscenza le fa capire che non le vuol più bene.
+                        tenere da lei, finché in un momento di tarda <term ref="glossario.xml#resipiscenza">resi<lb break="no"/>
+                        piscenza</term> le fa capire che non le vuol più bene.
                     </p>
                     <p xml:id="p_7" rend="first-line-indented">
                         Si tratta infine di <persName type="fictional" ref="entita_nominate.xml#giacintaPersonaggio"><hi rend="italic">Giacinta</hi></persName>, che, avuta questa
                         convinzione, si avvelena e muore.
                     </p>
                     <p xml:id="p_8" rend="first-line-indented">
-                        Come vedete l'intreccio non è una novità. Ma
-                        qui l'intreccio non conta. È lo <term ref="studioCuore">studio del cuore
+                        Come vedete l'<term ref="glossario.xml#intreccio">intreccio</term> non è una novità. Ma
+                        qui l'<term ref="glossario.xml#intreccio">intreccio</term> non conta. È lo <term ref="glossario.xml#studioCuore">studio del cuore
                         <cb n="2" xml:id="col_2-p.89"/>
                         di donna</term> che batte qui dentro poderose le sue ali.
-                        È lo spirito alto di osservazione, che vivifica da
+                        È lo <term ref="glossario.xml#spiritoOss">spirito alto di osservazione</term>, che vivifica da
                         capo a fondo tutta questa lunga pagina di dolore.
-                        È insomma la verità che ossigena parola per pa<lb break="no"/>
-                        rola questo libro, del quale <persName ref="entita_nominate.xml#luigiCapuana"><forename>Luigi</forename> <surname>Capuana</surname></persName> &#8212; che
-                        non appartiene certo agli esagerati della scuola
-                        realista &#8212; può, deve anzi a buon diritto, andare
+                        È insomma la <term ref="glossario.xml#vero">verità</term> che ossigena parola per pa<lb break="no"/>
+                        rola <rs type="work" ref="entita_nominate.xml#giacinta">questo libro</rs>, del quale <persName ref="entita_nominate.xml#luigiCapuana"><forename>Luigi</forename> <surname>Capuana</surname></persName> &#8212; che
+                        non appartiene certo agli esagerati della <term ref="glossario.xml#scuolaRealista">scuola
+                        realista</term> &#8212; può, deve anzi a buon diritto, andare
                         lieto ed altiero: poiché <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> è forse, o senza
-                        forse, il romanzo a tesi più riuscito, in quest'ultimo
+                        forse, il <term ref="glossario.xml#romanzoTesi">romanzo a tesi</term> più riuscito, in quest'ultimo
                         triennio di vita letteraria italiana.
                     </p>
                     <p xml:id="p_9" rend="first-line-indented">
