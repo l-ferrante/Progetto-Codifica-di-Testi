@@ -138,7 +138,7 @@
                         una ragazza a quindici anni.
                     </p>
                     <p xml:id="p_3" rend="first-line-indented">
-                        I signori <persName ref="entita_nominate.xml#sidneySonnino">Sonnino</persName> e <persName ref="entita_nominate.xml#leopoldoFranchetti">Franchetti</persName>, dopo un pellegrinaggio in 
+                        I signori <persName type="real" ref="entita_nominate.xml#sidneySonnino">Sonnino</persName> e <persName type="real" ref="entita_nominate.xml#leopoldoFranchetti">Franchetti</persName>, dopo un pellegrinaggio in 
                         <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName>, fanno gemere sotto i torchi due volumi per mezzo dei
                         quali si viene a sapere che cosa è la <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName>.
                     </p>
@@ -148,8 +148,8 @@
                     <p xml:id="p_5" rend="first-line-indented">
                         Proprio non c'è che dire &#8212; in questo secolo di lumi s'è
                         voluto accendere a forza un fiammifero per rischiarare un'i<lb break="no"/>
-                        sola &#8212; problema nella quale i <persName ref="entita_nominate.xml#ciclopi">Ciclopi</persName> fecero il diavolo a quat<lb break="no"/>
-                        tro e <persName ref="entita_nominate.xml#teocrito">Teocrito</persName> suonò la zampogna all'ombra dei carrubi.
+                        sola &#8212; problema nella quale i <persName type="fictional" ref="entita_nominate.xml#ciclopi">Ciclopi</persName> fecero il diavolo a quat<lb break="no"/>
+                        tro e <persName type="real" ref="entita_nominate.xml#teocrito">Teocrito</persName> suonò la zampogna all'ombra dei carrubi.
                     </p>
                 </div>
             
@@ -169,7 +169,7 @@
                     <p xml:id="p_7" rend="first-line-indented">
                         Ad ogni modo qualche cosa si sa. Figuratevi che un Ari<lb break="no"/>
                         starco colle orecchie fuori misura disse che la <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> non ha
-                        avuta una vita costituzionale.... O <persName ref="entita_nominate.xml#clio">Clio</persName> musa della storia, ve<lb break="no"/>
+                        avuta una vita costituzionale.... O <persName type="fictional" ref="entita_nominate.xml#clio">Clio</persName> musa della storia, ve<lb break="no"/>
                         stiti di nero e piangi.... piangi che n'hai ben d'onde!
                     </p>
                 </div>
@@ -220,9 +220,9 @@
                     <p xml:id="p_11" rend="first-line-indented">
                         E il <term ref="glossario.xml#malandrinaggio">malandrinaggio</term>? e il <term ref="glossario.xml#manutengolismo">manutengolismo</term>? &#8212; Istituite una
                         buona <orgName ref="entita_nominate.xml#polizia">polizia</orgName> in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> che non ne ha mai avuta... e l'<placeName ref="entita_nominate.xml#IT">Italia</placeName> forse
-                        neanco. Il processo del questore <persName ref="entita_nominate.xml#vincenzoBignami">Bignami</persName> è un esempio chiaro e
+                        neanco. Il processo del questore <persName type="real" ref="entita_nominate.xml#vincenzoBignami">Bignami</persName> è un esempio chiaro e
                         lampante. Ebbene, in <placeName ref="entita_nominate.xml#sicilia">Sicilia</placeName> il bisogno d'una <orgName ref="entita_nominate.xml#polizia">polizia</orgName> si fa sentire
-                        più grave e più imperioso. I <persName ref="entita_nominate.xml#borboni">Borboni</persName> accarezzarono la sbirraglia,
+                        più grave e più imperioso. I <persName type="real" ref="entita_nominate.xml#borboni">Borboni</persName> accarezzarono la sbirraglia,
                         se ne fecero strumento di tirannide, la organizzarono per ado<lb break="no"/>
                         prarla alla violenza ed al sopruso; e siccome a quei tempi
                         nessun onest'uomo voleva esercitare il mestiere di poliziotto,
