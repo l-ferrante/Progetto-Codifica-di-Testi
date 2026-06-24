@@ -85,6 +85,7 @@
                 </hyphenation>
                 <normalization>
                     <p>Si è scelto di normalizzare gli spazi fra le parole.</p>
+                    <p>Si è scelto di trasformare la E' in È</p>
                 </normalization>
             </editorialDecl>
         </encodingDesc>
@@ -125,10 +126,10 @@
                 <div type="section" facs="#prima_colonna #seconda_colonna" n="1">
 
                     <p xml:id="p_1" rend="first-line-indented">
-                        Sì, la <ref target="entita_nominate.xml#giacinta">Giacinta</ref> di <persName ref="entita_nominate.xml#luigiCapuana">L. Capuana</persName> è un capolavoro.
-                        Ho letto il volume sino all'ultima pagina, e provo
+                        Sì, la <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> di <persName type="real" ref="entita_nominate.xml#luigiCapuana"><forename full="init">L.</forename> <surname>Capuana</surname></persName> è un capolavoro.
+                        Ho letto il <rs type="work" ref="entita_nominate.xml#giacinta">volume</rs> sino all'ultima pagina, e provo
                         irresistibile il bisogno di proclamare questa mia
-                        sensazione: Giacinta è un capolavoro.
+                        sensazione: <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> è un capolavoro.
                     </p>
                     <p xml:id="p_2" rend="first-line-indented">
                         Che cosa espone?
@@ -137,15 +138,15 @@
                         Tutto e niente.
                     </p>
                     <p xml:id="p_4" rend="first-line-indented">
-                        Si tratta di una fanciulla cui sua madre non
+                        Si tratta di una <rs type="person" subtype="fictional" ref="entita_nominate.xml#giacintaPersonaggio">fanciulla</rs> cui sua madre non
                         ha mai amata, mancandogliene il tempo, tutto da
                         lei dedicato a non lasciarsi sfuggire i suoi amanti,
                         tollerati dal buon marito con supina accontenta<lb break="no"/>
                         tura.
                     </p>
                     <p xml:id="p_5" rend="first-line-indented">
-                        Si tratta d'un amante &#8212; Andrea &#8212; che la
-                        fanciulla non vuole avere per marito &#8212; sapendo
+                        Si tratta d'un amante &#8212; <persName type="fictional" ref="entita_nominate.xml#andreaPersonaggio"><hi rend="italic">Andrea</hi></persName> &#8212; che <rs type="person" subtype="fictional" ref="entita_nominate.xml#giacintaPersonaggio">la
+                        fanciulla</rs> non vuole avere per marito &#8212; sapendo
                         che ancora bambina era stata turpemente violata
                         da un giovane servo &#8212; ma che essa vuol avere
                         per amante: e perciò diventa moglie di uno stu<lb break="no"/>
@@ -153,43 +154,48 @@
                         delle nozze.
                     </p>
                     <p xml:id="p_6" rend="first-line-indented">
-                        Si tratta di Giacinta, che per anni ed anni si
+                        Si tratta di <persName type="fictional" ref="entita_nominate.xml#giacintaPersonaggio"><hi rend="italic">Giacinta</hi></persName>, che per anni ed anni si
                         gode tutto per sé, al cospetto della società &#8212; cui
                         disprezza &#8212; e del marito &#8212; di cui ride &#8212; il suo
-                        Andrea &#8212; il quale non arrossisce di farsi man-
+                        <persName type="fictional" ref="entita_nominate.xml#andreaPersonaggio"><hi rend="italic">Andrea</hi></persName> &#8212; il quale non arrossisce di farsi man-
                         tenere da lei, finché in un momento di tarda resi<lb break="no"/>
                         piscenza le fa capire che non le vuol più bene.
                     </p>
                     <p xml:id="p_7" rend="first-line-indented">
-                        Si tratta infine di Giacinta, che, avuta questa
+                        Si tratta infine di <persName type="fictional" ref="entita_nominate.xml#giacintaPersonaggio"><hi rend="italic">Giacinta</hi></persName>, che, avuta questa
                         convinzione, si avvelena e muore.
                     </p>
                     <p xml:id="p_8" rend="first-line-indented">
                         Come vedete l'intreccio non è una novità. Ma
-                        qui l'intreccio non conta. E' lo studio del cuore
+                        qui l'intreccio non conta. È lo <term ref="studioCuore">studio del cuore
                         <cb n="2" xml:id="col_2-p.89"/>
-                        di donna che batte qui dentro poderose le sue ali.
-                        E' lo spirito alto di osservazione, che vivifica da
+                        di donna</term> che batte qui dentro poderose le sue ali.
+                        È lo spirito alto di osservazione, che vivifica da
                         capo a fondo tutta questa lunga pagina di dolore.
-                        E' insomma la verità che ossigena parola per pa<lb break="no"/>
-                        rola questo libro, del quale Luigi Capuana &#8212; che
+                        È insomma la verità che ossigena parola per pa<lb break="no"/>
+                        rola questo libro, del quale <persName ref="entita_nominate.xml#luigiCapuana"><forename>Luigi</forename> <surname>Capuana</surname></persName> &#8212; che
                         non appartiene certo agli esagerati della scuola
                         realista &#8212; può, deve anzi a buon diritto, andare
-                        lieto ed altiero: poiché Giacinta è forse, o senza
+                        lieto ed altiero: poiché <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> è forse, o senza
                         forse, il romanzo a tesi più riuscito, in quest'ultimo
                         triennio di vita letteraria italiana.
                     </p>
                     <p xml:id="p_9" rend="first-line-indented">
-                        Profili di donna furono una promessa: Giacinta
+                        <ref target="entita_nominate.xml#profiliDiDonne"><hi rend="italic">Profili di donna</hi></ref> furono una promessa: <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref>
                         ne è l'attendimento.
                     </p>
                     <p xml:id="p_10" rend="first-line-indented">
-                        Proclamiamolo dunque: Luigli Capuana è di
+                        Proclamiamolo dunque: <persName ref="entita_nominate.xml#luigiCapuana"><forename>
+                            <choice>
+                                <sic>Luigli</sic>
+                                <corr>Luigi</corr>
+                            </choice>
+                        </forename> <surname>Capuana</surname></persName> è di
                         quelli che promettono dieci ed attengono cinquanta.
                     </p>
                     <p xml:id="p_11" rend="first-line-indented">
                         Tanto meglio per lui e per l'arte, nelle cui
-                        sfere superiori questa sua Giacinta lo colloca di
+                        sfere superiori questa sua <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> lo colloca di
                         sbalzo.
                     </p>
                     <p xml:id="p_12" rend="first-line-indented">
