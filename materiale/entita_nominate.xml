@@ -191,6 +191,20 @@
                             <note source="https://www.treccani.it/enciclopedia/borbone">Famiglia reale di origine francese (fr. Bourbon), che regnò in parecchi stati dell'Europa occidentale e meridionale (Francia, Spagna, Napoli, Parma e Lucca) e fu, con gli Asburgo, la più potente famiglia principesca dell'Europa. Il nome di Borboni (dal castello Bourbon, oggi B.-l'Archambault, nella Francia centrale), fu portato da una modesta famiglia feudale, vassalla dei conti di Bourges, ma dai quali si emancipò già sul finire del sec. 10º; il vero fondatore della potenza della famiglia fu Archambaud VI (1116-1171), che sposò Agnese, figlia di Umberto II conte di Savoia, cognata del re di Francia Luigi VI. Con lui si estinse la linea maschile dei B.: beni e titoli furono portati dalla nipote Matilde (1171-1215) al marito Guy de Dampierre; estintosi il ramo maschile dei B.-Dampierre (1249), dopo alcune successioni femminili, Beatrice col suo matrimonio con Roberto di Clermont (1276), sesto figlio di re Luigi IX, dà inizio alla nuova dinastia dei B. di sangue reale, come ramo della dinastia capetingia.</note>
                         </personGrp>
 
+                        <person xml:id="giacintaPersonaggio">
+                            <persName type="fictional">
+                                <forename>Giacinta</forename>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+
+                        <person xml:id="andreaPersonaggio">
+                            <persName type="fictional">
+                                <forename>Andrea</forename>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+
 					    <person xml:id="sacerdotiMinerva">
                             <persName type="group" role="character">Sacerdoti di Minerva</persName>
                             <sex>M</sex>
@@ -577,6 +591,18 @@
 								<publisher>Brigola</publisher>
 								<pubPlace ref="#MI">Milano</pubPlace>
 								<date when="1879">1879</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+                    <biblStruct type="raccoltaDiNovelle" xml:id="profiliDiDonne">
+						<monogr>
+							<author ref="#luigiCapuana">Luigi Capuana</author>
+							<title type="main" level="m">Profili di Donne</title>
+							<imprint>
+								<publisher>Brigola</publisher>
+								<pubPlace ref="#MI">Milano</pubPlace>
+								<date when="1877">1877</date>
 							</imprint>
 						</monogr>
 					</biblStruct>
