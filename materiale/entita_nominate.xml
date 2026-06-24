@@ -297,62 +297,32 @@
                             </death>
                             <note source="https://www.treccani.it/enciclopedia/pericle/"><p>Uomo politico ateniese (495 circa - 429 a. C.), figlio di Santippo, imparentato per parte di madre con gli Alcmeonidi. Iniziò la sua carriera politica nel partito democratico di Efialte, che, con l'ostracismo di Cimone (461) e il declino del partito conservatore e dell'Areopago, conquistò la direzione della politica ateniese. Ma essendo stato quasi subito assassinato Efialte, P. si trovò solo a guidare a un tempo il suo partito e la politica ateniese, ciò che fece per oltre trent'anni (461-429) fondando il proprio potere sulla annuale, libera rielezione nel consiglio degli strateghi. In politica estera P. si propose come ultima mira il predominio ateniese sull'intera Grecia.</p></note>
                         </person>
-
-                        <person xml:id="tegola">
+					
+						<person xml:id="tegola">
                             <persName type="real" role="author">
-                                <!-- <forename></forename> -->
-                                <!-- <surname></surname> -->
                                 <addName type="pseudonym">Tegola</addName>
                             </persName>
                             <sex>M</sex>
-                            <birth>
-                                <!-- <date when=""></date> -->
-                                <!-- <placeName ref=""></placeName> -->
-                            </birth>
-                            <death>
-                                <!-- <date when=""></date> -->
-                                <!-- <placeName ref=""></placeName> -->
-                            </death>
-                            <note>Pseudonimo di collaboratore della rivista "La Farfalla" non ancora identificato dalle ricerche correnti.</note>
+                            <note>Pseudonimo di un collaboratore della rivista La Farfalla.</note>
                         </person>
 
                         <person xml:id="vincentius">
                             <persName type="real" role="author">
-                                <!-- <forename></forename> -->
-                                <!-- <surname></surname> -->
                                 <addName type="pseudonym">Vincentius</addName>
                             </persName>
                             <sex>M</sex>
-                            <birth>
-                                <!-- <date when=""></date> -->
-                                <!-- <placeName ref=""></placeName> -->
-                            </birth>
-                            <death>
-                                <!-- <date when=""></date> -->
-                                <!-- <placeName ref=""></placeName> -->
-                            </death>
-							<note>Pseudonimo di collaboratore della rivista "La Farfalla" non ancora identificato dalle ricerche correnti.</note>
+                            <note>Pseudonimo di un collaboratore della rivista La Farfalla.</note>
                         </person>
 
                         <person xml:id="stolberg">
                             <persName type="real" role="author">
-                                <!-- <forename></forename> -->
-                                <!-- <surname></surname> -->
                                 <addName type="pseudonym">Stolberg</addName>
                             </persName>
                             <sex>M</sex>
-                            <birth>
-                                <!-- <date when=""></date> -->
-                                <!-- <placeName ref=""></placeName> -->
-                            </birth>
-                            <death>
-                                <!-- <date when=""></date> -->
-                                <!-- <placeName ref=""></placeName> -->
-                            </death>
-							<note>Pseudonimo di collaboratore della rivista "La Farfalla" non ancora identificato dalle ricerche correnti.</note>
+                            <note>Pseudonimo di un collaboratore della rivista La Farfalla.</note>
                         </person>
+                                                
                 </listPerson>
-
             </div>
 
             <div xml:id="luoghi">
