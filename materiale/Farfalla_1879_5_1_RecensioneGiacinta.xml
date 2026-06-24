@@ -47,7 +47,7 @@
             <sourceDesc>
                 <biblStruct>
                     <analytic>
-                        <title ref="entita_nominate.xml#giacinta" level="a">Recensione a L. Capuana, Giacinta</title>
+                        <title level="a">Recensione a L. Capuana, Giacinta</title>
                     </analytic>
                     <monogr>
                         <title level="j" xml:id="farfalla">La Farfalla</title>
@@ -60,7 +60,7 @@
                         <biblScope unit="page">9</biblScope>
                     </monogr>
 
-                    <relatedItem type="reviewOf">   <!-- RIVEDERE se serve -->
+                    <relatedItem type="reviewOf">
                         <biblStruct>
                             <monogr>
                                 <title ref="entita_nominate.xml#giacinta" level="m">Giacinta</title>
@@ -106,10 +106,6 @@
                 <language ident="it-x-800">Italiano di fine Ottocento</language>
             </langUsage>
 
-            <abstract>
-                <p>Il testo è una recensione della "Giacinta" di Luigi Capuana. L'autore della recensione afferma che non è tanto la trama ad essere speciale, ma lo spirito di osservazione di Capuana. "Giacinta" viene definito come il romanzo a tesi più riuscito degli ultimi 3 anni.</p>
-            </abstract>
-
         </profileDesc>
 
         <revisionDesc>
@@ -127,8 +123,9 @@
             <div type="text">
 
                 <div type="section" facs="#prima_colonna #seconda_colonna" n="1">
+
                     <p xml:id="p_1" rend="first-line-indented">
-                        Sì, la Giacinta di L. Capuana è un capolavoro.
+                        Sì, la <ref target="entita_nominate.xml#giacinta">Giacinta</ref> di <persName ref="entita_nominate.xml#luigiCapuana">L. Capuana</persName> è un capolavoro.
                         Ho letto il volume sino all'ultima pagina, e provo
                         irresistibile il bisogno di proclamare questa mia
                         sensazione: Giacinta è un capolavoro.
@@ -136,48 +133,68 @@
                     <p xml:id="p_2" rend="first-line-indented">
                         Che cosa espone?
                     </p>
+                    <p xml:id="p_3" rend="first-line-indented">
                         Tutto e niente.
+                    </p>
+                    <p xml:id="p_4" rend="first-line-indented">
                         Si tratta di una fanciulla cui sua madre non
-                    ha mai amata, mancandogliene il tempo, tutto da
-                    lei dedicato a non lasciarsi sfuggire i suoi amanti,
-                    tollerati dal buon marito con supina accontenta-
-                    tura.
-                        Si tratta d'un amante -- Andrea -- che la
-                    fanciulla non vuole avere per marito -- sapendo
-                    che ancora bambina era stata turpemente violata
-                    da un giovane servo -- ma che essa vuol avere
-                    per amante: e perciò diventa moglie di uno stu-
-                    pido conte, ch'essa incorona la stessa prima notte
-                    delle nozze.
+                        ha mai amata, mancandogliene il tempo, tutto da
+                        lei dedicato a non lasciarsi sfuggire i suoi amanti,
+                        tollerati dal buon marito con supina accontenta<lb break="no"/>
+                        tura.
+                    </p>
+                    <p xml:id="p_5" rend="first-line-indented">
+                        Si tratta d'un amante &#8212; Andrea &#8212; che la
+                        fanciulla non vuole avere per marito &#8212; sapendo
+                        che ancora bambina era stata turpemente violata
+                        da un giovane servo &#8212; ma che essa vuol avere
+                        per amante: e perciò diventa moglie di uno stu<lb break="no"/>
+                        pido conte, ch'essa incorona la stessa prima notte
+                        delle nozze.
+                    </p>
+                    <p xml:id="p_6" rend="first-line-indented">
                         Si tratta di Giacinta, che per anni ed anni si
-                    gode tutto per sé, al cospetto della società -- cui
-                    disprezza -- e del marito -- di cui ride -- il suo
-                    Andrea -- il quale non arrossisce di farsi man-
-                    tenere da lei, finché in un momento di tarda resi-
-                    piscenza le fa capire che non le vuol più bene.
+                        gode tutto per sé, al cospetto della società &#8212; cui
+                        disprezza &#8212; e del marito &#8212; di cui ride &#8212; il suo
+                        Andrea &#8212; il quale non arrossisce di farsi man-
+                        tenere da lei, finché in un momento di tarda resi<lb break="no"/>
+                        piscenza le fa capire che non le vuol più bene.
+                    </p>
+                    <p xml:id="p_7" rend="first-line-indented">
                         Si tratta infine di Giacinta, che, avuta questa
-                    convinzione, si avvelena e muore.
+                        convinzione, si avvelena e muore.
+                    </p>
+                    <p xml:id="p_8" rend="first-line-indented">
                         Come vedete l'intreccio non è una novità. Ma
-                    qui l'intreccio non conta. E' lo studio del cuore
-                    <cb n="2" xml:id="col_2-p.89"/>
-                    di donna che batte qui dentro poderose le sue ali.
-                    E' lo spirito alto di osservazione, che vivifica da
-                    capo a fondo tutta questa lunga pagina di dolore.
-                    E' insomma la verità che ossigena parola per pa-
-                    rola questo libro, del quale Luigi Capuana -- che
-                    non appartiene certo agli esagerati della scuola
-                    realista -- può, deve anzi a buon diritto, andare
-                    lieto ed altiero: poiché Giacinta è forse, o senza
-                    forse, il romanzo a tesi più riuscito, in quest'ultimo
-                    triennio di vita letteraria italiana.
+                        qui l'intreccio non conta. E' lo studio del cuore
+                        <cb n="2" xml:id="col_2-p.89"/>
+                        di donna che batte qui dentro poderose le sue ali.
+                        E' lo spirito alto di osservazione, che vivifica da
+                        capo a fondo tutta questa lunga pagina di dolore.
+                        E' insomma la verità che ossigena parola per pa<lb break="no"/>
+                        rola questo libro, del quale Luigi Capuana &#8212; che
+                        non appartiene certo agli esagerati della scuola
+                        realista &#8212; può, deve anzi a buon diritto, andare
+                        lieto ed altiero: poiché Giacinta è forse, o senza
+                        forse, il romanzo a tesi più riuscito, in quest'ultimo
+                        triennio di vita letteraria italiana.
+                    </p>
+                    <p xml:id="p_9" rend="first-line-indented">
                         Profili di donna furono una promessa: Giacinta
-                    ne è l'attendimento.
+                        ne è l'attendimento.
+                    </p>
+                    <p xml:id="p_10" rend="first-line-indented">
                         Proclamiamolo dunque: Luigli Capuana è di
-                    quelli che promettono dieci ed attengono cinquanta.
+                        quelli che promettono dieci ed attengono cinquanta.
+                    </p>
+                    <p xml:id="p_11" rend="first-line-indented">
                         Tanto meglio per lui e per l'arte, nelle cui
-                    sfere superiori questa sua Giacinta lo colloca di
-                    sbalzo.
+                        sfere superiori questa sua Giacinta lo colloca di
+                        sbalzo.
+                    </p>
+                    <p xml:id="p_12" rend="first-line-indented">
                         E questo è il punto.
+                    </p>
                     
                 </div>
 
