@@ -215,7 +215,7 @@
 
     <facsimile xml:id="giacinta">
         <surface>
-            <graphic url='Farfalla_1879_5_1_9.jpg' width='3378px' height='5086px' xml:id="pag_9"/>
+            <graphic url='immagini/Farfalla_1879_5_1_9.jpg' width='3378px' height='5086px' xml:id="pag_9"/>
             <zone ulx="309" uly="2744" lrx="1667" lry="4645" xml:id="prima_colonna"/>
             <zone ulx="1729" uly="435" lrx="3103" lry="1671" xml:id="seconda_colonna"/>
         </surface>        
