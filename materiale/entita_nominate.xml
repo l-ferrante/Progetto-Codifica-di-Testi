@@ -540,8 +540,8 @@
 					</org>
 
                     <org type="institution" xml:id="polizia">
-						<orgName type="main" ref="https://www.treccani.it/enciclopedia/polizia/">Polizia</orgName>
-						<desc>Insieme di corpi militari e civili dello Stato, o di enti pubblici territoriali, con cui si mira alla rimozione di tutte le cause che possono ostacolare la tranquilla e ordinata convivenza civile o ledere gli interessi legittimi dei singoli.</desc>
+						<orgName type="main" ref="https://www.treccani.it/enciclopedia/polizia/">Corpo delle Guardie di Pubblica Sicurezza</orgName>
+						<desc>Corpo delle Guardie di Pubblica Sicurezza (1861-1981); poi Polizia di Stato. Insieme di corpi militari e civili dello Stato, o di enti pubblici territoriali, con cui si mira alla rimozione di tutte le cause che possono ostacolare la tranquilla e ordinata convivenza civile o ledere gli interessi legittimi dei singoli.</desc>
 					</org>
 										
                 </listOrg>
