@@ -196,6 +196,7 @@
                                 <forename>Giacinta</forename>
                             </persName>
                             <sex>F</sex>
+                            <note>Protagonista di "Giacinta".</note>
                         </person>
 
                         <person xml:id="andreaPersonaggio">
@@ -203,6 +204,7 @@
                                 <forename>Andrea</forename>
                             </persName>
                             <sex>M</sex>
+                            <note>Personaggio di "Giacinta".</note>
                         </person>
 
 					    <person xml:id="sacerdotiMinerva">
@@ -303,7 +305,7 @@
                                 <addName type="pseudonym">Tegola</addName>
                             </persName>
                             <sex>M</sex>
-                            <note>Pseudonimo di un collaboratore della rivista La Farfalla. Nome reale e dati anagraifici sono attualmente sconosciuti </note>
+                            <note>Pseudonimo di un collaboratore della rivista La Farfalla. Nome reale e dati anagrafici sono attualmente sconosciuti </note>
                         </person>
 
                         <person xml:id="vincentius">
@@ -311,7 +313,7 @@
                                 <addName type="pseudonym">Vincentius</addName>
                             </persName>
                             <sex>M</sex>
-                            <note>Pseudonimo di un collaboratore della rivista La Farfalla. Nome reale e dati anagraifici sono attualmente sconosciuti</note>
+                            <note>Pseudonimo di un collaboratore della rivista La Farfalla. Nome reale e dati anagrafici sono attualmente sconosciuti</note>
                         </person>
 
                         <person xml:id="stolberg">
@@ -319,7 +321,7 @@
                                 <addName type="pseudonym">Stolberg</addName>
                             </persName>
                             <sex>M</sex>
-                            <note>Pseudonimo di un collaboratore della rivista La Farfalla. Nome reale e dati anagraifici sono attualmente sconosciuti</note>
+                            <note>Pseudonimo di un collaboratore della rivista La Farfalla. Nome reale e dati anagrafici sono attualmente sconosciuti</note>
                         </person>
                                                 
                 </listPerson>

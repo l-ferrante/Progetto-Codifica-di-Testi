@@ -104,5 +104,115 @@
             </body>
         </html>
     </xsl:template>
+
+    <!-- Template per la gestione delle parole a capo spezzate (marcate con il tag <lb> in xml e con l'attributo @break="no")
+     Il template fa match sul nodo il cui fratello PREDECESSORE è <lb break="no">, quindi
+      sfrutta un'espressione regolare per sostituire \s (spazio) con niente, unendo quindi le parti della parola-->
+    <xsl:template match="text()[preceding-sibling::node()[1][self::tei:lb[@break='no']]]">
+        <xsl:value-of select="replace(., '^\s+', '')"/>
+    </xsl:template>
+
+    <!-- Per ogni term viene visualizzata la sua gloss tramite attributo "title"
+     (visualizza la gloss quando il mouse è sopra il term in questione) -->
+    <xsl:template match="tei:term[@ref]">
+        <xsl:variable name="file_glossario" select="'../glossario.xml'"/>
+        <xsl:variable name="id_term" select="substring-after(@ref, '#')"/>
+        <xsl:variable name="gloss" select="document($file_glossario)//*[@xml:id=$id_term]/following-sibling::tei:gloss"/>
     
+        <span class="term" title="{$gloss}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- Serve per chiamare il file entita_nominate.xml nei template successivi -->
+    <xsl:variable name="file_entita_nominate" select="'../entita_nominate.xml'"/>
+
+    <!-- Visualizza nome, cognome e un breve testo sulle persone/personaggi menzionati. 
+     Sfrutta un if-else per persone/personaggi dove non sono specificati parti del nome,
+     mostrando solo i dati presenti.
+     Uso normalize-space per trasformare i tag non trovati in stringhe vuote. -->
+    <xsl:template match="tei:persName[@ref]">
+        <xsl:variable name="id_pers" select="substring-after(@ref, '#')"/>
+        <xsl:variable name="persona" select="document($file_entita_nominate)//*[@xml:id=$id_pers]"/>
+        <xsl:variable name="nome" select="normalize-space($persona//tei:forename)"/>
+        <xsl:variable name="cognome" select="normalize-space($persona//tei:surname)"/>
+        <xsl:variable name="nota" select="normalize-space($persona//tei:note)"/>
+    
+        <span class="pers">
+            <xsl:attribute name="title">
+                <xsl:value-of select="
+                    if ($nome = '' and $cognome = '') then $nota
+                    else if ($nome != '' and $cognome = '') then concat($nome, ': ', $nota)
+                    else if ($nome = '' and $cognome != '') then concat($cognome, ': ', $nota)
+                    else concat($nome, ' ', $cognome, ': ', $nota)
+                "/>
+            </xsl:attribute>
+            
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <!-- Mostra info sui luoghi menzionati -->
+    <xsl:template match="tei:placeName[@ref]">
+        <xsl:variable name="id_place" select="substring-after(@ref, '#')"/>
+        <xsl:variable name="luogo" select="document($file_entita_nominate)//*[@xml:id=$id_place]/tei:note"/>
+    
+        <span class="place" title="{$luogo}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- Mostra info sulle opere menzionate, sia indirettamente (rs), sia direttamente (ref) -->
+    <xsl:template match="tei:rs[@type='work' and @ref]">
+        <xsl:variable name="id_work" select="substring-after(@ref, '#')"/>
+        <xsl:variable name="opera" select="document($file_entita_nominate)//*[@xml:id=$id_work]"/>
+        <xsl:variable name="autore" select="$opera//tei:author"/>
+        <xsl:variable name="titolo" select="$opera//tei:title"/>
+        <xsl:variable name="luogo_pubbl" select="$opera//tei:pubPlace"/>
+        <xsl:variable name="editore" select="$opera//tei:publisher"/>
+        <xsl:variable name="data_pubbl" select="$opera//tei:date"/>
+    
+        <span class="work">
+            <xsl:attribute name="title">
+                <xsl:value-of select="concat($autore, ', ', $titolo, ', ', $luogo_pubbl, ', ', $editore, ', ', $data_pubbl)"/>
+            </xsl:attribute>
+
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <xsl:template match="tei:ref[@target]">
+        <xsl:variable name="id_work" select="substring-after(@target, '#')"/>
+        <xsl:variable name="opera" select="document($file_entita_nominate)//*[@xml:id=$id_work]"/>
+        <xsl:variable name="autore" select="$opera//tei:author"/>
+        <xsl:variable name="titolo" select="$opera//tei:title"/>
+        <xsl:variable name="luogo_pubbl" select="$opera//tei:pubPlace"/>
+        <xsl:variable name="editore" select="$opera//tei:publisher"/>
+        <xsl:variable name="data_pubbl" select="$opera//tei:date"/>
+    
+        <span class="work">
+            <xsl:attribute name="title">
+                <xsl:value-of select="concat($autore, ', ', $titolo, ', ', $luogo_pubbl, ', ', $editore, ', ', $data_pubbl)"/>
+            </xsl:attribute>
+
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <!-- Mostra info sulle org menzionate -->
+    <xsl:template match="tei:orgName[@ref]">
+        <xsl:variable name="id_org" select="substring-after(@ref, '#')"/>
+        <xsl:variable name="organizzazione" select="document($file_entita_nominate)//*[@xml:id=$id_org]"/>
+        <xsl:variable name="nome_org" select="$organizzazione/tei:orgName"/>
+        <xsl:variable name="desc_org" select="$organizzazione/tei:desc"/>
+    
+        <span class="org">
+            <xsl:attribute name="title">
+                <xsl:value-of select="concat($nome_org, ': ', $desc_org)"/>
+            </xsl:attribute>
+
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
 </xsl:stylesheet>
