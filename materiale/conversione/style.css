@@ -39,7 +39,7 @@ body{
     cursor: pointer;
 }
 
-.terms{
+.term, .pers, .place, .work, .org {
     border-bottom: 1px dashed #000;
     cursor: help;
     font-weight: bold;
