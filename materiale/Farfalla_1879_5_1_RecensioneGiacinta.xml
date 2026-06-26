@@ -111,7 +111,7 @@
         </profileDesc>
 
         <revisionDesc>
-			<change status="completed" when="2026-06-24" resp="#LB">Final review and end of work</change>
+			<change status="completed" when="2026-06-26" resp="#LB">Final review and end of work</change>
             <change status="draft" when="2026-06-23" resp="#LB">First draft june 23, 2026</change>
         </revisionDesc>
     </teiHeader>
@@ -134,7 +134,7 @@
                         sensazione: <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> è un <term type="forma_letteraria" subtype="autorialita_narrativita" ref="glossario.xml#capolavoro">capolavoro</term>.
                     </p>
                     <p xml:id="p_2" rend="first-line-indented">
-                        <term type="stile" subtype="sintassi" ref="glossario.xml#cosaEspone">Che cosa espone?</term>
+                        Che cosa espone?
                     </p>
                     <p xml:id="p_3" rend="first-line-indented">
                         <term type="stile" subtype="sintassi" ref="glossario.xml#tuttoNiente">Tutto e niente.</term>

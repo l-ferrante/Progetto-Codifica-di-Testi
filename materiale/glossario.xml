@@ -70,10 +70,12 @@
 
                     <item>
                         <term xml:id="studioCuore" type="verbum" subtype="studio_osservazione">Studio del cuore di donna</term>
+                        <gloss>Capuana studia la psiche di Giacinta: vuole dimostrare come le malattie del carattere siano causate da un intreccio di fattori familiari, sociali, ambientali, psicologici. Questo studio era già stato condotto in "Profili di donne".</gloss>
                     </item>
 
                     <item>
                         <term xml:id="spiritoOss" type="verbum" subtype="studio_osservazione">Spirito alto di osservazione</term>
+                        <gloss>Gli scrittori veristi indagano la realtà attraverso l'osservazione.</gloss>
                     </item>
 
                     <item>
@@ -97,11 +99,8 @@
                     </item>
 
                     <item>
-                        <term xml:id="cosaEspone" type="stile" subtype="sintassi">Che cosa espone?</term>
-                    </item>
-
-                    <item>
                         <term xml:id="tuttoNiente" type="stile" subtype="sintassi">Tutto e niente.</term>
+                        <gloss>Frase monca.</gloss>
                     </item>
 
                     <item>
