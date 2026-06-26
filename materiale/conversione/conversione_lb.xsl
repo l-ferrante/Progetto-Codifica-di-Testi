@@ -215,4 +215,9 @@
         </span>
     </xsl:template>
 
+    <!-- Mostra solo la versione corretta dei termini con errori tipografici -->
+    <xsl:template match="tei:choice">
+        <xsl:apply-templates select="tei:corr"/>
+    </xsl:template>
+
 </xsl:stylesheet>
