@@ -3,6 +3,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    font-size: 110%;
 }
 
 .immagine img{width: 100%;}
@@ -36,4 +37,10 @@ body{
 
 #nav button:hover{
     cursor: pointer;
+}
+
+.terms{
+    border-bottom: 1px dashed #000;
+    cursor: help;
+    font-weight: bold;
 }

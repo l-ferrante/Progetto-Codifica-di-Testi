@@ -104,5 +104,22 @@
             </body>
         </html>
     </xsl:template>
+
+    <!-- Template per la gestione delle parole a capo spezzate (marcate con il tag <lb> in xml e con l'attributo @break="no")
+     Il template fa match sul nodo il cui fratello PREDECESSORE è <lb break="no">, quindi
+      sfrutta un'espressione regolare per sostituire \s (spazio) con niente, unendo quindi le parti della parola-->
+    <xsl:template match="text()[preceding-sibling::node()[1][self::tei:lb[@break='no']]]">
+        <xsl:value-of select="replace(., '^\s+', '')"/>
+    </xsl:template>
+
+    <xsl:template match="tei:term[@ref]">
+        <xsl:variable name="file_glossario" select="'../glossario.xml'"/>
+        <xsl:variable name="id_term" select="substring-after(@ref, '#')"/>
+        <xsl:variable name="gloss" select="document($file_glossario)//*[@xml:id=$id_term]/following-sibling::tei:gloss"/>
+    
+        <span class="terms" title="{$gloss}">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
     
 </xsl:stylesheet>
