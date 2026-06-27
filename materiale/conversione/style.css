@@ -39,8 +39,29 @@ body{
     cursor: pointer;
 }
 
+
+/* STILE per LaMafia e RecensioneGiacinta */
 .term, .pers, .place, .work, .org {
+    position: relative;
     border-bottom: 1px dashed #000;
     cursor: help;
     font-weight: bold;
+}
+
+/* Visualizza il box di info per terms ed entità */
+.term::after, .pers::after, .place::after, .work::after, .org::after {
+    content: attr(data-box);
+    position: absolute;
+    bottom: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:antiquewhite;
+    visibility: hidden;
+    width: max-content;
+    max-width: 350px;
+    font-weight: normal;
+}
+
+.term:hover::after, .pers:hover::after, .place:hover::after, .work:hover::after, .org:hover::after {
+    visibility: visible;
 }

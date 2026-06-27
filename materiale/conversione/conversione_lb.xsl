@@ -112,14 +112,14 @@
         <xsl:value-of select="replace(., '^\s+', '')"/>
     </xsl:template>
 
-    <!-- Per ogni term viene visualizzata la sua gloss tramite attributo "title"
+    <!-- Per ogni term viene visualizzata la sua gloss tramite attributo "data-*"
      (visualizza la gloss quando il mouse è sopra il term in questione) -->
     <xsl:template match="tei:term[@ref]">
         <xsl:variable name="file_glossario" select="'../glossario.xml'"/>
         <xsl:variable name="id_term" select="substring-after(@ref, '#')"/>
         <xsl:variable name="gloss" select="document($file_glossario)//*[@xml:id=$id_term]/following-sibling::tei:gloss"/>
     
-        <span class="term" title="{$gloss}">
+        <span class="term" data-box="{$gloss}">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -139,7 +139,7 @@
         <xsl:variable name="nota" select="normalize-space($persona//tei:note)"/>
     
         <span class="pers">
-            <xsl:attribute name="title">
+            <xsl:attribute name="data-box">
                 <xsl:value-of select="
                     if ($nome = '' and $cognome = '') then $nota
                     else if ($nome != '' and $cognome = '') then concat($nome, ': ', $nota)
@@ -157,7 +157,7 @@
         <xsl:variable name="id_place" select="substring-after(@ref, '#')"/>
         <xsl:variable name="luogo" select="document($file_entita_nominate)//*[@xml:id=$id_place]/tei:note"/>
     
-        <span class="place" title="{$luogo}">
+        <span class="place" data-box="{$luogo}">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -173,7 +173,7 @@
         <xsl:variable name="data_pubbl" select="$opera//tei:date"/>
     
         <span class="work">
-            <xsl:attribute name="title">
+            <xsl:attribute name="data-box">
                 <xsl:value-of select="concat($autore, ', ', $titolo, ', ', $luogo_pubbl, ', ', $editore, ', ', $data_pubbl)"/>
             </xsl:attribute>
 
@@ -191,7 +191,7 @@
         <xsl:variable name="data_pubbl" select="$opera//tei:date"/>
     
         <span class="work">
-            <xsl:attribute name="title">
+            <xsl:attribute name="data-box">
                 <xsl:value-of select="concat($autore, ', ', $titolo, ', ', $luogo_pubbl, ', ', $editore, ', ', $data_pubbl)"/>
             </xsl:attribute>
 
@@ -207,7 +207,7 @@
         <xsl:variable name="desc_org" select="$organizzazione/tei:desc"/>
     
         <span class="org">
-            <xsl:attribute name="title">
+            <xsl:attribute name="data-box">
                 <xsl:value-of select="concat($nome_org, ': ', $desc_org)"/>
             </xsl:attribute>
 
