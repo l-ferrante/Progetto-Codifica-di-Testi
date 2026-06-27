@@ -257,7 +257,7 @@
                 <div type="closer">
                     <div facs="#firma">
                         <signed rend="bold">
-                            <persName type="real" ref="entita_nominate.xml#enricoOnufrio"><forename>Enrico</forename><surname>Onufrio</surname></persName>.
+                            <persName type="real" ref="entita_nominate.xml#enricoOnufrio"><forename>Enrico</forename> <surname>Onufrio</surname></persName>.
                         </signed>
                     </div>
 

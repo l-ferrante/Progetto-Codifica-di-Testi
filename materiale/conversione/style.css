@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     margin: 0 2.5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    font-size: 110%;
+    font-size: 100%;
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 }
 
 .immagine img{width: 100%;}
@@ -40,11 +43,9 @@ body{
 }
 
 
-/* STILE per LaMafia e RecensioneGiacinta */
 .term, .pers, .place, .work, .org {
     position: relative;
-    border-bottom: 1px dashed #000;
-    cursor: help;
+    cursor: pointer;
     font-weight: bold;
 }
 
@@ -52,16 +53,34 @@ body{
 .term::after, .pers::after, .place::after, .work::after, .org::after {
     content: attr(data-box);
     position: absolute;
-    bottom: 130%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color:antiquewhite;
+    position: fixed;
+    bottom: 315px;
+    left: 620px;
+    background-color:rgb(250, 235, 215);
     visibility: hidden;
     width: max-content;
     max-width: 350px;
     font-weight: normal;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 16px;
+    border: 1px black solid;
+    font-size: 90%;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, 
+                transform 0.3s ease-in-out, 
+                visibility 0s linear 0.3s;
 }
 
 .term:hover::after, .pers:hover::after, .place:hover::after, .work:hover::after, .org:hover::after {
     visibility: visible;
+    opacity: 1;
+    transform: translate(-90%, 50%);
+    transition-delay: 0s;
+}
+
+.firma{
+    text-align: end;
+    display: none;
 }
