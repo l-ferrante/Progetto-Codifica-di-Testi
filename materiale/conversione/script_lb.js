@@ -23,8 +23,10 @@ $(document).ready(function(){
             $(sezione_successiva).show();
         
             indice_sez_attuale ++;
+
+            gestione_firma(indice_sez_attuale);
         }
-    })
+    });
 
     // Pulsante indietro
     $("#indietro").on("click", function(){
@@ -38,6 +40,14 @@ $(document).ready(function(){
             $(sezione_precedente).show();
             indice_sez_attuale --;
         }
-    })
+    });
+
+    function gestione_firma(indice_sez_attuale) {
+        if (indice_sez_attuale == (lista_sezioni.length - 1)){
+            $(".firma").show();
+        } else {
+            $(".firma").hide(); 
+        }
+    }
 
 })

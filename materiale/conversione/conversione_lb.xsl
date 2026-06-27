@@ -93,6 +93,10 @@
                         </div>
                     </xsl:for-each>
                     
+                    <div class="firma">
+                        <xsl:apply-templates select="//tei:body//tei:div[@type='closer']"/>
+                    </div>
+
                     <!-- Spazio per i pulsanti di navigazione delle sezioni -->
                     <div id="nav">
                         <button id="indietro">Indietro</button>
