@@ -225,11 +225,13 @@
                                 <forename>Sira</forename>
                             </persName>
                             <sex>F</sex>
+                            <note><p>La protagonista della prima parte del testo "A Milano!", su "La Farfalla" del 9 settembre 1877: la fanciulla, che da Mitilene va ad Atene per diventare la migliore sacerdotessa della Grecia viene paragonata alla rivista stessa, che da Cagliari si trasferisce a Milano per crescere</p></note>
                         </person>
-                        
+					
                         <person xml:id="compagneSira">
                             <persName type="group" role="character">Compagne di Sira</persName>
                             <sex>F</sex>
+							<note><p>Le amiche e le compagne di Sira, la protagonista della prima parte del testo "A Milano!", su "La Farfalla" del 9 settembre 1877</p></note>
                         </person>
 
                         <person xml:id="esiodo">
