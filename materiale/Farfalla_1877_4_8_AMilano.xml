@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
-<!-- <!DOCTYPE TEI SYSTEM "tei_all.dtd"> -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="it">
@@ -75,13 +75,11 @@
                 una lista per le persone e una lista per le organizzazioni), qui è stata implementata
                 utilizzato un'unica lista esterna di entità nominate (entita_nominate.xml).
             </p>
-            <hyphenation>
-                <p>
-                    Si è scelto di rimuovere i trattini "-" per le parole spezzate a fine riga. e di utilizzare il tag "lb" con
-                    attributo "break = 'no' " per segnalare la fine di una riga al termine della quale si trova una parola
-                    che continua nella riga successiva.
-                </p>
-            </hyphenation>
+            <p>
+                Si è scelto di rimuovere i trattini "-" per le parole spezzate a fine riga. e di utilizzare il tag "lb" con
+                attributo "break = 'no' " per segnalare la fine di una riga al termine della quale si trova una parola
+                che continua nella riga successiva.
+            </p>
         </encodingDesc>
 
 
@@ -119,7 +117,7 @@
             <change status="draft" when="2026-06-19" resp="#LF">Codifica della prima sezione (19 giugno 2026)</change>
             <change status="draft" when="2026-06-20" resp="#LF">Codifica di seconda, terza, quarta, quinta e sesta sezione (20 giugno 2026)</change>
             <change status="draft" when="2026-06-21" resp="#LF">Marcatura di termini relativi al verismo (21 giugno 2026)</change>
-
+            <change status="revisione" when="2026-06-27" resp="#LF">Prima revisione (27 giugno 2026)</change>
         </revisionDesc>
     </teiHeader>
     
@@ -402,6 +400,7 @@
                     <persName type="real" ref="entita_nominate.xml#francescoGiarelli"><addName type="pseudonym">Psiche</addName></persName>
                 </signed>
             </div>
+            
         </body>
     </text>
 
