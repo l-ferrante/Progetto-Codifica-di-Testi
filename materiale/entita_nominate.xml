@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- <!DOCTYPE TEI SYSTEM "tei_all.dtd"> -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -71,7 +71,7 @@
                             <date when="1907">1907</date>
                             <placeName ref="#pontenure">Pontenure</placeName>
                         </death>
-                            <note source="https://www.treccani.it/enciclopedia/francesco-giarelli_(Dizionario-Biografico)/"><p>Francesco Giarelli nacque a Piacenza nel 1844, laureandosi in giurisprudenza ma dedicandosi presto al giornalismo. La sua carriera ebbe una svolta nel 1870 a Milano, grazie a F. Cavallotti, dopo aver coperto un processo politico. Qui collaborò con la Gazzetta di Milano e, come Don Lumachino, curò "I suoni dell'anima" sul Gazzettino rosa. Nel 1875, Cavallotti gli affidò la cronaca de La Ragione, dove G. divenne un precursore del giornalismo moderno. Trasformò il ruolo del cronista in inviato attivo e la cronaca in una forma di letteratura. Collaborò con figure come V. Hugo e G. Carducci, e come Psiche denunciò i mali sociali su La Farfalla. Co-autore di Il ventre di Milano, tornò a Piacenza nel 1889 per scrivere la Storia di Piacenza. Negli ultimi anni fu consigliere comunale e assessore alla Pubblica Istruzione. Scrisse numerosi articoli e studi, e le sue memorie, Vent'anni di giornalismo, pubblicate nel 1896. Morì a Pontenure nel 1907, lasciando un'impronta significativa nel giornalismo italiano.</p></note>
+                            <note source="https://www.treccani.it/enciclopedia/francesco-giarelli_(Dizionario-Biografico)/"><p>Francesco Giarelli nacque a Piacenza nel 1844, si laureò in giurisprudenza ma si dedicò presto al giornalismo. La sua carriera ebbe una svolta nel 1870 a Milano, grazie a Felice Cavallotti: qui collaborò con la Gazzetta di Milano e, con lo pseudonimo di Don Lumachino, curò "I suoni dell'anima" sul Gazzettino rosa. Nel 1875, Cavallotti gli affidò la cronaca de La Ragione, dove Giarelli divenne un precursore del giornalismo moderno: trasformò il ruolo del cronista in inviato attivo e la cronaca in una forma di letteratura. Collaborò con figure come Victor Hugo e Giosuè Carducci, e con lo pseudonimo di Psiche denunciò i mali sociali su La Farfalla. Co-autore di Il ventre di Milano, tornò a Piacenza nel 1889 per scrivere la Storia di Piacenza. Negli ultimi anni fu consigliere comunale e assessore alla Pubblica Istruzione. Scrisse numerosi articoli e studi, e le sue memorie, Vent'anni di giornalismo, pubblicate nel 1896. Morì a Pontenure nel 1907, lasciando un'impronta significativa nel giornalismo italiano.</p></note>
                         </person>
 
                         <person xml:id="enricoOnufrio">
@@ -267,11 +267,13 @@
                             <sex>M</sex>
                             <birth>
                                 <date notBefore="-0800">IX secolo a.C.</date>
+                                <placeName ref="#sparta">Sparta</placeName>
                             </birth>
                             <death>
                                 <date notAfter="-0700">VIII secolo a.C.</date>
+                                <placeName ref="#sparta">Sparta</placeName>
                             </death>
-                            <note source="https://www.treccani.it/enciclopedia/licurgo_(Enciclopedia-Italiana)/"><p>Antichissimo legislatore spartano. Appunto per spiegare come egli potesse introdurre in Sparta le sue leggi si riteneva che fosse stato membro d'una delle famiglie reali e tutore di un re.</p></note>
+                            <note source="https://www.treccani.it/enciclopedia/licurgo_(Enciclopedia-Italiana)/"><p>Antichissimo legislatore spartano. Proprio per spiegare come egli potesse introdurre in Sparta le sue leggi si riteneva che fosse stato membro d'una delle famiglie reali e tutore di un re.</p></note>
                         </person>
 
                         <person xml:id="solone">
@@ -281,9 +283,11 @@
                             <sex>M</sex>
                             <birth>
                                 <date notBefore="-0640">640-30 a.C.</date>
+                                <placeName ref="#atene">Atene</placeName>
                             </birth>
                             <death>
                                 <date notAfter="-0560">560 a.C. circa</date>
+                                <placeName ref="#atene">Atene</placeName>
                             </death>
                             <note source="https://www.treccani.it/enciclopedia/solone/"><p>Legislatore ateniese (n. 640-30 a. C. - m. 560 circa), figlio di Execestide, di famiglia nobile.</p></note>
                         </person>
@@ -295,9 +299,11 @@
                             <sex>M</sex>
                             <birth>
                                 <date notBefore="-0495">495 a.C. circa</date>
+                                <placeName>Colargo, Attica</placeName>
                             </birth>
                             <death>
                                 <date notAfter="-0429">429 a.C.</date>
+                                <placeName ref="#atene">Atene</placeName>
                             </death>
                             <note source="https://www.treccani.it/enciclopedia/pericle/"><p>Uomo politico ateniese (495 circa - 429 a. C.), figlio di Santippo, imparentato per parte di madre con gli Alcmeonidi. Iniziò la sua carriera politica nel partito democratico di Efialte, che, con l'ostracismo di Cimone (461) e il declino del partito conservatore e dell'Areopago, conquistò la direzione della politica ateniese. Ma essendo stato quasi subito assassinato Efialte, P. si trovò solo a guidare a un tempo il suo partito e la politica ateniese, ciò che fece per oltre trent'anni (461-429) fondando il proprio potere sulla annuale, libera rielezione nel consiglio degli strateghi. In politica estera P. si propose come ultima mira il predominio ateniese sull'intera Grecia.</p></note>
                         </person>
