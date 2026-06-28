@@ -141,4 +141,24 @@ $(document).ready(function(){
         }
     }
 
+
+    $(".immagine").on("mousemove", function(event) {
+        var $img = $(this).find("img");
+
+        var posX = event.pageX - $(this).offset().left;
+        var posY = event.pageY - $(this).offset().top;
+
+        var percenX = (posX / $(this).width()) * 100;
+        var percenY = (posY / $(this).height()) * 100;
+
+        $img.css("transform-origin", percenX + "% " + percenY + "%");
+    });
+
+    $(".immagine").on("mouseleave", function() {
+        var $img = $(this).find("img");
+        $img.css("transform-origin", "center center");
+    });
+
+
+
 })

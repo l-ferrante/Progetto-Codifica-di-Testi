@@ -158,11 +158,40 @@ button#term{background-color: rgb(184, 131, 133);}
 button#persone{background-color: rgb(94, 185, 94);}
 button#luoghi{background-color: rgb(198, 167, 42);}
 button#organizzazioni{background-color: rgb(94, 140, 185);}
-
+/* 
+.immagine{
+    overflow: hidden;
+}
 
 .immagine img{
     width: 100%;
     border-radius: 16px;
+    transition: transform 0.1s ease;
+    cursor: move;
+}
+
+.immagine img:hover{
+    transform: scale(2);
+} */
+
+.immagine {
+    overflow: hidden;
+    position: relative;
+    border-radius: 16px; /* Meglio sul contenitore */
+    width: 100%; /* Modifica in base al tuo layout (es. max-width: 500px) */
+    /* Aggiungi display: inline-block; se vuoi affiancarle */
+}
+
+.immagine img {
+    display: block; /* Rimuove uno spazio bianco indesiderato sotto le immagini */
+    width: 100%;
+    transition: transform 0.1s ease;
+    cursor: crosshair; /* 'zoom-in' o 'crosshair' rendono meglio l'idea */
+}
+
+/* Attiva l'ingrandimento quando il mouse entra nel contenitore */
+.immagine:hover img {
+    transform: scale(2);
 }
 
 .testo{
