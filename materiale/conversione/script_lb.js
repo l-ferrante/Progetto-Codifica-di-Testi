@@ -39,6 +39,8 @@ $(document).ready(function(){
             $(sezione_attuale).hide();
             $(sezione_precedente).show();
             indice_sez_attuale --;
+
+            gestione_firma(indice_sez_attuale);
         }
     });
 
