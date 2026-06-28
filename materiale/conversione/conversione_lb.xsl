@@ -78,6 +78,10 @@
                             <xsl:attribute name="id">
                                 <xsl:value-of select="concat('sezione', @n)"/>
                             </xsl:attribute>
+
+                            <xsl:attribute name="data-facs">
+                                <xsl:value-of select="translate(@facs, '#', '')"/>
+                            </xsl:attribute>
                             
                             <xsl:for-each select=".//tei:p">
                                 <p>
@@ -222,6 +226,36 @@
     <!-- Mostra solo la versione corretta dei termini con errori tipografici -->
     <xsl:template match="tei:choice">
         <xsl:apply-templates select="tei:corr"/>
+    </xsl:template>
+
+
+    <xsl:template match="tei:div[@type='section']">
+        <div class="sezione-testo" data-facs="{substring-after(@facs, '#')}">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:facsimile">
+        <div class="contenitore-facsimile" style="position: relative; display: inline-block;">
+        
+            <img src="{tei:surface/tei:graphic/@url}" width="100%" alt="Facsimile"/>
+
+            <xsl:for-each select="tei:surface/tei:zone">
+                
+                <xsl:variable name="larghezza" select="@lrx - @ulx"/>
+                <xsl:variable name="altezza" select="@lry - @uly"/>
+                
+                <xsl:variable name="left_perc" select="(@ulx div 3500.33) * 100"/>
+                <xsl:variable name="top_perc" select="(@uly div 4988.33) * 100"/>
+                <xsl:variable name="width_perc" select="($larghezza div 3500.33) * 100"/>
+                <xsl:variable name="height_perc" select="($altezza div 4988.33) * 100"/>
+
+                <div id="{@xml:id}" class="zona-immagine" 
+                    style="left: {$left_perc}%; top: {$top_perc}%; width: {$width_perc}%; height: {$height_perc}%;">
+                </div>
+            </xsl:for-each>
+        
+        </div>
     </xsl:template>
 
 </xsl:stylesheet>
