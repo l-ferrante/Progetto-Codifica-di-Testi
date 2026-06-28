@@ -73,7 +73,7 @@
                 La principale differenza consiste nella gestione delle entità nominate, la quale, se nelle linee guida
                 prevedeva di utilizzare una lista esterna per ogni tipo di entità nominata (quindi: una lista per i luoghi,
                 una lista per le persone e una lista per le organizzazioni), qui è stata implementata
-                utilizzato un'unica lista esterna di entità nominate (entita_nominate.xml).
+                utilizzando un'unica lista esterna di entità nominate (entita_nominate.xml).
             </p>
             <p>
                 Si è scelto di rimuovere i trattini "-" per le parole spezzate a fine riga. e di utilizzare il tag "lb" con
@@ -106,7 +106,7 @@
             </langUsage>
 
             <abstract>
-                <p>L'articolo rende noto ai lettori il trasferimento della sede della redazione de <orgName rend="italic" type="journal" ref="entita_nominate.xml#farfalla">La Farfalla</orgName> da <placeName type="real" ref="entita_nominate.xml#CA">Cagliari</placeName> a <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName>, avvenuto poco tempo dopo la pubblicazione dell'articolo. Inizialmente l'autore paragona la rivista a <persName type="fictional" ref="entita_nominate.xml#sira">Sira</persName>, personaggio della mitologia che, per diventare la migliore sacerdotessa della <placeName type="real" ref="entita_nominate.xml#grecia">Grecia</placeName>, deve lasciare <placeName type="real" ref="entita_nominate.xml#mitilene">Mitilene</placeName> (Lesbo), dov'è nata e cresciuta, per <placeName type="real" ref="entita_nominate.xml#atene">Atene</placeName>; poi la paragona a una fanciulla romana, che, per sancire il proprio passaggio dall'età infantile a quella adulta, indossava il peplo, il balteo e un diadema d'argento. Così <orgName rend="italic" type="journal" ref="entita_nominate.xml#farfalla">La Farfalla</orgName>, per "diventare grande", pur ricordando le proprie origini isolane, doveva lasciare <placeName type="real" ref="entita_nominate.xml#CA">Cagliari</placeName> e la <placeName type="real" ref="entita_nominate.xml#sardegna">Sardegna</placeName> e sbarcare a <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName>, centro delle arti e dell'editoria nell'<placeName type="real" ref="entita_nominate.xml#IT">Italia</placeName> di fine Ottocento.</p>
+                <p>L'articolo rende noto ai lettori il trasferimento della sede della redazione de <orgName rend="italic" type="journal" ref="entita_nominate.xml#farfalla">La Farfalla</orgName> da <placeName type="real" ref="entita_nominate.xml#CA">Cagliari</placeName> a <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName>, avvenuto poco tempo dopo la pubblicazione dell'articolo. Inizialmente l'autore paragona la rivista a <persName type="fictional" ref="entita_nominate.xml#sira">Sira</persName>, personaggio della mitologia che, per diventare la migliore sacerdotessa della <placeName type="real" ref="entita_nominate.xml#grecia">Grecia</placeName>, deve lasciare <placeName type="real" ref="entita_nominate.xml#mitilene">Mitilene</placeName> (sull'isola di Lesbo), dov'è nata e cresciuta, per <placeName type="real" ref="entita_nominate.xml#atene">Atene</placeName>; poi la paragona a una fanciulla romana, che, per sancire il proprio passaggio dall'età infantile a quella adulta, indossava il peplo, il balteo e un diadema d'argento. Così <orgName rend="italic" type="journal" ref="entita_nominate.xml#farfalla">La Farfalla</orgName>, per "diventare grande", pur ricordando le proprie origini isolane, doveva lasciare <placeName type="real" ref="entita_nominate.xml#CA">Cagliari</placeName> e la <placeName type="real" ref="entita_nominate.xml#sardegna">Sardegna</placeName> e sbarcare a <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName>, centro delle arti e dell'editoria nell'<placeName type="real" ref="entita_nominate.xml#IT">Italia</placeName> di fine Ottocento.</p>
             </abstract>
 
         </profileDesc>
@@ -118,6 +118,7 @@
             <change status="draft" when="2026-06-20" resp="#LF">Codifica di seconda, terza, quarta, quinta e sesta sezione (20 giugno 2026)</change>
             <change status="draft" when="2026-06-21" resp="#LF">Marcatura di termini relativi al verismo (21 giugno 2026)</change>
             <change status="revisione" when="2026-06-27" resp="#LF">Prima revisione (27 giugno 2026)</change>
+            <change status="revisione" when="2026-06-28" resp="#LF">Revisione finale (28 giugno 2026)</change>
         </revisionDesc>
     </teiHeader>
     
@@ -169,7 +170,7 @@
                         capo l'aureo corno di massima sacerdotessa Palladia:
                         ma il suo cuore - racconta <persName type="real" ref="entita_nominate.xml#esiodo">Esiodo</persName> - fu diviso:
                         talchè si disse che <persName type="fictional" ref="entita_nominate.xml#sira">Sira</persName>, di cuori ebbene due. Uno
-                        per tempio d'<placeName type="real" ref="entita_nominate.xml#atene">Atene</placeName>: l'altro per la natia <placeName type="real" ref="entita_nominate.xml#mitilene">Mitilene</placeName> e
+                        pel tempio d'<placeName type="real" ref="entita_nominate.xml#atene">Atene</placeName>: l'altro per la natia <placeName type="real" ref="entita_nominate.xml#mitilene">Mitilene</placeName> e
                         per le soavi memorie dei giovani anni.
                     </p>
 
@@ -201,7 +202,7 @@
                     </p>
                     
                     <p rend="first-line-indented" xml:id="p_7">
-                        I buffi <unclear resp="#LF" cert="high">profumati</unclear>, che il vento ruba alle cime o
+                        I buffi <unclear resp="#LF" cert="high">profumati</unclear>, che il vento ruba alle cime o<lb break="no"/>
                         dorate delle vostre vergini foreste, hanno ossigenato
                         il mio piccolo, informe organismo. E me non il floscio
                         latte della alimentazione volgare nutrì: ma invece
@@ -215,7 +216,7 @@
                     <p rend="first-line-indented" xml:id="p_8">
                         Assioma etnologico: non nascono nè rachitici
                         nè servi in riva al mare di <rs type="place" subtype="real" ref="entita_nominate.xml#sardegna">quest'isola</rs> grande e in<lb break="no"/>
-                        felice
+                        felice.
                     </p>
                     
                     <p rend="first-line-indented" xml:id="p_9">
@@ -262,7 +263,7 @@
                         <pb n="90" xml:id="Farfalla_1877_4_8_90" facs="immagini/a_milano/Farfalla_1877_4_8_90.jpg"/> <!--cambio pagina-->
                         <cb n="3" xml:id="col_1-p.90"/> <!--cambio colonna-->
                         la tunica succinta ed assumeva il balteo: e cingeva
-                        l'armilla al braccio manco, e incoronava la fronte
+                        l'armilla al braccio maneo, e incoronava la fronte
                         del diadema d'argento, e sostituiva coll'elegante
                         fiammeo il velo stretto e disadorno della adolescente,
                         e da capo a piedi riformava il suo abbigliamento, e
@@ -287,7 +288,7 @@
                         tico - di tutto quanto gli ingegni sodi o bizzarri,
                         patetici o <term type="verbum" subtype="studio_osservazione" rend="italic" ref="glossario.xml#realismo">realisti</term> producono nel campo delle idee -
                         le offrirà, topograficamente ed intellettualmente par<lb break="no"/>
-                        land - la sede migliore, per ivi erigere il suo la<lb break="no"/>
+                        lando - la sede migliore, per ivi erigere il suo la<lb break="no"/>
                         baro alla vista di tutta la <term type="forma_letteraria" subtype="ismi" ref="glossario.xml#scapigliatura">scapigliatura</term> italiana.
                     </p>
                     
@@ -305,7 +306,7 @@
                         <placeName type="real" ref="entita_nominate.xml#MI">Milano</placeName> - in una parola - è la tappa predesti<lb break="no"/>
                         nata alla nostra virilità efflorescente, al nostro svi<lb break="no"/>
                         luppo più assoluto, alla nostra più acremente olez<lb break="no"/>
-                        zante zante fioritura....
+                        zante fioritura....
                     </p>
 
                     <p rend="first-line-indented" xml:id="p_19">
