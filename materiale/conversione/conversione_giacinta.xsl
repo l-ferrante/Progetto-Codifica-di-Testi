@@ -101,46 +101,21 @@
                         <button id="organizzazioni">Organizzazioni</button>
                     </div>
                 
+                    <!-- Immagine -->
                     <div class="immagine">
-                        
                         <xsl:for-each select = "//tei:surface">
-                            <xsl:variable name="imgId" select="tei:graphic/@xml:id"/>
                             <img>
                                 <xsl:attribute name="src">
                                     <xsl:value-of select="tei:graphic/@url"/>
                                 </xsl:attribute>
-                                <xsl:attribute name="usemap">
-                                    <xsl:value-of select="concat('#', $imgId)"/>
-                                </xsl:attribute>
                                 <xsl:attribute name="alt">
-                                    <xsl:value-of select="$imgId"/>
+                                    <xsl:value-of select="tei:graphic/@xml:id"/>
                                 </xsl:attribute>
                                 <xsl:attribute name="id">
-                                    <xsl:value-of select="$imgId"/>
+                                    <xsl:value-of select="tei:graphic/@xml:id"/>
                                 </xsl:attribute>
-                                
                             </img>
-                            
-                            <map>
-                                <xsl:attribute name="name">
-                                    <xsl:value-of select="$imgId"/>
-                                </xsl:attribute>
-                                
-                                <xsl:for-each select = "tei:zone">
-                                    <area shape="rect">
-                                        <xsl:attribute name="coords">
-                                            <xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="id">
-                                            <xsl:value-of select="@xml:id"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="alt">
-                                            <xsl:value-of select="@xml:id"/>
-                                        </xsl:attribute>
-                                    </area>
-                                </xsl:for-each> 
-                            </map>
-                        </xsl:for-each>  
+                        </xsl:for-each>
                     </div>
                     
                     <div class="testo">
