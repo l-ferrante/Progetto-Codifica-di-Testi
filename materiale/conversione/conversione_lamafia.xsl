@@ -174,10 +174,6 @@
                                 <xsl:attribute name="id">
                                     <xsl:value-of select="concat('sezione', @n)"/>
                                 </xsl:attribute>
-
-                                <xsl:attribute name="data-facs">
-                                    <xsl:value-of select="translate(@facs, '#', '')"/>
-                                </xsl:attribute>
                                 
                                 <xsl:for-each select=".//tei:p">
                                     <p>

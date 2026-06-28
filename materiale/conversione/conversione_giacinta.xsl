@@ -37,39 +37,38 @@
                         </span>
                     </h1>            
                 
-                </div>
 
-                <div class="blocco">
-                        <div id="bibliografia">
-                            <h2>Informazioni bibliografiche</h2>
-                            <ul>
-                                <li>
-                                    <h3>Titolo:</h3>
-                                    <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:analytic/tei:title"/>
-                                </li>
-                                <li>
-                                    <h3>Autore:</h3>
-                                    <xsl:apply-templates select="//tei:teiHeader//tei:sourceDesc//tei:analytic/tei:author" mode="informazioni_bibliografiche"/>
-                                </li>
-                                <li>
-                                    <h3>Tratto da:</h3>
-                                    <span class="corsivo">
-                                        <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:monogr/tei:title"/>
-                                    </span>
-                                    del
-                                    <xsl:value-of select="//tei:teiHeader//tei:profileDesc//tei:date"/>,
-                                    <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:monogr//tei:pubPlace" separator=" - "/>,
-                                    <br/>
-                                    volume
-                                    <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:biblScope[@unit='volume']"/>,
-                                    pubblicazione
-                                    <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:biblScope[@unit='issue']"/>,
-                                    pagine
-                                    <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:biblScope[@unit='page']"/>
-                                </li>
+                    <div class="blocco">
+                            <div id="bibliografia">
+                                <h2>Informazioni bibliografiche</h2>
+                                <ul>
+                                    <li>
+                                        <h3>Titolo:</h3>
+                                        <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:analytic/tei:title"/>
+                                    </li>
+                                    <li>
+                                        <h3>Autore:</h3>
+                                        <xsl:apply-templates select="//tei:teiHeader//tei:sourceDesc//tei:analytic/tei:author" mode="informazioni_bibliografiche"/>
+                                    </li>
+                                    <li>
+                                        <h3>Tratto da:</h3>
+                                        <span class="corsivo">
+                                            <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:monogr/tei:title"/>
+                                        </span>
+                                        del
+                                        <xsl:value-of select="//tei:teiHeader//tei:profileDesc//tei:date"/>,
+                                        <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:monogr//tei:pubPlace" separator=" - "/>,
+                                        <br/>
+                                        volume
+                                        <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:biblScope[@unit='volume']"/>,
+                                        pubblicazione
+                                        <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:biblScope[@unit='issue']"/>,
+                                        pagine
+                                        <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:biblScope[@unit='page']"/>
+                                    </li>
 
-                            </ul>
-                        </div>
+                                </ul>
+                            </div>
 
                         <div id="altre_informazioni">
                             <h2>Altre informazioni</h2>
@@ -88,7 +87,7 @@
                         </div>
 
                     </div> 
-
+                </div>
                 
                 <div id="corpo">
                     <div id="pulsanti">
@@ -160,10 +159,6 @@
                             <div class="sezioni">
                                 <xsl:attribute name="id">
                                     <xsl:value-of select="concat('sezione', @n)"/>
-                                </xsl:attribute>
-
-                                <xsl:attribute name="data-facs">
-                                    <xsl:value-of select="translate(@facs, '#', '')"/>
                                 </xsl:attribute>
                                 
                                 <xsl:for-each select=".//tei:p">
