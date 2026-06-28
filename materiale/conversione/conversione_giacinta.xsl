@@ -31,75 +31,12 @@
                 <!-- Introduzione -->
                 <div id="introduzione">
                     <h1>
-                        Testo 2:
+                        Testo 3:
                         <span class="evidenza">
                             <xsl:value-of select = "//tei:titleStmt/tei:title"/>
                         </span>
-                    </h1>
-
-                    <div class="blocco">
-                        <div id="bibliografia">
-                            <h2>Informazioni bibliografiche</h2>
-                            <ul>
-                                <li>
-                                    <h3>Titolo:</h3>
-                                    <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:analytic/tei:title"/>
-                                </li>
-                                <li>
-                                    <h3>Autore:</h3>
-                                    <xsl:apply-templates select="//tei:teiHeader//tei:sourceDesc//tei:analytic/tei:author" mode="informazioni_bibliografiche"/>
-                                </li>
-                                <li>
-                                    <h3>Tratto da:</h3>
-                                    <span class="corsivo">
-                                        <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:monogr/tei:title"/>
-                                    </span>
-                                    del
-                                    <xsl:value-of select="//tei:teiHeader//tei:profileDesc//tei:date"/>,
-                                    <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:monogr//tei:pubPlace" separator=" - "/>,
-                                    <br/>
-                                    volume
-                                    <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:biblScope[@unit='volume']"/>,
-                                    pubblicazione
-                                    <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:biblScope[@unit='issue']"/>,
-                                    pagine
-                                    <xsl:value-of select="//tei:teiHeader//tei:sourceDesc//tei:biblScope[@unit='page']"/>
-                                </li>
-
-                            </ul>
-                        </div>
-
-                        <div id="altre_informazioni">
-                            <h2>Altre informazioni</h2>
-                            <ul>
-                                <li>
-                                    <h3>Lingue:</h3>
-                                    <ul>
-                                        <xsl:for-each select="//tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language">
-                                            <li>
-                                                <xsl:value-of select="."/>
-                                            </li>
-                                        </xsl:for-each>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </div>                  
-
-                    <div id="abstract">
-                        <h2>Riassunto:</h2>
-                        <p>
-                            <xsl:value-of select="//tei:teiHeader/tei:profileDesc/tei:abstract"/>
-                        </p>
-
-                        <!-- Recupera dal file delle entità nominate la descrizione dell'autore -->
-                        <h2>Sull'autore:</h2>
-                        <xsl:apply-templates select="//tei:teiHeader//tei:sourceDesc//tei:analytic/tei:author[@ref]" mode="informazioni_bibliografiche_2"/>
-                    </div>
-
+                    </h1>            
                 
-
                 </div>
 
                 
@@ -302,7 +239,7 @@
         <xsl:value-of select="replace(., '^\s+', '')"/>
     </xsl:template>
 
-        <!-- Per ogni term viene visualizzata la sua gloss tramite attributo "data-*"
+    <!-- Per ogni term viene visualizzata la sua gloss tramite attributo "data-*"
      (visualizza la gloss quando il mouse è sopra il term in questione) -->
     <xsl:template match="tei:term[@ref]">
         <xsl:variable name="file_glossario" select="'../glossario.xml'"/>
@@ -566,6 +503,9 @@
         </p>
     </xsl:template>
 
-
+    <!-- Mostra solo la versione corretta dei termini con errori tipografici -->
+    <xsl:template match="tei:choice">
+        <xsl:apply-templates select="tei:corr"/>
+    </xsl:template>
 
 </xsl:stylesheet>
