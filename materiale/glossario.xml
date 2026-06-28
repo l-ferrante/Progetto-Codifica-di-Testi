@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Glossario per i termini specialistici negli articoli codificati</title>
+                        <respStmt>
+                            <resp>Creazione e gestione della lista a cura di:</resp>
+                            <name xml:id="LF">Lorenzo Ferrante</name>
+                            <name xml:id="LB">Lorenzo Bianchi</name>
+                        </respStmt>
+                </titleStmt>
+
+                <publicationStmt>
+                    <publisher></publisher>
+                    <date when="2026-06">Giugno 2026</date>
+                    <idno type="filename">glossario.xml</idno>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <p>Documento nativo digitale</p>
+                </sourceDesc>
+            </fileDesc>
+
+
+        </teiHeader>
+
+    <text>
+        <body>
+            <div type="glossary">
+
+                <list type="gloss">
+                    <item>
+                        <term xml:id="realismo" type="verbum" subtype="studio_osservazione">Realismo</term>
+                        <gloss resp="#LF" target="https://it.wikipedia.org/wiki/Realismo_(letteratura)">In letteratura il realismo è una tendenza a rappresentare la realtà oggettiva, sia cogliendone in modo problematico i risvolti politici e sociali nella vita quotidiana, sia inserendo personaggi in un preciso contesto storico e ambientale, anche remoto.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="scapigliatura" type="forma_letteraria" subtype="ismi">Scapigliatura</term>
+                        <gloss resp="#LF" target="https://www.treccani.it/enciclopedia/scapigliatura_(Enciclopedia-Italiana)/">Va sotto questo nome un movimento letterario al quale diede vita in Milano, tra il 1860 e il 1870, un gruppo di scrittori e di artisti, diversi per temperamento, ma concordi nell'avversione al gusto dominante e alla tradizione, unanimi nella volontà di difendere l'autonomia dell'arte, di richiamarla a un più intimo contatto con la vita, a una più essenziale sincerità d'ispirazione, a una più spontanea immediatezza d'espressione. Sotto un certo aspetto la scapigliatura può essere considerata anche come un fenomeno politico e morale. Fu un tentativo d'agitare le acque della vita italiana stagnanti in un facile e ozioso quietismo, una reazione contro lo spirito borghese, pratico, utilitario, contro la povertà e la grettezza spirituale in cui si spegnevano gli eroici bagliori del Risorgimento.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="bozzetto" type="verbum" subtype="arti_visive">Bozzetto</term>
+                        <gloss resp="#LF" target="https://www.treccani.it/vocabolario/bozzetto/">Nella storia dell’arte, composizione, quadretto quasi impressionistico, in voga spec. nella seconda metà dell’800. In letteratura, racconto breve, che descrive con piglio realistico e vivezza impressionistica una situazione, un luogo, un carattere, tratti per lo più dalla vita di ogni giorno.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="vero" type="verbum" subtype="vero_verita">Vero, Verità</term>
+                        <gloss resp="#LF #LB" target="https://it.wikipedia.org/wiki/Verismo https://it.wikipedia.org/wiki/Luigi_Capuana">Il primo autore italiano a teorizzare il verismo fu Capuana, che parlò di "poesia del vero". Nella raccolta di saggi <title>Il Teatro italiano contemporaneo. Studi sulla letteratura contemporanea</title> (1872) la poetica del verismo che Capuana aveva elaborato si poneva come regola fondamentale quella di ritrarre direttamente dal vero. Lo scrittore doveva assumere dalla vita contemporanea la materia e narrare fatti realmente accaduti, senza limitarsi a ritrarli dall'esterno, ma ricostruendo la storia cogliendo e rivelando tutto il processo mediante il quale il fatto si era prodotto.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="brigantaggio" type="verbum" subtype="evoluzione_sociale">Brigantaggio</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/vocabolario/brigantaggio/">L’attività criminosa dei briganti: atti di b.; darsi al b., alla vita di brigante. Anche, i gruppi, le bande organizzate, il fenomeno da essi costituito: il b. dell’Ottocento, del regno delle Due Sicilie; combattere, estirpare il brigantaggio.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="manutengolismo" type="verbum" subtype="evoluzione_sociale">Manutengolismo</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/enciclopedia/mafia_(Enciclopedia-delle-scienze-sociali)/">Il favoreggiamento di briganti e delinquenti, nonché l'uso di questi stessi personaggi per la custodia e la gestione delle aziende.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="malandrinaggio" type="verbum" subtype="evoluzione_sociale">Malandrinaggio</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/vocabolario/malandrinaggio/">L’attività, la vita dei malandrini: atti di m.; darsi al malandrinaggio. Anche, l’insieme dei malandrini e il fenomeno da essi costituito, brigantaggio.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="studioCuore" type="verbum" subtype="studio_osservazione">Studio del cuore di donna</term>
+                        <gloss>Capuana studia la psiche di Giacinta: vuole dimostrare come le malattie del carattere siano causate da un intreccio di fattori familiari, sociali, ambientali, psicologici. Questo studio era già stato condotto in "Profili di donne".</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="spiritoOss" type="verbum" subtype="studio_osservazione">Spirito alto di osservazione</term>
+                        <gloss>Gli scrittori veristi indagano la realtà attraverso l'osservazione.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="intreccio" type="forma_letteraria" subtype="narrazione">Intreccio</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/enciclopedia/intreccio/">Il complesso delle vicende che costituiscono la trama, l’argomento di un’opera narrativa o drammatica.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="capolavoro" type="forma_letteraria" subtype="autorialita_narrativita">Capolavoro</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/enciclopedia/capolavoro/">Opera (e per estens. anche azione, impresa, comportamento) eccellente in genere.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="scuolaRealista" type="forma_letteraria" subtype="ismi">Scuola realista</term>
+                        <gloss resp="#LB" target="https://it.wikipedia.org/wiki/Realismo_(letteratura)">In letteratura il realismo è una tendenza a rappresentare la realtà oggettiva, sia cogliendone in modo problematico i risvolti politici e sociali nella vita quotidiana, sia inserendo personaggi in un preciso contesto storico e ambientale, anche remoto.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="romanzoTesi" type="forma_letteraria" subtype="genere_letterario">Romanzo a tesi</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/vocabolario/tesi/">Nel linguaggio della critica letteraria, opere nelle quali l’autore si propone programmaticamente la dimostrazione di una tesi morale, sociale, politica, ecc.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="tuttoNiente" type="stile" subtype="sintassi">Tutto e niente.</term>
+                        <gloss>Frase monca.</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="resipiscenza" type="stile" subtype="registro">Resipiscenza</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/vocabolario/resipiscenza/">Il rinsavire e il ravvedersi, riconoscendo l’errore in cui si è caduti, tornando al retto operare. Nel diritto penale la r. del colpevole ha efficacia esimente o attenuante sulla punizione del reato, per considerazioni fondate sia su motivi di giustizia (minore entità dell’offesa al diritto) sia su ragioni sintomatiche (minore capacità a delinquere).</gloss>
+                    </item>
+
+                    <item>
+                        <term xml:id="supinaAcc" type="stile" subtype="registro">Supina accontentatura</term>
+                        <gloss resp="#LB" target="https://www.treccani.it/vocabolario/supino1/">Supino (fig.): che rivela passiva acquiescenza, eccessiva accondiscendenza, mancanza assoluta di reazione di fronte a imposizioni, sopraffazioni e sim., o a gravi avversità.</gloss>
+                    </item>
+
+                </list>
+            </div>
+
+        </body>
+
+    </text>
+</TEI>

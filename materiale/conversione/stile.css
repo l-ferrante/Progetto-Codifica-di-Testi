@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 0;
+}
+
+/* Header e footer */
+#header, #footer{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    box-sizing: border-box;
+}
+
+#header{background: linear-gradient(to right, rgb(0, 102, 204), rgb(0, 80, 160));}
+
+#header a{
+    padding: 2%;
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#header a:hover {
+    background-color: rgba(0, 102, 204, 0.7);
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+#header a, #footer a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+#header a:hover, #footer a:hover{
+    font-weight: bold;
+}
+
+#titolo{
+    margin: 0 auto 0 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 0 0 1%;
+    color: white;
+    font-size: 200%;
+}
+
+#footer{
+    color: white;
+    padding: 1%;
+    font-size: 90%;
+}
+#footer{background: linear-gradient(to left, rgb(0, 102, 204), rgb(0, 80, 160));}
+
+#footer div{
+    flex: 1;
+    text-align: center;
+}
+
+
+/* Introduzione */
+#introduzione{
+    margin: 1% 10%;
+}
+
+#introduzione .evidenza{
+    font-size: 110%;
+    color: rgb(0, 102, 204);
+}
+
+#introduzione h2, #introduzione h3{
+    margin: 0;
+}
+
+#introduzione li, #introduzione div{
+    margin-bottom: 2%;
+}
+
+
+#altre_informazioni ul li{
+    margin: 0.25% 0 0.25% 0;
+}
+
+.blocco{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+    gap: 5%;
+}
+
+.blocco div{
+    flex: 1;
+}
+
+
+
+/* Corpo (Immagini e testo) */
+#corpo{
+    margin: 10% 2.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:start;
+    border: 1px black solid;
+    border-radius: 16px;
+    padding: 1% 1% 7% 1%;
+    background-color: rgb(195, 217, 236);
+    row-gap: 5%;
+}
+
+#pulsanti{
+    grid-column: 1 / 3; 
+    text-align: center; 
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 2%;
+}
+
+#pulsanti h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+#pulsanti span{
+    width: 100%;
+}
+
+#pulsanti button{
+    padding: 1% 2%;
+    margin-top: 2%;
+    border: 1px black solid;
+    border-radius: 16px;
+    transition: all 0.3s ease-in-out;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#pulsanti button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button#tutti{background-color: rgb(203, 201, 194);}
+button#term{background-color: rgb(184, 131, 133);}
+button#persone{background-color: rgb(94, 185, 94);}
+button#luoghi{background-color: rgb(198, 167, 42);}
+button#organizzazioni{background-color: rgb(94, 140, 185);}
+/* 
+.immagine{
+    overflow: hidden;
+}
+
+.immagine img{
+    width: 100%;
+    border-radius: 16px;
+    transition: transform 0.1s ease;
+    cursor: move;
+}
+
+.immagine img:hover{
+    transform: scale(2);
+} */
+
+.immagine {
+    overflow: hidden;
+    position: relative;
+    border-radius: 16px; /* Meglio sul contenitore */
+    width: 100%; /* Modifica in base al tuo layout (es. max-width: 500px) */
+    /* Aggiungi display: inline-block; se vuoi affiancarle */
+}
+
+.immagine img {
+    display: block; /* Rimuove uno spazio bianco indesiderato sotto le immagini */
+    width: 100%;
+    transition: transform 0.1s ease;
+    cursor: crosshair; /* 'zoom-in' o 'crosshair' rendono meglio l'idea */
+}
+
+/* Attiva l'ingrandimento quando il mouse entra nel contenitore */
+.immagine:hover img {
+    transform: scale(2);
+}
+
+.testo{
+    padding: 0 5%;
+}
+
+.testo h1{
+    text-align: center;
+}
+
+#nav{
+    text-align: center;
+}
+
+#nav button{
+    width: 30%;
+    border: 1px black solid;
+    border-radius: 16px;
+    padding: 1.5%;
+    margin: 1%;
+    font-size: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+#nav button:hover{cursor: pointer;}
+
+#avanti{background-color: rgb(147, 187, 147);}
+#avanti:hover{background-color: rgb(147, 187, 147, 0.8);}
+#indietro{background-color: rgb(212, 196, 129);}
+#indietro:hover{background-color: rgb(212, 196, 129, 0.8);}
+.cambia_pagina_avanti, .cambia_pagina_indietro{background-color: rgb(134, 162, 189) !important;}
+.cambia_pagina_avanti:hover, .cambia_pagina_indietro:hover{background-color: rgb(134, 162, 189, 0.8) !important;}
+
+
+.firma{
+    text-align: end;
+    display: none;
+}
+
+
+
+/* Glossario ed entità nominate */
+.term, .pers, .place, .work, .org {
+    position: relative;
+    cursor: pointer;
+}
+
+.term.grassetto{background-color: rgb(184, 131, 133);}
+.pers.grassetto{background-color: rgb(94, 185, 94);}
+.place.grassetto{background-color: rgb(198, 167, 42);}
+.org.grassetto{background-color: rgb(94, 140, 185);}
+.work.grassetto{background-color: rgb(194, 98, 67);}
+.notevole{transition: all 0.1s linear;}
+
+.term::after, .pers::after, .place::after, .work::after, .org::after {
+    content: attr(data-box);
+    position: absolute;
+    bottom: 130%;
+    transform: translate(-100%, 50%);
+    background-color:rgb(250, 235, 215);
+    visibility: hidden;
+    width: max-content;
+    max-width: 350px;
+    font-weight: normal;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 16px;
+    border: 1px black solid;
+    font-size: 90%;
+    z-index: 999;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.term:hover::after, .pers:hover::after, .place:hover::after, .work:hover::after, .org:hover::after {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-90%, 50%);
+    transition-delay: 0s;
+}
+
+#glossario h2, #entita_nominate h2{
+    text-align: center;
+}
+
+#glossario p{
+    margin-top: 0;
+}
+
+#glossario ul{
+    border: 3px darkred solid;
+    border-radius: 16px;
+    padding: 3% 10%;
+}
+
+#entita_nominate h3{
+    padding: 2% 6%;
+    border: 1px black solid;
+    border-radius: 16px;
+    text-align: center;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    transition: all 0.2s ease-in-out;
+}
+#entita_nominate h3:hover{
+    cursor: pointer;
+}
+
+.freccia_giu{
+    width: 5%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.freccia_giu.ruotata{
+    transform: rotate(180deg);
+}
+
+#lista_persone, #lista_luoghi, #lista_organizzazioni{
+    display: none;
+    margin: 0;
+    border-radius: 16px;
+    padding: 3% 10%;
+}
+#entita_nominate ul li p{
+    margin-top: 0 !important;
+}
+
+
+#button_persone{background-color: rgb(94, 185, 94);}
+#button_persone:hover{background-color: rgb(94, 185, 94, 0.8);}
+#button_luoghi{background-color: rgb(198, 167, 42);}
+#button_luoghi:hover{background-color: rgb(198, 167, 42, 0.8);}
+#button_organizzazioni{background-color: rgb(94, 140, 185);}
+#button_organizzazioni:hover{background-color: rgb(94, 140, 185, 0.8);}
+
+#lista_persone{border: 3px  rgb(94, 185, 94) solid;}
+#lista_luoghi{border: 3px  rgb(198, 167, 42) solid;}
+#lista_organizzazioni{border: 3px  rgb(94, 140, 185) solid;}
+
+
+
+/* Altro (aspetti di layout e formattazione) */
+.evidenza{
+    font-family: 'Caveat', 'Times New Roman', Times, serif;
+}
+
+#titolo img{
+    width: 50px;
+    filter: invert();
+}
+
+.grassetto{
+    font-weight: bold;
+}
+
+.corsivo{
+    font-style: italic;
+}
+
+#note_codifica{
+    margin: 5%;
+    font-size: 90%;
+    font-family: monospace;
+}
+
+.rientro{
+    text-indent: 5%;
+}
+
+.sezioni{
+    display: none;
+}
+
+#torna_su{
+    position: fixed;
+    right: 2%;
+    bottom: 20%;
+    transform: rotate(180deg);
+    width: 2%;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+}
+
+#torna_su:hover{
+    opacity: 80%;
+    cursor: pointer;
+}

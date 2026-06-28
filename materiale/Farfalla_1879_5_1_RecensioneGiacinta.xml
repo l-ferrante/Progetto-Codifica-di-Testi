@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title>Recensione a L. Capuana, Giacinta</title>
+                <respStmt>
+                    <resp>Codifica digitale XML TEI P5 a cura di</resp>
+                    <name xml:id="LB">Lorenzo Bianchi</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+				<edition n="1">Digital edition - <date when="2026-07">July 2026</date></edition>
+				<respStmt>
+					<resp>Digital edition project coordineted by</resp>
+					<name xml:id="DS">Daria Spampinato</name>
+					<name xml:id="ADS">Antonio Di Silvestro</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding model by</resp>
+					<name resp="#DS">Daria Spampinato</name>
+					<name xml:id="LM">Laura Mazzagufo</name>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DB">Denise Bruno</name>
+				</respStmt>
+				<funder>NextGenerationEU</funder>
+				<funder>Ministero dell'Università e della Ricerca</funder>
+				<funder>Italia Domani - Piano Nazionale di Ripresa e Resilienza</funder>
+				<funder ref="entita_nominate.xml#CNR">CNR - Consiglio Nazionale delle Ricerche</funder>
+				<funder ref="entita_nominate.xml#UniCT">Università di Catania</funder>
+			</editionStmt>
+
+            <publicationStmt>
+                <authority ref="entita_nominate.xml#ISTC">CNR ISTC - Istituto di Scienze e Tecnologie della Cognizione del Consiglio Nazionale delle Ricerche</authority>
+                <authority ref="entita_nominate.xml#UniCT">Università di Catania</authority>
+                <date when="2026">2026</date>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</licence>
+                </availability>
+                <idno type="filename">Farfalla_1879_5_1_RecensioneGiacinta.xml</idno>
+			</publicationStmt>
+            
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <title level="a">Recensione a L. Capuana, Giacinta</title>
+                        <author>Autore ignoto</author>
+                    </analytic>
+                    <monogr>
+                        <title level="j" xml:id="farfalla">La Farfalla</title>
+                        <imprint>
+                            <pubPlace ref="entita_nominate.xml#MI">Milano</pubPlace>
+                            <date when="1879">1879</date>
+                        </imprint>
+                        <biblScope unit="volume">5</biblScope>
+                        <biblScope unit="issue">1</biblScope>
+                        <biblScope unit="page">9</biblScope>
+                    </monogr>
+
+                    <relatedItem type="reviewOf">
+                        <biblStruct>
+                            <monogr>
+                                <title ref="entita_nominate.xml#giacinta" level="m">Giacinta</title>
+                                <author ref="entita_nominate.xml#luigiCapuana">Luigi Capuana</author>
+                                <imprint>
+                                    <pubPlace ref="entita_nominate.xml#MI">Milano</pubPlace>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </relatedItem>
+
+                </biblStruct>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <encodingDesc>
+            <editorialDecl>
+                <hyphenation>
+                    <p>Si è scelto di rimuovere i trattini "-" per le parole spezzate a fine riga.</p>
+                </hyphenation>
+                <normalization>
+                    <p>Si è scelto di normalizzare gli spazi fra le parole.</p>
+                    <p>Si è scelto di trasformare la E' in È</p>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <creation>
+                <date when="1879-07-06">6 luglio 1879</date>
+                <placeName ref="entita_nominate.xml#MI">Milano</placeName>
+            </creation>
+
+            <textClass>
+                <keywords>
+                    <term type="text" subtype="recensione_italiana">Recensione</term>
+                </keywords>
+            </textClass>
+
+            <langUsage>
+                <language ident="it">Italiano</language>
+                <language ident="it-x-800">Italiano di fine Ottocento</language>
+            </langUsage>
+
+        </profileDesc>
+
+        <revisionDesc>
+			<change status="completed" when="2026-06-26" resp="#LB">Final review and end of work</change>
+            <change status="draft" when="2026-06-23" resp="#LB">First draft june 23, 2026</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <pb n="9" xml:id="Farfalla_1879_5_1_9" facs="immagini/Farfalla_1879_5_1_9.jpg"/>
+            <cb n="1" xml:id="col_1-p.9"/>
+
+            <metamark function="sectionDivider">**</metamark>
+
+            <div type="text">
+
+                <div type="section" facs="#prima_colonna #seconda_colonna" n="1">
+
+                    <p xml:id="p_1" rend="first-line-indented">
+                        Sì, la <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> di <persName type="real" ref="entita_nominate.xml#luigiCapuana"><forename full="init">L.</forename> <surname>Capuana</surname></persName> è un <term type="forma_letteraria" subtype="autorialita_narrativita" ref="glossario.xml#capolavoro">capolavoro</term>.
+                        Ho letto il <rs type="work" ref="entita_nominate.xml#giacinta">volume</rs> sino all'ultima pagina, e provo
+                        irresistibile il bisogno di proclamare questa mia
+                        sensazione: <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> è un <term type="forma_letteraria" subtype="autorialita_narrativita" ref="glossario.xml#capolavoro">capolavoro</term>.
+                    </p>
+                    <p xml:id="p_2" rend="first-line-indented">
+                        Che cosa espone?
+                    </p>
+                    <p xml:id="p_3" rend="first-line-indented">
+                        <term type="stile" subtype="sintassi" ref="glossario.xml#tuttoNiente">Tutto e niente.</term>
+                    </p>
+                    <p xml:id="p_4" rend="first-line-indented">
+                        Si tratta di una <rs type="person" subtype="fictional" ref="entita_nominate.xml#giacintaPersonaggio">fanciulla</rs> cui sua madre non
+                        ha mai amata, mancandogliene il tempo, tutto da
+                        lei dedicato a non lasciarsi sfuggire i suoi amanti,
+                        tollerati dal buon marito con <term type="stile" subtype="registro" ref="glossario.xml#supinaAcc">supina accontenta<lb break="no"/>
+                        tura</term>.
+                    </p>
+                    <p xml:id="p_5" rend="first-line-indented">
+                        Si tratta d'un amante &#8212; <persName type="fictional" ref="entita_nominate.xml#andreaPersonaggio"><hi rend="italic">Andrea</hi></persName> &#8212; che <rs type="person" subtype="fictional" ref="entita_nominate.xml#giacintaPersonaggio">la
+                        fanciulla</rs> non vuole avere per marito &#8212; sapendo
+                        che ancora bambina era stata turpemente violata
+                        da un giovane servo &#8212; ma che essa vuol avere
+                        per amante: e perciò diventa moglie di uno stu<lb break="no"/>
+                        pido conte, ch'essa incorona la stessa prima notte
+                        delle nozze.
+                    </p>
+                    <p xml:id="p_6" rend="first-line-indented">
+                        Si tratta di <persName type="fictional" ref="entita_nominate.xml#giacintaPersonaggio"><hi rend="italic">Giacinta</hi></persName>, che per anni ed anni si
+                        gode tutto per sé, al cospetto della società &#8212; cui
+                        disprezza &#8212; e del marito &#8212; di cui ride &#8212; il suo
+                        <persName type="fictional" ref="entita_nominate.xml#andreaPersonaggio"><hi rend="italic">Andrea</hi></persName> &#8212; il quale non arrossisce di farsi man-
+                        tenere da lei, finché in un momento di tarda <term type="stile" subtype="registro" ref="glossario.xml#resipiscenza">resi<lb break="no"/>
+                        piscenza</term> le fa capire che non le vuol più bene.
+                    </p>
+                    <p xml:id="p_7" rend="first-line-indented">
+                        Si tratta infine di <persName type="fictional" ref="entita_nominate.xml#giacintaPersonaggio"><hi rend="italic">Giacinta</hi></persName>, che, avuta questa
+                        convinzione, si avvelena e muore.
+                    </p>
+                    <p xml:id="p_8" rend="first-line-indented">
+                        Come vedete l'<term type="forma_letteraria" subtype="narrazione" ref="glossario.xml#intreccio">intreccio</term> non è una novità. Ma
+                        qui l'<term type="forma_letteraria" subtype="narrazione" ref="glossario.xml#intreccio">intreccio</term> non conta. È lo <term type="verbum" subtype="studio_osservazione" ref="glossario.xml#studioCuore">studio del cuore
+                        <cb n="2" xml:id="col_2-p.89"/>
+                        di donna</term> che batte qui dentro poderose le sue ali.
+                        È lo <term type="verbum" subtype="studio_osservazione" ref="glossario.xml#spiritoOss">spirito alto di osservazione</term>, che vivifica da
+                        capo a fondo tutta questa lunga pagina di dolore.
+                        È insomma la <term type="verbum" subtype="vero_verita" ref="glossario.xml#vero">verità</term> che ossigena parola per pa<lb break="no"/>
+                        rola <rs type="work" ref="entita_nominate.xml#giacinta">questo libro</rs>, del quale <persName type="real" ref="entita_nominate.xml#luigiCapuana"><forename>Luigi</forename> <surname>Capuana</surname></persName> &#8212; che
+                        non appartiene certo agli esagerati della <term type="forma_letteraria" subtype="ismi" ref="glossario.xml#scuolaRealista">scuola
+                        realista</term> &#8212; può, deve anzi a buon diritto, andare
+                        lieto ed altiero: poiché <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> è forse, o senza
+                        forse, il <term type="forma_letteraria" subtype="genere_letterario" ref="glossario.xml#romanzoTesi">romanzo a tesi</term> più riuscito, in quest'ultimo
+                        triennio di vita letteraria italiana.
+                    </p>
+                    <p xml:id="p_9" rend="first-line-indented">
+                        <ref target="entita_nominate.xml#profiliDiDonne"><hi rend="italic">Profili di donna</hi></ref> furono una promessa: <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref>
+                        ne è l'attendimento.
+                    </p>
+                    <p xml:id="p_10" rend="first-line-indented">
+                        Proclamiamolo dunque: <persName type="real" ref="entita_nominate.xml#luigiCapuana"><forename>
+                            <choice>
+                                <sic>Luigli</sic>
+                                <corr>Luigi</corr>
+                            </choice>
+                        </forename> <surname>Capuana</surname></persName> è di
+                        quelli che promettono dieci ed attengono cinquanta.
+                    </p>
+                    <p xml:id="p_11" rend="first-line-indented">
+                        Tanto meglio per lui e per l'arte, nelle cui
+                        sfere superiori questa sua <ref target="entita_nominate.xml#giacinta"><hi rend="italic">Giacinta</hi></ref> lo colloca di
+                        sbalzo.
+                    </p>
+                    <p xml:id="p_12" rend="first-line-indented">
+                        E questo è il punto.
+                    </p>
+                    
+                </div>
+
+            </div>
+
+            <metamark function="sectionDivider">**</metamark>
+
+        </body>
+    </text>
+
+    <facsimile xml:id="giacinta">
+        <surface>
+            <graphic url='immagini/Farfalla_1879_5_1_9.jpg' width='3378px' height='5086px' xml:id="pag_9"/>
+            <zone ulx="309" uly="2744" lrx="1667" lry="4645" xml:id="prima_colonna"/>
+            <zone ulx="1729" uly="435" lrx="3103" lry="1671" xml:id="seconda_colonna"/>
+        </surface>        
+    </facsimile>
+
+
+</TEI>
